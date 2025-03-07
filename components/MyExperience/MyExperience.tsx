@@ -8,7 +8,10 @@ import { motion } from "framer-motion";
 
 export default function MyExperience() {
   return (
-    <div className="flex items-start flex-none flex-col flex-nowrap gap-[30px] h-min justify-start overflow-visible relative w-full ">
+    <div
+      id="experience"
+      className="flex items-start flex-none flex-col flex-nowrap gap-[30px] h-min justify-start overflow-visible relative w-full "
+    >
       <div className="flex-none h-auto relative w-full">
         <SectionHeading
           icon={briefcaseIconley}
@@ -35,8 +38,8 @@ export default function MyExperience() {
             >
               <div className="w-full flex justify-between flex-none items-center h-min flex-nowrap overflow-visible p-0 relative">
                 <div className="flex items-center flex-1 gap-2 h-min justify-start overflow-visible p-0 relative ">
-                  <div className="bg-dark-gray-4 border border-border-color rounded-lg flex float-none gap-[10px] h-min justify-center items-center overflow-visible p-[10px] relative w-min ">
-                    {/* <div className="flex-none aspect-square h-auto overflow-visible relative w-[30px] ">
+                  {/* <div className="bg-dark-gray-4 border border-border-color rounded-lg flex float-none gap-[10px] h-min justify-center items-center overflow-visible p-[10px] relative w-min ">
+                    <div className="flex-none aspect-square h-auto overflow-visible relative w-[30px] ">
                       <figure className="block absolute  inset-0">
                         <Image
                           width={100}
@@ -46,8 +49,8 @@ export default function MyExperience() {
                           className="block w-full h-full rounded-[inherit] object-cover object-center "
                         />
                       </figure>
-                    </div> */}
-                  </div>
+                    </div>
+                  </div> */}
                   <div className="flex float-none flex-nowrap items-start gap-[6px] h-min justify-center overflow-visible p-0 relative w-min ">
                     <div className="gap-0 flex h-min justify-start overflow-visible items-start flex-col flex-nowrap">
                       <div className="flex-none h-auto relative whitespace-pre w-auto flex flex-col justify-start flex-shrink-0">

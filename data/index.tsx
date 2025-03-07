@@ -13,6 +13,7 @@ import {
   instagramIcon,
   linkedInIcon,
   hoheal,
+  nextjsIcon,
   pos,
   primier,
   pinterest,
@@ -66,7 +67,7 @@ export const socialLists: socialListsTypes[] = [
     id: 1,
     title: "Instagram",
     icon: <Instagram size={22} />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/aasim_shahh",
   },
   {
     id: 2,
@@ -147,11 +148,11 @@ export const counterLists: counterListsType[] = [
     title: "Completed Tasks",
     value: 40,
   },
-  {
-    id: 4,
-    title: "Awards Received",
-    value: 6,
-  },
+  // {
+  //   id: 4,
+  //   title: "Awards Received",
+  //   value: 6,
+  // },
 ];
 export const myExperience: myExperienceTypes[] = [
   {
@@ -184,7 +185,7 @@ export const myExperience: myExperienceTypes[] = [
     label: "Freelancing",
     description:
       "Developed 50+ MERN stack projects from inception to deployment, working with clients worldwide to deliver high-quality solutions.",
-    link: "portfolio.com",
+    link: "upwork.com",
     logo: fiverr,
   },
 ];
@@ -193,7 +194,7 @@ export const myStack: myStackTypes[] = [
     id: 1,
     title: "Next.js",
     description: "Full-Stack React Framework",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+    logo: nextjsIcon,
     link: "https://nextjs.org",
   },
   {
@@ -207,13 +208,13 @@ export const myStack: myStackTypes[] = [
     id: 3,
     title: "Express.js",
     description: "Fast Node.js Framework",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+    logo: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff",
     link: "https://expressjs.com",
   },
   {
     id: 4,
     title: "Fastify",
-    description: "High-Performance Backend Apis",
+    description: "High-Performance Backend ",
     logo: "https://fastify.dev/img/logos/fastify-white.svg",
     link: "https://www.fastify.io",
   },
@@ -301,10 +302,10 @@ export const myShowCases: myShowCasesTypes[] = [
     title: "HOHEAL",
     description:
       "A SaaS-based multi-vendor hotel management system with admin, hotel, management, and staff panels.",
-    link: "https://dcodax.com",
+    link: "172.86.108.103:4000",
     type: "SaaS",
     theme: "Light",
-    pages: 6,
+    pages: 30,
     image: hoheal,
   },
   {
@@ -312,10 +313,10 @@ export const myShowCases: myShowCasesTypes[] = [
     title: "PIKUP POS",
     description:
       "A full-fledged e-commerce website with a custom admin panel, order management, and payment gateway integration.",
-    link: "https://mern-ecommerce.com",
+    link: "pikuppos.hostdonor.com/",
     type: "E-Commerce",
     theme: "Dark",
-    pages: 8,
+    pages: 80,
     image: pos,
   },
   {
@@ -323,10 +324,10 @@ export const myShowCases: myShowCasesTypes[] = [
     title: "Premier Vehicles",
     description:
       "A Flutter app with an admin panel where users can list and sell their vehicles, including integrated payment options.",
-    link: "https://premier-vehicles.com",
+    link: "github.com/aasim-shah/premier_dashboard",
     type: "Marketplace",
     theme: "Dark",
-    pages: 5,
+    pages: 20,
     image: primier,
   },
   {
@@ -337,7 +338,7 @@ export const myShowCases: myShowCasesTypes[] = [
     link: "https://api.myservice.com",
     type: "Backend",
     theme: "Light",
-    pages: 3,
+    pages: 10,
     image: pos,
   },
 ];
@@ -407,7 +408,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     description:
       "Deploying and managing cloud-based applications with CI/CD pipelines, Docker, and AWS.",
     completedWorks: "25+",
-    experience: "3+ years",
+    experience: "2+ years",
     totalHoursWorked: "900+ hours",
     icon: seoOptIcon,
   },

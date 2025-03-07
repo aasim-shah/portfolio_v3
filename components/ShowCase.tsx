@@ -15,7 +15,10 @@ export default function ShowCase({
   showData: number;
 }) {
   return (
-    <section className="flex items-start flex-none flex-col flex-nowrap gap-[30px] h-min justify-start overflow-visible relative w-full ">
+    <section
+      id="projects"
+      className="flex items-start flex-none flex-col flex-nowrap gap-[30px] h-min justify-start overflow-visible relative w-full "
+    >
       <div className="flex-none h-auto relative w-full">
         <SectionHeading
           title="Creative Design Showcase"

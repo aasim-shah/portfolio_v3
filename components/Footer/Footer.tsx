@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="items-center flex flex-none flex-col flex-nowrap gap-[10px] h-min justify-center overflow-hidden p-0 relative w-full  ">
         <div className="w-[80%] flex flex-col-reverse sm:flex-row items-center sm:items-start gap-5 sm:gap-0 flex-nowrap flex-none h-min justify-center overflow-hidden p-0 relative ">
           <div className="flex-shrink-0 flex justify-center flex-1 relative break-words whitespace-pre-wrap h-auto ">
-            <p className="text-lg text-light-gray-2 font-medium">
+            <p className="lg:text-lg text-center text-light-gray-2 font-medium">
               &copy; {new Date().getFullYear()} Aasim shah. All rights reserved.
             </p>
           </div>

@@ -24,6 +24,7 @@ import framerIcon from "@assets/framer.svg";
 import slackIcon from "@assets/slack.svg";
 import asanaIcon from "@assets/asana.svg";
 import rightArrow from "@assets/right-arrow.svg";
+import nextjsIcon from "@assets/nextjs-icon.svg";
 
 import zapIcon from "@assets/zap-icon.svg";
 import webDesignIcon from "@assets/web-design.svg";
@@ -74,6 +75,7 @@ export {
   dcodaxIcon,
   discord,
   twitter,
+  nextjsIcon,
   youtube,
   dribble,
   pinterest,

@@ -1,11 +1,10 @@
 # 👋 Portfolio Portfolio
+
 A sleek and modern portfolio website built with Next.js, showcasing professional experience and projects in a minimalist, user-friendly design. 💯
 
-
-
 ## 📸 Demo Screenshots
-![Image](https://github.com/user-attachments/assets/79250590-04ed-43fa-82ed-4cc64b1a7971)
 
+![Image](https://github.com/user-attachments/assets/79250590-04ed-43fa-82ed-4cc64b1a7971)
 
 ## Getting Started
 
@@ -23,7 +22,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/psparwez/portfolio.git
+   git clone https://github.com/aasim-shah/portfolio_v3.git
    cd portfolio
    ```
 

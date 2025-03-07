@@ -27,7 +27,7 @@ export default function Hero() {
       {/* top  */}
       <section className="flex flex-col lg:flex-row items-center flex-none flex-nowrap gap-[20px] h-min justify-start overflow-visible p-0 relative w-full ">
         <div className="flex items-start w-full md:items-center flex-none flex-nowrap flex-col gap-[10px] h-min justify-center p-0 relative md:w-min overflow-hidden">
-          <div className="aspect-auto flex-none h-auto w-[260px] relative bg-image-bg rounded-lg">
+          <div className="aspect-auto flex-none h-auto w-[260px] relative  opacity-70 rounded-lg">
             <figure className="h-full w-full">
               <Image
                 src={AvatarMe}
@@ -83,7 +83,7 @@ export default function Hero() {
                 delay: 0.2,
               }}
               viewport={{ once: true }}
-              className="text-4xl leading-[1.2em] font-bold text-white"
+              className="text-4xl my-5 leading-[1.2em] font-bold text-white"
             >
               Syed Aasim Shah
             </motion.h1>
