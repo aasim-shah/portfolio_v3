@@ -153,10 +153,10 @@ export const myExperience: myExperienceTypes[] = [
     year: "2024 - Present",
     title: "Senior MERN Stack Developer",
     company: "Dcodax PVT LTD",
-    label: "Tech Firm",
+    label: "Software Company",
     description:
       "Developing scalable APIs for a multi-vendor hotel management system, integrating third-party services, and optimizing performance.",
-    link: "dcodax.com",
+    link: "http://dcodax.com",
     logo: dcodaxIcon,
   },
   {
@@ -167,7 +167,7 @@ export const myExperience: myExperienceTypes[] = [
     label: "Software House",
     description:
       "Built and optimized backend systems for multiple web and cross-platform applications, ensuring high performance and security.",
-    link: "itecexperts.com",
+    link: "https://itecexperts.com",
     logo: itecExpertsIcon,
   },
   // add more experience here ( remote job with 47apps as Backend develooper )
