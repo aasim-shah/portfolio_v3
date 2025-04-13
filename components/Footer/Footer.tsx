@@ -1,4 +1,5 @@
 import React from "react";
+// import ThemeSwitcher from "../ui/ThemeSwitcher";
 
 export default function Footer() {
   return (
@@ -11,7 +12,9 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="">{/* <ThemeSwitcher /> */}</div>
+          {/* <div className="">
+            <ThemeSwitcher />
+          </div> */}
         </div>
       </div>
     </footer>

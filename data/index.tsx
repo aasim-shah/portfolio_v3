@@ -24,7 +24,9 @@ import {
   webDevIcon,
   XLogo,
 } from "@/app/assets/assets";
-import { Github, Instagram } from "lucide-react";
+import { Github } from "lucide-react";
+import { SiUpwork } from "react-icons/si";
+import { TbBrandFiverr } from "react-icons/tb";
 
 import {
   counterListsType,
@@ -63,33 +65,24 @@ export const pagesLists: pagesListsType[] = [
 ];
 
 export const socialLists: socialListsTypes[] = [
+  //fiver / upwork and github only
   {
     id: 1,
-    title: "Instagram",
-    icon: <Instagram size={22} />,
-    link: "https://www.instagram.com/aasim_shahh",
+    title: "Fiverr",
+    icon: <TbBrandFiverr size={22} />,
+    link: "https://www.fiverr.com/users/aaasimmshah",
   },
   {
     id: 2,
-    title: "Github",
-    icon: <Github size={22} />,
-    link: "https://www.github.com/aasim-shah",
+    title: "Upwork",
+    icon: <SiUpwork size={22} />,
+    link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 3,
-    title: "Twitter",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        width="22"
-        height="22"
-      >
-        <path d="M10.4883 14.651L15.25 21H22.25L14.3917 10.5223L20.9308 3H18.2808L13.1643 8.88578L8.75 3H1.75L9.26086 13.0145L2.31915 21H4.96917L10.4883 14.651ZM16.25 19L5.75 5H7.75L18.25 19H16.25Z"></path>
-      </svg>
-    ),
-    link: "https://www.twitter.com/",
+    title: "Github",
+    icon: <Github size={22} />,
+    link: "https://www.github.com/aasim-shah",
   },
 ];
 
@@ -145,7 +138,7 @@ export const counterLists: counterListsType[] = [
   },
   {
     id: 3,
-    title: "Completed Tasks",
+    title: "Completed Projects",
     value: 40,
   },
   // {
@@ -168,7 +161,7 @@ export const myExperience: myExperienceTypes[] = [
   },
   {
     id: 2,
-    year: "2023 - 2024",
+    year: "2022 - 2024",
     title: "MERN Stack Developer (Backend)",
     company: "ItecExperts",
     label: "Software House",
@@ -177,15 +170,16 @@ export const myExperience: myExperienceTypes[] = [
     link: "itecexperts.com",
     logo: itecExpertsIcon,
   },
+  // add more experience here ( remote job with 47apps as Backend develooper )
   {
     id: 3,
-    year: "2019 - Present",
-    title: "Freelance Full Stack Developer",
-    company: "Self-Employed",
-    label: "Freelancing",
+    year: "2020 - 2022",
+    title: "Backend Developer",
+    company: "47apps",
+    label: "Software House",
     description:
-      "Developed 50+ MERN stack projects from inception to deployment, working with clients worldwide to deliver high-quality solutions.",
-    link: "upwork.com",
+      "Developed and maintained backend systems for a variety of web applications, including e-commerce platforms and content management systems.",
+    link: "",
     logo: fiverr,
   },
 ];
@@ -302,7 +296,7 @@ export const myShowCases: myShowCasesTypes[] = [
     title: "HOHEAL",
     description:
       "A SaaS-based multi-vendor hotel management system with admin, hotel, management, and staff panels.",
-    link: "172.86.108.103:4000",
+    link: "http://172.86.108.103:4000/en",
     type: "SaaS",
     theme: "Light",
     pages: 30,
@@ -313,7 +307,7 @@ export const myShowCases: myShowCasesTypes[] = [
     title: "PIKUP POS",
     description:
       "A full-fledged e-commerce website with a custom admin panel, order management, and payment gateway integration.",
-    link: "pikuppos.hostdonor.com/",
+    link: "https://pikuppos.hostdonor.com/",
     type: "E-Commerce",
     theme: "Dark",
     pages: 80,
@@ -348,7 +342,7 @@ export const testimonials: testimonialsTypes[] = [
     id: 1,
     name: "Sarah Thompson",
     description:
-      "The MERN stack web application Syed built for my business is top-notch! It’s fast, scalable, and has completely streamlined our operations.",
+      "The MERN stack web application Syed built for my business is top-notch! It's fast, scalable, and has completely streamlined our operations.",
     location: "New York City, USA.",
     avatar: client_1,
   },
@@ -356,7 +350,7 @@ export const testimonials: testimonialsTypes[] = [
     id: 2,
     name: "John Anderson",
     description:
-      "Syed’s API development skills are outstanding! He designed a seamless and efficient RESTful API for our mobile and web apps, making integrations smooth.",
+      "Syed's API development skills are outstanding! He designed a seamless and efficient RESTful API for our mobile and web apps, making integrations smooth.",
     location: "Sydney, Australia.",
     avatar: client_2,
   },
@@ -389,6 +383,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     experience: "5+ years",
     totalHoursWorked: "1500+ hours",
     icon: webDesignIcon,
+    link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 2,
@@ -400,6 +395,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     experience: "5+ years",
     totalHoursWorked: "1200+ hours",
     icon: webDevIcon,
+    link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 3,
@@ -411,6 +407,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     experience: "2+ years",
     totalHoursWorked: "900+ hours",
     icon: seoOptIcon,
+    link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 4,
@@ -422,6 +419,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     experience: "5+ years",
     totalHoursWorked: "2000+ hours",
     icon: webDesignIcon, // Replace with a more relevant icon if needed
+    link: "https://www.upwork.com/freelancers/aasimshah",
   },
 ];
 

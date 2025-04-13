@@ -63,7 +63,7 @@ export default function ShowCase({
 
                     <div className="flex-none h-auto relative">
                       <Link
-                        href={"https://" + item.link}
+                        href={item.link}
                         target="_blank"
                         className="bg-almost-black border border-dark-gray-4 flex cursor-pointer items-center flex-nowrap gap-[6px] h-min justify-center overflow-visible  relative w-min rounded-lg custom-padding group hover:bg-dark-gray-4 transition-all duration-500"
                       >

@@ -81,6 +81,7 @@ export interface myServicesPlansTypes {
   experience: string;
   totalHoursWorked: string;
   icon: string;
+  link: string;
 }
 
 export type FAQ = {
