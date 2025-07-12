@@ -1,21 +1,18 @@
 import React from "react";
-// import ThemeSwitcher from "../ui/ThemeSwitcher";
 
 export default function Footer() {
   return (
-    <footer className="bg-darkest-gray border-t border-border-color flex flex-col items-center flex-nowrap gap-[10px] h-min justify-center overflow-visible py-10 px-0 relative w-full ">
-      <div className="items-center flex flex-none flex-col flex-nowrap gap-[10px] h-min justify-center overflow-hidden p-0 relative w-full  ">
-        <div className="w-[80%] flex flex-col-reverse sm:flex-row items-center sm:items-start gap-5 sm:gap-0 flex-nowrap flex-none h-min justify-center overflow-hidden p-0 relative ">
-          <div className="flex-shrink-0 flex justify-center flex-1 relative break-words whitespace-pre-wrap h-auto ">
-            <p className="lg:text-lg text-center text-light-gray-2 font-medium">
-              &copy; {new Date().getFullYear()} Aasim shah. All rights reserved.
-            </p>
-          </div>
+    <footer className="bg-darkest-gray border-t border-border-color flex flex-col items-center gap-2 py-10 w-full">
+      {/* Policy links - ensure publicly accessible before payment */}
+      <div className="flex flex-wrap justify-center items-center gap-4 mb-4 text-light-gray-2 text-sm">
+        <a href="/terms" className="hover:underline">Terms &amp; Conditions</a>
+        <a href="/privacy" className="hover:underline">Privacy Policy</a>
+        <a href="/refund" className="hover:underline">Refund Policy</a>
+      </div>
 
-          {/* <div className="">
-            <ThemeSwitcher />
-          </div> */}
-        </div>
+      {/* Copyright */}
+      <div className="text-light-gray-2 text-center font-medium text-lg">
+        &copy; {new Date().getFullYear()} Aasim Shah. All rights reserved.
       </div>
     </footer>
   );
