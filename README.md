@@ -2,9 +2,6 @@
 
 A sleek and modern portfolio website built with Next.js, showcasing professional experience and projects in a minimalist, user-friendly design. 💯
 
-## 📸 Demo Screenshots
-
-![Image](https://github.com/user-attachments/assets/79250590-04ed-43fa-82ed-4cc64b1a7971)
 
 ## Getting Started
 
