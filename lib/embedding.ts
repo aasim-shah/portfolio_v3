@@ -7,6 +7,7 @@ import { pipeline, env } from '@xenova/transformers';
 env.allowLocalModels = true;
 env.useBrowserCache = false;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 let embeddingPipeline: any = null;
 
 const EMBEDDING_MODEL = 'Xenova/bge-small-en-v1.5';

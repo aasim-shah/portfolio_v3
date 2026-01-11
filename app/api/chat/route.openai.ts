@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
-import { ChatRequest, ChatMessage, ChatErrorResponse, SearchResult } from '@/types';
+import { ChatRequest, ChatMessage, ChatErrorResponse, ErrorCode } from '@/types';
 import { SYSTEM_PROMPT, USER_QUERY_TEMPLATE, CONTEXT_FORMATTER } from '@/lib/prompts';
 import { VectorSearchService } from '@/scripts/ingest/store';
 import { generateEmbedding } from '@/lib/embedding';
-import { runSafetyChecks, evaluateSearchResults, getRateLimitHeaders } from '@/lib/safety';
+import { runSafetyChecks, evaluateSearchResults } from '@/lib/safety';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -30,7 +30,6 @@ async function getVectorSearchService() {
 export async function POST(request: NextRequest) {
   try {
     const body: ChatRequest = await request.json();
-    const { message, history = [] } = body;
     
     // Get client IP for rate limiting
     const clientIp = request.headers.get('x-forwarded-for') || 
@@ -43,7 +42,7 @@ export async function POST(request: NextRequest) {
     if (!safetyCheck.passed) {
       const response: ChatErrorResponse = {
         error: safetyCheck.fallbackResponse || 'Request blocked',
-        code: (safetyCheck.fallbackType as any) || 'INVALID_INPUT',
+        code: (safetyCheck.fallbackType as ErrorCode) || 'INVALID_INPUT',
         retryAfter: safetyCheck.rateLimitResult?.retryAfter,
       };
       
@@ -75,7 +74,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           error: resultsEvaluation.fallbackResponse,
-          code: (resultsEvaluation.fallbackType as any),
+          code: (resultsEvaluation.fallbackType as ErrorCode),
         } as ChatErrorResponse,
         {
           status: 200,

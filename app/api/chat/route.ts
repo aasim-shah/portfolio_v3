@@ -8,7 +8,7 @@ import { runSafetyChecks, evaluateSearchResults, getFallbackResponse } from '@/l
 import { VectorSearchService } from '@/scripts/ingest/store';
 import { seedDatabase } from '@/scripts/seed/seedData';
 import { SectionType } from '@/types';
-import { SYSTEM_PROMPT, USER_QUERY_TEMPLATE, CONTEXT_FORMATTER } from '@/lib/prompts';
+import { CONTEXT_FORMATTER } from '@/lib/prompts';
 
 // Auto-seed flag
 let hasAttemptedSeed = false;
@@ -656,18 +656,18 @@ Instructions:
                 }
                 controller.enqueue(encoder.encode('data: [DONE]\n\n'));
                 controller.close();
-              } catch (error) {
-                console.error('Gemini streaming error:', error);
-                throw error;
+              } catch (streamError) {
+                console.error('Gemini streaming error:', streamError);
+                throw streamError;
               }
             },
           });
-        } catch (modelError) {
+        } catch {
           console.warn(`Model ${modelName} failed, trying next...`);
           continue;
         }
       }
-    } catch (geminiError) {
+    } catch {
       console.warn('⚠️ All Gemini models failed, using smart template fallback');
     }
   }
@@ -689,8 +689,8 @@ Instructions:
         
         controller.enqueue(encoder.encode('data: [DONE]\n\n'));
         controller.close();
-      } catch (error) {
-        console.error('Fallback response streaming error:', error);
+      } catch (fallbackError) {
+        console.error('Fallback response streaming error:', fallbackError);
         controller.enqueue(
           encoder.encode(`data: ${JSON.stringify({ error: 'Response generation failed' })}\n\n`)
         );

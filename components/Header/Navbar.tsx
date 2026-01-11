@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import AvailableForWorkBtn from "../ui/AvailableForWorkBtn";
 import { Equal, X } from "lucide-react";
 import SideNavbar from "../SideNavbar/SideNavbar";
@@ -18,7 +18,7 @@ export default function Navbar() {
     return { hh, period };
   };
 
-  const updateTime = () => {
+  const updateTime = useCallback(() => {
     const today = new Date();
     const hh = today.getHours();
     const mm = today.getMinutes();
@@ -29,13 +29,13 @@ export default function Navbar() {
       mm
     )}:${formatTime(ss)}`;
     setTime(formattedTime);
-  };
+  }, []);
 
   useEffect(() => {
     updateTime();
     const intervalId = setInterval(updateTime, 1000);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [updateTime]);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

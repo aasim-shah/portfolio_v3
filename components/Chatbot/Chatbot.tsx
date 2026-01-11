@@ -87,7 +87,7 @@ export default function Chatbot() {
                     return updated;
                   });
                 }
-              } catch (e) {
+              } catch {
                 // Skip invalid JSON
               }
             }
@@ -136,7 +136,7 @@ export default function Chatbot() {
             <div className="flex items-center gap-3">
               <Bot className="h-6 w-6 text-blue-400" />
               <div>
-                <h3 className="font-semibold">Ask Aasim's AI</h3>
+                <h3 className="font-semibold">Ask Aasim&apos;s AI</h3>
                 <p className="text-xs opacity-70">Portfolio Assistant</p>
               </div>
             </div>
