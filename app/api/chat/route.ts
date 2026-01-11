@@ -821,3 +821,31 @@ export async function POST(request: NextRequest) {
     );
   }
 }
+
+// Health check endpoint (GET requests)
+export async function GET() {
+  return new Response(
+    JSON.stringify({ 
+      status: 'ok',
+      timestamp: new Date().toISOString(),
+      message: 'Chat API is running'
+    }), 
+    { 
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    }
+  );
+}
+
+// Handle CORS preflight requests (OPTIONS)
+export async function OPTIONS() {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+      'Access-Control-Max-Age': '86400',
+    },
+  });
+}
