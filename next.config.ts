@@ -32,10 +32,8 @@ const nextConfig: NextConfig = {
 
     return config;
   },
-  // Disable static optimization for API routes that use transformers
-  experimental: {
-    serverComponentsExternalPackages: ['@xenova/transformers', 'sharp', 'onnxruntime-node'],
-  },
+  // Externalize packages that should run on the server
+  serverExternalPackages: ['@xenova/transformers', 'sharp', 'onnxruntime-node'],
 };
 
 export default nextConfig;
