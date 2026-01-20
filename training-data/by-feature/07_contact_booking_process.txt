@@ -1,0 +1,403 @@
+==============================================
+TRAINING DATA: Contact & Booking Process
+==============================================
+
+CONTACT INFORMATION:
+
+Primary Email: contact@aasimshah.com
+Phone: +92-348-3360070
+Location: Bahria Town Phase 7, Rawalpindi, Pakistan
+Time Zone: IST (Indian Standard Time) / PKT (Pakistan Time) - UTC+5
+Business Hours: Monday-Friday, 9 AM - 6 PM PKT
+
+RESPONSE TIMES:
+
+Email Inquiries: Within 24 hours on business days
+Contact Form: Within 24-48 hours
+Scheduled Meetings: Confirmed immediately with calendar invitation
+Phone Calls: Available during business hours for existing clients
+Urgent Requests: Phone support for active project emergencies
+
+WAYS TO CONTACT:
+
+1. Email (contact@aasimshah.com)
+   Best For: Detailed project inquiries, document sharing
+   What to Include:
+   - Your name and company
+   - Project description
+   - Timeline expectations
+   - Budget range (if comfortable sharing)
+   - Any specific requirements
+
+2. Contact Form (Website)
+   Best For: Initial inquiries, quick questions
+   Fields Required:
+   - Name
+   - Email address
+   - Message (detailed as possible)
+   Process:
+   - Fill out form on Contact page
+   - Submit
+   - Receive confirmation message
+   - Get email response within 24-48 hours
+
+3. Schedule Meeting (Calendar Integration)
+   Best For: Direct conversation, project discussion
+   Meeting Types:
+   - 15-minute: Quick consultation
+   - 30-minute: Project discussion
+   - 60-minute: Detailed planning session
+   
+   How It Works:
+   - Click "Schedule Meeting" button
+   - Calendar modal opens
+   - Select date and time
+   - Fill in your details
+   - Receive calendar invitation via email
+   - Join via Google Meet/Zoom link
+
+4. Phone (+92-348-3360070)
+   Best For: Urgent matters, existing client support
+   Available: Business hours (9 AM - 6 PM PKT)
+   Note: Email preferred for new inquiries
+
+5. Social Media
+   - GitHub: github.com/aasim-shah
+   - Upwork: upwork.com/freelancers/aasimshah
+   - Fiverr: fiverr.com/users/aaasimmshah
+   - LinkedIn: Available on website
+   - Twitter/X: Available on website
+   - Instagram: Available on website
+
+BOOKING PROCESS STEP-BY-STEP:
+
+STEP 1: INITIAL CONTACT (Day 1)
+--------------------------------
+Actions:
+- Send email or use contact form
+- Or click "Schedule Meeting" button
+- Or call during business hours
+
+What Happens:
+- Receive acknowledgment within 24 hours
+- Initial questions may be asked
+- Meeting scheduled if needed
+
+STEP 2: FREE CONSULTATION (Day 2-3)
+------------------------------------
+Duration: 15-60 minutes (depending on complexity)
+Format: Video call (Google Meet/Zoom) or phone
+
+Discussion Topics:
+- Your business and goals
+- Project requirements
+- Target audience
+- Timeline expectations
+- Budget considerations
+- Technical questions
+- Similar project examples
+
+What You Should Prepare:
+- Project overview document
+- Reference websites/apps (if any)
+- List of required features
+- Timeline expectations
+- Questions for me
+
+What I Provide:
+- Initial feasibility assessment
+- Technology recommendations
+- Rough timeline estimate
+- Approximate cost range
+- Next steps explanation
+
+STEP 3: PROPOSAL DELIVERY (Day 4-7)
+------------------------------------
+Timeline: 2-3 business days after consultation
+Delivered via: Email (PDF format)
+
+Proposal Includes:
+- Executive summary
+- Complete scope of work
+- Feature breakdown
+- Technology stack recommendation
+- Milestone timeline
+- Detailed pricing (fixed or hourly)
+- Payment schedule
+- Deliverables list
+- Terms and conditions
+- Acceptance form
+
+STEP 4: REVIEW & DISCUSSION (Day 8-10)
+---------------------------------------
+Your Actions:
+- Review proposal thoroughly
+- Note any questions or concerns
+- Discuss changes if needed
+- Request clarifications
+
+My Actions:
+- Answer all questions
+- Adjust proposal if needed
+- Provide alternative options
+- Clarify technical details
+
+STEP 5: AGREEMENT (Day 11-14)
+------------------------------
+For Projects Over $1,000:
+- Simple service agreement provided
+- Review and sign electronically
+- Covers: scope, timeline, payments, IP rights, cancellation
+
+Agreement Contents:
+- Scope of work (detailed)
+- Timeline and milestones
+- Payment terms
+- Intellectual property rights
+- Confidentiality clauses
+- Cancellation/refund policy
+- Dispute resolution
+- Governing law
+
+STEP 6: INITIAL PAYMENT (Day 14-15)
+------------------------------------
+Deposit Required: 30% (standard)
+
+Payment Methods:
+- Bank Transfer
+- SafePay (Pakistan)
+- PayPal (International)
+- Upwork/Fiverr platforms
+
+After Payment:
+- Receipt issued immediately
+- Project officially begins
+- Kickoff meeting scheduled
+- Project management access provided
+
+STEP 7: PROJECT KICKOFF (Day 15-16)
+------------------------------------
+Duration: 60-90 minutes
+Format: Video call
+
+Agenda:
+- Confirm all requirements
+- Review timeline and milestones
+- Establish communication channels
+- Set up project management tools
+- Discuss feedback process
+- Share initial resources
+- Answer final questions
+
+Tools Setup:
+- Email communication
+- Slack/Discord (optional)
+- Project management (Trello/Asana)
+- GitHub repository access
+- Design sharing (Figma/drive)
+
+STEP 8: DEVELOPMENT BEGINS (Day 17+)
+-------------------------------------
+Regular Updates:
+- Weekly progress emails
+- Milestone demonstrations
+- Open communication channels
+- Regular video check-ins
+
+Your Involvement:
+- Provide feedback at milestones
+- Respond to questions promptly
+- Review deliverables
+- Approve milestone completions
+
+COMMUNICATION DURING PROJECT:
+
+Update Frequency:
+- Weekly email updates (minimum)
+- Milestone presentations (video call)
+- Ad-hoc updates for important decisions
+- Daily communication available if needed
+
+Communication Channels:
+- Email: Formal updates and documentation
+- Slack/Discord: Quick questions and updates
+- Video Calls: Milestone reviews and discussions
+- Project Management Tool: Task tracking
+- GitHub: Code reviews and technical discussions
+
+Meeting Schedule:
+- Kickoff meeting: Start of project
+- Milestone reviews: Every 2-4 weeks
+- Mid-project check-in: 50% completion
+- Pre-launch review: 90% completion
+- Final handoff: Project completion
+- Post-launch follow-up: 2 weeks after launch
+
+WHAT TO EXPECT AFTER FIRST CONTACT:
+
+Within 24 Hours:
+- Acknowledgment of your inquiry
+- Initial questions (if needed)
+- Proposed meeting times
+
+Within 2-3 Days:
+- Scheduled consultation call
+- Or detailed email response
+
+Within 1 Week:
+- Detailed proposal delivered
+- All questions answered
+- Clear next steps
+
+Within 2 Weeks:
+- Agreement signed (if proceeding)
+- Deposit received
+- Project started
+
+TIPS FOR EFFECTIVE COMMUNICATION:
+
+Be Specific:
+- Describe your needs in detail
+- Share examples of what you like
+- Explain your target audience
+- Define success metrics
+
+Share Context:
+- Your business background
+- Current challenges
+- Why you need this solution
+- Timeline drivers
+
+Be Honest About:
+- Budget constraints
+- Timeline flexibility
+- Technical knowledge
+- Decision-making process
+
+Prepare Questions:
+- Technical approach
+- Timeline concerns
+- Cost breakdown
+- Post-launch support
+- Your role in the project
+
+COMMON FIRST CONTACT QUESTIONS:
+
+"How much will my project cost?"
+- Depends on scope and complexity
+- Schedule consultation for accurate quote
+- Typical ranges provided on website
+- Fixed-price quotes available after discussion
+
+"How long will it take?"
+- Varies by project size
+- Small: 2-4 weeks
+- Medium: 1-3 months
+- Large: 3-6+ months
+- Detailed timeline in proposal
+
+"Can you start immediately?"
+- Typically within 1 week of agreement
+- Urgent projects can be accommodated
+- Depends on current workload
+- Check availability status on website
+
+"Do you work with [specific technology]?"
+- MERN stack specialist
+- Experienced with modern web technologies
+- Can work with most JavaScript-based stacks
+- Discuss specific needs in consultation
+
+"Are you available in my time zone?"
+- Based in PKT (UTC+5)
+- Flexible for international clients
+- Can accommodate meetings in:
+  * US time zones (EST, PST)
+  * European time zones (CET, GMT)
+  * Australian time zones (AEST)
+  * Middle East time zones
+
+"Can I see your previous work?"
+- Portfolio available at aasimshah.com/services
+- Case studies can be shared
+- Client references available (with permission)
+- Code samples available on request
+
+"Do you sign NDAs?"
+- Yes, happy to sign NDAs
+- Can use your template
+- Or provide standard template
+- Discussed before sharing confidential details
+
+TIME ZONE ACCOMMODATIONS:
+
+Available Meeting Times:
+- Early morning (PKT): Good for US West Coast
+- Morning (PKT): Good for US East Coast, Europe
+- Afternoon (PKT): Good for Middle East, Asia
+- Evening (PKT): Good for Australia
+
+Asynchronous Communication:
+- Email for non-urgent matters
+- Project management tools for tasks
+- Detailed documentation
+- Video updates for progress
+
+ACCESSIBILITY:
+
+Current Availability:
+- Check "Available For Work" indicator on website
+- Green = Currently accepting new projects
+- Response times maintained regardless
+
+Capacity:
+- Typically work on 2-3 projects simultaneously
+- Full attention given to each project
+- No compromise on quality
+- Clear communication about timeline
+
+CONTACT FOR SPECIFIC NEEDS:
+
+New Project Inquiries:
+- Email: contact@aasimshah.com
+- Subject: "New Project Inquiry - [Your Name]"
+
+Existing Project Support:
+- Email: contact@aasimshah.com
+- Subject: "Project Support - [Project Name]"
+- Phone: For urgent issues
+
+Partnership Opportunities:
+- Email: contact@aasimshah.com
+- Subject: "Partnership Inquiry - [Company Name]"
+
+General Questions:
+- Contact form on website
+- Email: contact@aasimshah.com
+
+GET STARTED TODAY:
+
+Quick Start (5 minutes):
+1. Visit aasimshah.com
+2. Click "Email Me" or "Schedule Meeting"
+3. Share your project idea
+4. Receive response within 24 hours
+
+Research First (30 minutes):
+1. Browse portfolio at aasimshah.com/services
+2. Read FAQs on Contact page
+3. Review testimonials
+4. Then reach out with specific questions
+
+Ready to Commit (1 hour):
+1. Prepare project requirements document
+2. Schedule 30-60 minute consultation
+3. Discuss in detail
+4. Receive proposal within 2-3 days
+5. Start project within 1-2 weeks
+
+CONTACT NOW:
+Email: contact@aasimshah.com
+Phone: +92-348-3360070
+Website: aasimshah.com
+Schedule: Click "Schedule Meeting" button on website

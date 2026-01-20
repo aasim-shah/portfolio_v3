@@ -1,0 +1,110 @@
+==============================================
+TRAINING DATA: MERN Stack Development Service
+==============================================
+
+SERVICE NAME: MERN Stack Development
+
+PRICING:
+- Hourly Rate: $30/hour (starting)
+- Project-based quotes available
+- Typical project range: $5,000 - $50,000+
+
+DESCRIPTION:
+Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js. Full-stack development with modern technologies and best practices.
+
+WHAT'S INCLUDED:
+- MongoDB database design and implementation
+- Express.js backend development
+- React.js/Next.js frontend development
+- Node.js server-side programming
+- Responsive design (mobile, tablet, desktop)
+- Source code documentation
+- Deployment assistance
+- Post-launch support
+
+WHO IT'S FOR:
+- Businesses needing scalable web applications
+- Startups building MVPs
+- Companies modernizing legacy systems
+- Entrepreneurs with web app ideas
+
+STATISTICS:
+- Completed Works: 50+
+- Years of Experience: 5+
+- Total Hours Worked: 1500+
+
+TIMELINE:
+- Small projects: 2-4 weeks
+- Medium projects: 1-2 months
+- Large projects: 3-6 months
+- Timeline provided after project assessment
+
+DELIVERABLES:
+- Fully functional web application
+- Responsive design (all devices)
+- Source code and documentation
+- Deployment on cloud hosting
+- Admin dashboard (if needed)
+- Training materials
+- Post-launch support period
+
+EXAMPLE USE CASES:
+- E-commerce platforms
+- SaaS applications
+- Content management systems
+- Social networking platforms
+- Business management tools
+- Hotel management systems
+- Marketplace platforms
+
+HOW TO ORDER:
+1. Click "Email Me" or "Schedule Meeting" button
+2. Describe your project requirements
+3. Receive initial consultation (free)
+4. Get detailed quote and timeline
+5. Project begins upon agreement
+
+TECHNOLOGIES USED:
+- MongoDB: NoSQL database for flexible data storage
+- Express.js: Fast Node.js framework for APIs
+- React/Next.js: Modern frontend frameworks
+- Node.js: JavaScript runtime for server-side
+- TypeScript: Strongly typed JavaScript
+- Tailwind CSS: Utility-first CSS framework
+
+SAMPLE QUESTIONS & ANSWERS:
+
+Q: What is MERN Stack?
+A: MERN Stack consists of MongoDB (database), Express.js (backend framework), React (frontend library), and Node.js (server runtime). These four technologies work together to build complete web applications using JavaScript throughout.
+
+Q: Why choose MERN Stack over other technologies?
+A: MERN Stack offers single-language development (JavaScript everywhere), excellent scalability, high performance, modern architecture, large community support, and cost-effective development. It's used by companies like Facebook, Netflix, and Uber.
+
+Q: How much does a MERN Stack project cost?
+A: Starting at $30/hour. Small projects range from $5,000-$10,000, medium projects $10,000-$30,000, and large projects $30,000+. Fixed-price quotes are available after discussing your specific requirements.
+
+Q: Do you provide ongoing maintenance?
+A: Yes! I offer maintenance services including performance updates, security patches, feature additions, bug fixes, and technical support on a retainer basis or as-needed.
+
+Q: Will I own the source code?
+A: Yes! Upon full payment, all intellectual property rights transfer to you, including source code, design files, documentation, and database schema.
+
+Q: Can you integrate with third-party services?
+A: Absolutely! I have experience integrating payment gateways (Stripe, PayPal), email services, analytics, social media APIs, maps, CMS platforms, authentication services, and cloud storage.
+
+Q: Is the website mobile-friendly?
+A: Yes! All MERN Stack applications I build are fully responsive, tested on multiple screen sizes, optimized for touch interactions, and follow mobile-first design principles.
+
+Q: What's the development process?
+A: 1) Free consultation to discuss requirements, 2) Detailed proposal with timeline and pricing, 3) Agreement and deposit, 4) Development with regular milestone updates, 5) Testing and revisions, 6) Deployment and training, 7) Post-launch support.
+
+CONTACT INFORMATION:
+- Email: contact@aasimshah.com
+- Phone: +92-348-3360070
+- Schedule Meeting: Available via calendar on website
+- Location: Bahria Town Phase 7, Rawalpindi, Pakistan
+
+FEATURED PROJECTS:
+- HOHEAL: Multi-vendor hotel management SaaS (30 pages)
+- PIKUP POS: Full e-commerce platform (80 pages)
+- Premier Vehicles: Vehicle marketplace with mobile app (20 pages)

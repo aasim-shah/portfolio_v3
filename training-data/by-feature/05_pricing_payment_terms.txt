@@ -1,0 +1,298 @@
+==============================================
+TRAINING DATA: Pricing & Payment Terms
+==============================================
+
+HOURLY RATES:
+
+MERN Stack Development: $30/hour
+- Full-stack web application development
+- MongoDB, Express, React, Node.js
+- Responsive design and deployment
+
+API Development: $40+/hour
+- RESTful and GraphQL APIs
+- Authentication and security
+- Documentation and testing
+
+Cloud & DevOps: $80+/hour
+- AWS deployment and configuration
+- CI/CD pipeline setup
+- Docker containerization
+
+Complete Project Development: $30+/hour
+- End-to-end solutions
+- Website + Mobile App + Backend
+- Full deployment and training
+
+PROJECT-BASED PRICING:
+
+Small Projects: $5,000 - $15,000
+- Landing pages
+- Simple websites
+- Basic applications
+- MVP development
+- Timeline: 2-4 weeks
+
+Medium Projects: $15,000 - $40,000
+- Multi-page websites
+- E-commerce platforms
+- SaaS applications
+- Admin dashboards
+- Timeline: 1-3 months
+
+Large Projects: $40,000 - $100,000+
+- Complex web applications
+- Multi-vendor platforms
+- Complete mobile + web solutions
+- Enterprise applications
+- Timeline: 3-6 months
+
+PAYMENT STRUCTURES:
+
+Milestone-Based (Standard):
+- 30% deposit before work begins
+- 40% payment at 50% project completion
+- 30% final payment upon delivery
+
+For Hourly Projects:
+- Weekly or bi-weekly invoicing
+- Invoices due within 7 days
+- Work may pause if payment delayed
+
+For Long-Term Contracts:
+- Monthly retainer arrangements
+- Fixed monthly fee for ongoing work
+- Priority support included
+
+PAYMENT METHODS ACCEPTED:
+- Bank Transfer (local & international)
+- SafePay (Pakistan's secure payment gateway)
+- PayPal (for international clients)
+- Upwork platform payments
+- Fiverr platform payments
+
+QUOTES & ESTIMATES:
+
+Quote Validity:
+- All quotes valid for 14 days
+- After 14 days, pricing may be revised
+- Custom quotes for large projects
+
+What's Included in Quote:
+- Complete scope of work
+- Milestone breakdown
+- Fixed total price or hourly estimate
+- Timeline with key dates
+- Payment schedule
+- Deliverables list
+
+Quote Delivery Time:
+- Simple projects: Same day
+- Medium projects: 1-2 business days
+- Complex projects: 2-3 business days
+
+ADDITIONAL COSTS:
+
+Not Included in Development Pricing:
+- Domain name registration ($10-50/year)
+- Hosting/infrastructure costs ($20-500/month)
+- Third-party service fees (payment gateways, etc.)
+- Content creation (copywriting, photography)
+- App store fees ($99/year Apple, $25 one-time Google)
+- SSL certificates (often free with hosting)
+
+These are clearly communicated upfront in the proposal.
+
+MAINTENANCE & SUPPORT PRICING:
+
+Post-Launch Support (Included):
+- 30-90 days depending on project size
+- Bug fixes
+- Performance issues
+- Security patches
+- Email/call support
+
+Ongoing Maintenance (Optional):
+Basic Plan: $200-500/month
+- Monthly updates
+- Security patches
+- Bug fixes
+- Email support
+
+Standard Plan: $500-1,000/month
+- Everything in Basic
+- Feature additions (up to 10 hours/month)
+- Performance optimization
+- Priority support
+
+Premium Plan: $1,000-3,000/month
+- Everything in Standard
+- Dedicated support
+- Unlimited minor updates
+- Regular feature additions
+- 24/7 emergency support
+
+ADDITIONAL SERVICES:
+
+Revisions Beyond Included:
+- $50-100/hour depending on complexity
+- First 2 rounds included in all projects
+- Major scope changes require change order
+
+Training Sessions:
+- First session included in complete projects
+- Additional sessions: $200/hour
+- Custom training materials: $500-1,000
+
+Documentation:
+- Basic documentation included
+- Comprehensive documentation: +$1,000-3,000
+- Video tutorials: +$500-1,500
+
+DISCOUNTS & SPECIAL OFFERS:
+
+Long-Term Clients:
+- 10% discount on second project
+- 15% discount on third project
+- Custom retainer rates for ongoing work
+
+Referral Discount:
+- 5% discount for client referrals
+- Applied to next project
+
+Startup Discount:
+- 10% discount for early-stage startups
+- Must provide proof of startup status
+- Limited availability
+
+Non-Profit Discount:
+- 15% discount for registered non-profits
+- Verification required
+
+PAYMENT TERMS & CONDITIONS:
+
+Invoice Payment Terms:
+- Invoices due within 7 days of delivery
+- Late payment fee: 2% per week after due date
+- Work pauses if payment 14+ days overdue
+
+Deposit Requirements:
+- Minimum 30% deposit to start
+- Larger projects may require 40-50%
+- Deposit non-refundable after work begins
+
+Change Orders:
+- Scope changes documented in writing
+- New quote provided for additional work
+- Timeline adjusted accordingly
+- Payment terms reset for additions
+
+REFUND POLICY:
+
+Cancellation & Refunds:
+- Within 48 hours of deposit: 100% refund
+- 0-25% work completed: 75% refund
+- 26-50% work completed: 50% refund
+- More than 50% completed: No refund
+
+Refund Process:
+1. Email request to contact@aasimshah.com
+2. Include invoice number and reason
+3. Response within 5 business days
+4. Refund processed within 14 business days
+5. Refunded to original payment method
+
+Dispute Resolution:
+- Good faith negotiation first
+- Mediation if needed
+- Governed by laws of Pakistan
+- Courts of Rawalpindi have jurisdiction
+
+SAMPLE PRICING SCENARIOS:
+
+Example 1: E-Commerce Website
+- Product catalog (100 products)
+- Shopping cart and checkout
+- Payment gateway integration
+- Admin dashboard
+- Order management
+- Customer accounts
+- Responsive design
+- 6-8 weeks development
+Cost: $15,000-25,000
+
+Example 2: SaaS Platform
+- Multi-tenant architecture
+- User authentication
+- Subscription billing
+- Admin panel
+- API development
+- Dashboard and analytics
+- 3-4 months development
+Cost: $35,000-50,000
+
+Example 3: Mobile App + Backend
+- Flutter mobile app (iOS/Android)
+- Backend API
+- User authentication
+- Push notifications
+- Admin panel
+- AWS deployment
+- 3-4 months development
+Cost: $25,000-40,000
+
+Example 4: API Development
+- RESTful API with 20 endpoints
+- Authentication system
+- Database integration
+- API documentation
+- Testing suite
+- Deployment
+- 3-4 weeks development
+Cost: $8,000-15,000
+
+BUDGET PLANNING TIPS:
+
+For Clients:
+- Define must-have vs nice-to-have features
+- Start with MVP, add features later
+- Budget 20% contingency for unknowns
+- Factor in ongoing hosting costs
+- Plan for post-launch marketing budget
+
+Cost Optimization:
+- Phase development (MVP first)
+- Use proven technologies
+- Leverage existing templates where appropriate
+- Focus on core functionality first
+- Plan scaling for post-launch
+
+FREQUENTLY ASKED PRICING QUESTIONS:
+
+Q: Can I pay in installments?
+A: Yes! Projects 6+ months can be paid monthly. Otherwise, payment follows milestone schedule (30/40/30).
+
+Q: What if my budget is limited?
+A: We can phase the project or reduce scope to fit your budget. I'll recommend the best approach to maximize value within your constraints.
+
+Q: Are there any hidden costs?
+A: No. All costs are outlined in the proposal. Infrastructure costs (hosting, domains) are clearly separated from development costs.
+
+Q: Can I get a discount for a large project?
+A: Possibly. Contact me with your project details and budget for a custom quote. Long-term contracts often receive better rates.
+
+Q: What if the project takes longer than estimated?
+A: Fixed-price projects are honored regardless of time. Hourly projects may exceed estimates if scope expands - I always communicate this before additional charges.
+
+Q: Do you require contracts?
+A: For projects over $1,000, yes. A simple service agreement outlines scope, timeline, payment terms, IP rights, and cancellation policy.
+
+Q: What payment method is most secure?
+A: For Pakistan clients, SafePay offers buyer protection. For international clients, PayPal provides dispute resolution. Bank transfers are also accepted.
+
+CONTACT FOR QUOTE:
+- Email: contact@aasimshah.com
+- Phone: +92-348-3360070
+- Schedule Consultation: Free 15-30 minute call
+- Quote Delivery: 1-3 business days
+- Response Time: Within 24 hours on business days
