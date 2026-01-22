@@ -65,7 +65,6 @@ export const pagesLists: pagesListsType[] = [
 ];
 
 export const socialLists: socialListsTypes[] = [
-  //fiver / upwork and github only
   {
     id: 1,
     title: "Fiverr",
@@ -129,7 +128,7 @@ export const counterLists: counterListsType[] = [
   {
     id: 1,
     title: "Happy Clients",
-    value: 45,
+    value: 100,
   },
   {
     id: 2,
@@ -139,50 +138,57 @@ export const counterLists: counterListsType[] = [
   {
     id: 3,
     title: "Completed Projects",
-    value: 40,
+    value: 80,
   },
-  // {
-  //   id: 4,
-  //   title: "Awards Received",
-  //   value: 6,
-  // },
 ];
+
 export const myExperience: myExperienceTypes[] = [
   {
     id: 1,
-    year: "2024 - Present",
-    title: "Senior MERN Stack Developer",
-    company: "Dcodax PVT LTD",
-    label: "Software Company",
+    year: "Oct 2025 - Present",
+    title: "MERN Stack Developer",
+    company: "Appworks",
+    label: "Islamabad, PK",
     description:
-      "Developing scalable APIs for a multi-vendor hotel management system, integrating third-party services, and optimizing performance.",
-    link: "http://dcodax.com",
+      "Developed secure backend APIs for eEagle VPN (1.4M+ downloads). Built Super Admin Dashboard for VPN server management. Automated VPN server provisioning with Node.js, Bash, and Linux automation. Set up Grafana monitoring for 60+ production servers. Built and deployed eEagle VPN Chrome Extension.",
+    link: "https://appworks.com",
     logo: dcodaxIcon,
   },
   {
     id: 2,
-    year: "2022 - 2024",
-    title: "MERN Stack Developer (Backend)",
-    company: "ItecExperts",
-    label: "Software House",
+    year: "Sep 2024 - Sep 2025",
+    title: "MERN Stack Developer",
+    company: "Dcodax Pvt Ltd",
+    label: "Islamabad, PK",
     description:
-      "Built and optimized backend systems for multiple web and cross-platform applications, ensuring high performance and security.",
+      "Developed RESTful APIs for multi-vendor hotel management SaaS (Hoheal) with real-time staff-guest chat. Built PIKUP POS restaurant automation with QR ordering and Flutter apps. Delivered Ajar rental platform with Stripe payments. Created Bite.md multi-vendor marketplace with MAIB payment gateway integration.",
+    link: "http://dcodax.com",
+    logo: dcodaxIcon,
+  },
+  {
+    id: 3,
+    year: "July 2023 - Aug 2024",
+    title: "MERN Stack Developer",
+    company: "ItecExperts Pvt Ltd",
+    label: "Peshawar, PK",
+    description:
+      "Engineered backend APIs for Flutter apps including marketplaces, automation tools, e-commerce, and chat solutions. Built advanced messaging platform with Socket.io. Optimized MySQL and MongoDB databases. Implemented Stripe payment solutions. Managed AWS deployment and CI/CD pipelines with GitHub Actions.",
     link: "https://itecexperts.com",
     logo: itecExpertsIcon,
   },
-  // add more experience here ( remote job with 47apps as Backend develooper )
   {
-    id: 3,
-    year: "2020 - 2022",
+    id: 4,
+    year: "Feb 2021 - June 2023",
     title: "Backend Developer",
-    company: "47apps",
-    label: "Software House",
+    company: "47Apps Company",
+    label: "Remote, US",
     description:
-      "Developed and maintained backend systems for a variety of web applications, including e-commerce platforms and content management systems.",
+      "Engineered backend APIs for Flutter apps, websites, and admin dashboards. Launched multi-vendor service marketplace on AWS. Created sophisticated chat system for vendor-user and community interactions. Integrated Stripe payment solutions securing transactions.",
     link: "",
     logo: fiverr,
   },
 ];
+
 export const myStack: myStackTypes[] = [
   {
     id: 1,
@@ -207,10 +213,10 @@ export const myStack: myStackTypes[] = [
   },
   {
     id: 4,
-    title: "Fastify",
-    description: "High-Performance Backend ",
-    logo: "https://fastify.dev/img/logos/fastify-white.svg",
-    link: "https://www.fastify.io",
+    title: "React.js",
+    description: "UI Library",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    link: "https://reactjs.org",
   },
   {
     id: 5,
@@ -221,71 +227,86 @@ export const myStack: myStackTypes[] = [
   },
   {
     id: 6,
-    title: "PostgreSQL",
+    title: "MySQL",
     description: "Relational Database",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-    link: "https://www.postgresql.org",
+    logo: "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+    link: "https://www.mysql.com",
   },
   {
     id: 7,
-    title: "Docker",
-    description: "Containerization Platform",
-    logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
-    link: "https://www.docker.com",
-  },
-  {
-    id: 8,
     title: "TypeScript",
     description: "Strongly Typed JavaScript",
     logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     link: "https://www.typescriptlang.org",
   },
   {
+    id: 8,
+    title: "AWS",
+    description: "Cloud Computing Platform",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    link: "https://aws.amazon.com",
+  },
+  {
     id: 9,
-    title: "GraphQL",
-    description: "API Query Language",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
-    link: "https://graphql.org",
+    title: "Docker",
+    description: "Containerization",
+    logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+    link: "https://www.docker.com",
   },
   {
     id: 10,
-    title: "CI/CD",
-    description: "Continuous Integration & Deployment",
-    logo: "https://about.gitlab.com/images/press/logo/png/gitlab-logo-500.png",
-    link: "https://about.gitlab.com/topics/ci-cd",
+    title: "Socket.io",
+    description: "Real-time Communication",
+    logo: "https://socket.io/images/logo.svg",
+    link: "https://socket.io",
+  },
+  {
+    id: 11,
+    title: "Grafana",
+    description: "Monitoring & Analytics",
+    logo: "https://grafana.com/static/assets/img/fav32.png",
+    link: "https://grafana.com",
+  },
+  {
+    id: 12,
+    title: "Linux",
+    description: "Server Management",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+    link: "https://www.linux.org",
   },
 ];
+
 export const myServices: myServicesTypes[] = [
   {
     id: 1,
     title: "MERN Stack Development",
     description:
-      "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js.",
+      "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js with 5+ years of experience.",
     icon: webDesignIcon,
     link: "/services",
   },
   {
     id: 2,
-    title: "API Development",
+    title: "API Development & Integration",
     description:
-      "Designing and developing RESTful and GraphQL APIs for seamless data communication.",
+      "Designing RESTful APIs, GraphQL endpoints, and integrating third-party services including Stripe, OpenAI, and payment gateways.",
     icon: webDevIcon,
     link: "/services",
   },
   {
     id: 3,
-    title: "Cloud & DevOps",
+    title: "Cloud Infrastructure & DevOps",
     description:
-      "Deploying and managing cloud-based applications with CI/CD pipelines, Docker, and AWS.",
+      "Server automation, VPN infrastructure, CI/CD pipelines, monitoring with Grafana, and deployment on AWS, DigitalOcean, and Hetzner.",
     icon: seoOptIcon,
     link: "/services",
   },
   {
     id: 4,
-    title: "Complete Project Development",
+    title: "SaaS Product Development",
     description:
-      "End-to-end development including website, admin dashboard, cross-platform mobile app in Flutter, and AWS deployment.",
-    icon: webDesignIcon, // Replace with an appropriate icon
+      "End-to-end SaaS development including multi-tenant architecture, admin dashboards, Chrome extensions, and mobile app backends.",
+    icon: webDesignIcon,
     link: "/services",
   },
 ];
@@ -293,46 +314,68 @@ export const myServices: myServicesTypes[] = [
 export const myShowCases: myShowCasesTypes[] = [
   {
     id: 1,
-    title: "HOHEAL",
+    title: "eEagle VPN",
     description:
-      "A SaaS-based multi-vendor hotel management system with admin, hotel, management, and staff panels.",
-    link: "http://172.86.108.103:4000/en",
-    type: "SaaS",
-    theme: "Light",
-    pages: 30,
-    image: hoheal,
+      "Secure backend APIs and Super Admin Dashboard for VPN management. Handles 1.4M+ downloads with automated server provisioning and Grafana monitoring for 60+ servers.",
+    link: "https://play.google.com/store/apps/details?id=com.eeagle.vpn",
+    type: "VPN/SaaS",
+    theme: "Dark",
+    pages: 50,
+    image: pos,
   },
   {
     id: 2,
     title: "PIKUP POS",
     description:
-      "A full-fledged e-commerce website with a custom admin panel, order management, and payment gateway integration.",
+      "Complete restaurant automation with QR table ordering, real-time POS sync, Flutter mobile apps, and Next.js dashboards for Super Admin and Vendors.",
     link: "https://pikuppos.hostdonor.com/",
-    type: "E-Commerce",
+    type: "E-Commerce/POS",
     theme: "Dark",
     pages: 80,
     image: pos,
   },
   {
     id: 3,
-    title: "Premier Vehicles",
+    title: "HOHEAL - Hotel Management SaaS",
     description:
-      "A Flutter app with an admin panel where users can list and sell their vehicles, including integrated payment options.",
-    link: "github.com/aasim-shah/premier_dashboard",
-    type: "Marketplace",
-    theme: "Dark",
-    pages: 20,
-    image: primier,
+      "Multi-vendor hotel management system with service request handling, real-time staff-guest chat, and comprehensive admin panels. Onboarded 50+ hotels.",
+    link: "http://172.86.108.103:4000/en",
+    type: "SaaS",
+    theme: "Light",
+    pages: 60,
+    image: hoheal,
   },
   {
     id: 4,
-    title: "Cloud-Based API Services",
+    title: "Fyrebot - AI Chatbot Platform",
     description:
-      "A scalable backend solution with RESTful & GraphQL APIs, authentication, and AWS deployment.",
-    link: "https://api.myservice.com",
-    type: "Backend",
+      "SaaS platform for self-serve chatbot creation in under 10 minutes. Multi-tenant API-key architecture with npm widget, React Native plugin, and OpenAI integration.",
+    link: "#",
+    type: "AI/SaaS",
+    theme: "Dark",
+    pages: 40,
+    image: pos,
+  },
+  {
+    id: 5,
+    title: "Premier Vehicles Marketplace",
+    description:
+      "Comprehensive vehicle marketplace with admin panel enabling 1,000+ listings of cars and bikes. Integrated secure payment options with 30% increase in transactions.",
+    link: "github.com/aasim-shah/premier_dashboard",
+    type: "Marketplace",
+    theme: "Dark",
+    pages: 30,
+    image: primier,
+  },
+  {
+    id: 6,
+    title: "Ajar - Rental Platform",
+    description:
+      "Multi-vendor rental platform with Stripe payments, dynamic registration with document verification, real-time notifications, and Next.js admin/vendor dashboards.",
+    link: "#",
+    type: "Marketplace",
     theme: "Light",
-    pages: 10,
+    pages: 45,
     image: pos,
   },
 ];
@@ -378,47 +421,47 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     service: "MERN Stack Development",
     price: "$30",
     description:
-      "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js.",
-    completedWorks: "50+",
+      "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js with proven expertise.",
+    completedWorks: "80+",
     experience: "5+ years",
-    totalHoursWorked: "1500+ hours",
+    totalHoursWorked: "3000+ hours",
     icon: webDesignIcon,
     link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 2,
-    service: "API Development",
-    price: "$40+",
+    service: "API Development & Integration",
+    price: "$35",
     description:
-      "Designing and developing RESTful and GraphQL APIs for seamless data communication.",
-    completedWorks: "40+",
+      "Designing RESTful and GraphQL APIs with third-party integrations including Stripe, OpenAI, and payment gateways.",
+    completedWorks: "60+",
     experience: "5+ years",
-    totalHoursWorked: "1200+ hours",
+    totalHoursWorked: "2000+ hours",
     icon: webDevIcon,
     link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 3,
-    service: "Cloud & DevOps",
-    price: "$80+",
+    service: "Cloud Infrastructure & DevOps",
+    price: "$40",
     description:
-      "Deploying and managing cloud-based applications with CI/CD pipelines, Docker, and AWS.",
-    completedWorks: "25+",
-    experience: "2+ years",
-    totalHoursWorked: "900+ hours",
+      "Server automation, VPN infrastructure, CI/CD pipelines, monitoring with Grafana. Managing 60+ production servers.",
+    completedWorks: "40+",
+    experience: "3+ years",
+    totalHoursWorked: "1500+ hours",
     icon: seoOptIcon,
     link: "https://www.upwork.com/freelancers/aasimshah",
   },
   {
     id: 4,
-    service: "Complete Project Development",
-    price: "$30+",
+    service: "SaaS Product Development",
+    price: "$35",
     description:
-      "End-to-end development including website, admin dashboard, cross-platform mobile app in Flutter, and AWS deployment.",
-    completedWorks: "20+",
-    experience: "5+ years",
-    totalHoursWorked: "2000+ hours",
-    icon: webDesignIcon, // Replace with a more relevant icon if needed
+      "Complete SaaS development with multi-tenant architecture, admin dashboards, Chrome extensions, and mobile backends.",
+    completedWorks: "30+",
+    experience: "4+ years",
+    totalHoursWorked: "2500+ hours",
+    icon: webDesignIcon,
     link: "https://www.upwork.com/freelancers/aasimshah",
   },
 ];
@@ -427,42 +470,42 @@ export const faqData: FAQ[] = [
   {
     question: "Can you work with clients remotely?",
     answer:
-      "Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.",
+      "Absolutely! I have 5+ years of experience working with clients from all around the world, including US-based companies. Through effective communication channels such as email, video calls, Slack, and project management tools, I ensure seamless collaboration regardless of geographical location.",
   },
   {
-    question: "Will my website be mobile-friendly?",
+    question: "What types of projects do you specialize in?",
     answer:
-      "Absolutely! Mobile responsiveness is a top priority in today's digital landscape. I design and develop websites that are fully responsive and adaptable to various devices and screen sizes. Your website will provide an optimal user experience whether accessed via desktops, smartphones, or tablets.",
+      "I specialize in MERN stack applications, SaaS platforms, VPN infrastructure, real-time chat systems, payment gateway integrations, multi-vendor marketplaces, POS systems, and backend APIs for mobile apps. I've worked on projects ranging from hotel management systems to VPN services with millions of users.",
   },
   {
     question: "How long does it typically take to complete a project?",
     answer:
-      "The timeline for each project varies depending on its scope and complexity. Factors such as the number of pages, functionalities, and the client feedback process can impact the timeline. Upon discussing your project requirements, I will provide you with a realistic timeline and keep you updated throughout the process.",
+      "The timeline varies depending on project scope and complexity. Simple APIs can take 1-2 weeks, while complex SaaS platforms may take 2-4 months. Upon discussing your requirements, I'll provide a realistic timeline with milestones and keep you updated throughout the process.",
   },
   {
-    question: "Can you integrate third-party tools into my website?",
+    question: "Can you handle server infrastructure and deployment?",
     answer:
-      "Yes, I have experience integrating various third-party tools, plugins, and platforms into websites. Whether you need to integrate e-commerce functionalities, social media integration, email marketing services, or anything else, I can recommend and help ensure smooth integration.",
+      "Yes! I have extensive experience with AWS, DigitalOcean, Hetzner, and other cloud providers. I can set up and manage production servers, implement CI/CD pipelines, configure monitoring with Grafana, and handle automated server provisioning. I currently manage 60+ production servers.",
   },
   {
-    question: "Do you offer website maintenance?",
+    question: "Do you integrate third-party services and payment gateways?",
     answer:
-      "Yes, I offer website maintenance services to ensure your website remains up to date, secure, and optimized. From performance updates to adding new features and content, I can provide ongoing support to keep your website running smoothly.",
+      "Absolutely! I have extensive experience integrating Stripe, MAIB, OpenAI APIs, Socket.io for real-time features, and various other third-party services. I ensure secure, reliable, and optimized integrations that meet industry standards.",
   },
   {
-    question: "How do you handle website revisions?",
+    question: "Can you build Chrome extensions and browser tools?",
     answer:
-      "I value your input and collaboration throughout the design process. Upon completing an initial design, I encourage you to provide feedback. I incorporate your suggestions and revisions to ensure the final product aligns with your vision.",
+      "Yes! I've built multiple Chrome extensions including VPN tools and email schedulers. I'm proficient with Chrome Extension Manifest V3, background workers, and secure proxy configurations.",
   },
   {
-    question: "Can you optimize my website?",
+    question: "Do you offer maintenance and support?",
     answer:
-      "Certainly! I incorporate search engine optimization (SEO) best practices into my development process. This includes using relevant keywords, optimizing meta tags, creating search-engine-friendly URLs, and ensuring your website has a solid foundation for better search engine visibility.",
+      "Yes, I offer ongoing maintenance and support services to ensure your application remains secure, updated, and optimized. This includes bug fixes, feature additions, performance optimization, and 24/7 monitoring for critical systems.",
   },
   {
-    question: "What are your payment terms?",
+    question: "What is your development approach?",
     answer:
-      "Payment terms may vary depending on the project scope and duration. Generally, I request an initial deposit before commencing work.",
+      "I follow agile methodology with regular updates and iterations. I use Git for version control, implement CI/CD pipelines for automated testing and deployment, write clean and documented code, and ensure scalability and security from the ground up.",
   },
 ];
 
@@ -482,7 +525,7 @@ export const followerData: FollowerData[] = [
   {
     platform: "LinkedIn",
     followers: "2.5K",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/aasimshah",
     icon: linkedInIcon,
   },
 ];
