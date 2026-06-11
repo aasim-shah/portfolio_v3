@@ -1,0 +1,940 @@
+{
+  "personalInfo": {
+    "fullName": "Syed Aasim Shah",
+    "preferredName": "Aasim Shah",
+    "title": "Senior MERN Stack Developer",
+    "yearsOfExperience": "5+",
+    "location": {
+      "city": "Rawalpindi",
+      "area": "Bahria Town Phase 7",
+      "country": "Pakistan",
+      "timezone": "PKT (UTC+5)"
+    },
+    "contact": {
+      "email": "contact@aasimshah.com",
+      "phone": "+92-348-3360070",
+      "website": "https://aasimshah.com"
+    },
+    "social": {
+      "github": "https://www.github.com/aasim-shah",
+      "linkedin": "https://www.linkedin.com/in/aasimshah",
+      "upwork": "https://www.upwork.com/freelancers/aasimshah",
+      "fiverr": "https://www.fiverr.com/users/aaasimmshah",
+      "twitter": "https://twitter.com/",
+      "instagram": "https://www.instagram.com/"
+    },
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Urdu",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Deutsch",
+        "proficiency": "Basic"
+      }
+    ]
+  },
+  "professionalSummary": {
+    "headline": "Senior MERN Stack Developer with 5+ years of professional experience in building scalable web applications, APIs, and cloud infrastructure solutions.",
+    "specializations": [
+      "MERN Stack Development - Building full-stack web applications using MongoDB, Express.js, React, and Node.js",
+      "API Development - Designing RESTful and GraphQL APIs for web and mobile applications",
+      "Cloud & DevOps - Managing production servers, CI/CD pipelines, and cloud infrastructure on AWS",
+      "SaaS Development - Building complete SaaS platforms with multi-tenant architecture and admin dashboards",
+      "Real-time Systems - Creating chat systems, notifications, and live data synchronization",
+      "Payment Integration - Secure integration of Stripe, MAIB, and other payment gateways",
+      "Mobile Backends - Building APIs for Flutter and React Native applications",
+      "Browser Extensions - Developing Chrome extensions and browser tools"
+    ],
+    "achievements": {
+      "projectsCompleted": "80+",
+      "happyClients": "100+",
+      "totalHours": "3000+",
+      "serversManaged": "60+",
+      "applicationsBuilt": "25+",
+      "apisDeveloped": "100+",
+      "successRate": "98%",
+      "averageRating": "4.9/5.0"
+    }
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "AUP Peshawar",
+      "location": "Peshawar, Pakistan",
+      "startYear": 2019,
+      "endYear": 2023,
+      "status": "Completed"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Advanced Backend Development using Node.js and Express.js",
+      "issuer": "Coursera",
+      "year": 2023,
+      "description": "Advanced Node.js and Express.js backend development techniques"
+    },
+    {
+      "title": "Advanced MERN Stack Course",
+      "issuer": "Udemy",
+      "year": 2021,
+      "description": "Comprehensive MERN stack development course"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Senior MERN Stack Developer",
+      "company": "Appworks",
+      "employmentType": "Full-time/Freelance",
+      "location": "Islamabad, Pakistan",
+      "startDate": "October 2025",
+      "endDate": "Present",
+      "duration": "4+ months",
+      "current": true,
+      "website": "https://appworks.com",
+      "responsibilities": [
+        "Backend development for eEagle VPN (1.4M+ downloads)",
+        "Super Admin Dashboard development for VPN server management",
+        "Infrastructure automation using Node.js, Bash, and Linux",
+        "Grafana monitoring setup for 60+ production servers",
+        "eEagle VPN Chrome Extension development and deployment",
+        "Secure backend APIs architecture for 1.4M+ active users",
+        "Implementing security best practices for VPN infrastructure",
+        "Database design and optimization for high-traffic systems",
+        "CI/CD pipelines for automated deployments",
+        "AWS infrastructure and scaling management"
+      ],
+      "achievements": [
+        "Managing 60+ production servers with near 100% uptime",
+        "Scaled system to handle 1.4M+ downloads",
+        "Implemented automated server provisioning reducing manual work by 80%",
+        "Set up comprehensive monitoring reducing incident response time",
+        "Built robust APIs handling millions of requests daily"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Next.js",
+        "Grafana",
+        "AWS (EC2, S3, CloudWatch)",
+        "Docker",
+        "Linux/Bash scripting",
+        "GraphQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "position": "MERN Stack Developer",
+      "company": "Dcodax Pvt Ltd",
+      "employmentType": "Full-time",
+      "location": "Islamabad, Pakistan",
+      "startDate": "September 2024",
+      "endDate": "September 2025",
+      "duration": "12 months",
+      "current": false,
+      "website": "http://dcodax.com",
+      "majorProjects": [
+        {
+          "name": "HOHEAL - Hotel Management SaaS",
+          "role": "Senior Backend Developer",
+          "duration": "3 months",
+          "description": "Comprehensive multi-vendor hotel management system with booking management, real-time chat, and admin dashboards",
+          "features": [
+            "Multi-tenant architecture supporting 50+ hotels",
+            "Real-time staff-guest chat system using Socket.io",
+            "Booking management with availability tracking",
+            "Payment gateway integration",
+            "Service request management",
+            "Analytics and reporting"
+          ],
+          "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Socket.io",
+            "Next.js",
+            "AWS"
+          ]
+        },
+        {
+          "name": "PIKUP POS - Restaurant Automation",
+          "role": "Full-stack Developer",
+          "duration": "5 months",
+          "description": "Complete restaurant automation with QR ordering, POS synchronization, and mobile apps",
+          "features": [
+            "QR code table ordering system",
+            "Real-time POS synchronization",
+            "Flutter mobile apps (iOS & Android)",
+            "Multi-vendor marketplace architecture",
+            "Stripe payment processing",
+            "Inventory management",
+            "Order tracking and kitchen display"
+          ],
+          "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Flutter",
+            "Next.js",
+            "Stripe",
+            "AWS"
+          ]
+        },
+        {
+          "name": "AJAR - Rental Platform",
+          "role": "Backend Developer",
+          "duration": "2 months",
+          "description": "Multi-vendor rental platform with payment integration and document verification",
+          "features": [
+            "Multi-vendor marketplace",
+            "Stripe payment gateway",
+            "Document verification system",
+            "Real-time notifications",
+            "Admin and vendor dashboards"
+          ],
+          "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Stripe",
+            "Next.js",
+            "AWS"
+          ]
+        },
+        {
+          "name": "BITE.MD - Multi-Vendor Marketplace",
+          "role": "Backend Developer",
+          "duration": "2 months",
+          "description": "Multi-vendor marketplace with MAIB payment gateway integration",
+          "features": [
+            "Multi-vendor architecture",
+            "MAIB payment gateway",
+            "Vendor management",
+            "Order and user management",
+            "Commission calculation",
+            "Real-time order updates"
+          ],
+          "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "MAIB Gateway",
+            "AWS"
+          ]
+        }
+      ],
+      "achievements": [
+        "Delivered 4 major projects on schedule",
+        "50+ hotels successfully onboarded on HOHEAL",
+        "PIKUP POS handling 500+ orders per month",
+        "Combined projects generated 1000+ downloads",
+        "Maintained 99.9% system uptime across all platforms",
+        "100+ hours of training and documentation provided to clients"
+      ]
+    },
+    {
+      "position": "MERN Stack Developer",
+      "company": "ItecExperts Pvt Ltd",
+      "employmentType": "Full-time",
+      "location": "Peshawar, Pakistan",
+      "startDate": "July 2023",
+      "endDate": "August 2024",
+      "duration": "13 months",
+      "current": false,
+      "website": "https://itecexperts.com",
+      "responsibilities": [
+        "Engineered backend APIs for 15+ Flutter applications",
+        "Built advanced messaging platform with Socket.io",
+        "Implemented Stripe payment solutions",
+        "Optimized MySQL and MongoDB databases reducing load time by 40%",
+        "Managed AWS deployment and CI/CD pipelines",
+        "Maintained 99.95% API uptime",
+        "Real-time chat implementation in 5+ applications"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MySQL",
+        "Socket.io",
+        "Stripe",
+        "AWS",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "position": "Backend Developer",
+      "company": "47Apps Company",
+      "employmentType": "Remote (Full-time)",
+      "location": "Remote, United States",
+      "startDate": "February 2021",
+      "endDate": "June 2023",
+      "duration": "28 months",
+      "current": false,
+      "responsibilities": [
+        "Engineered backend APIs for Flutter apps, websites, and admin dashboards",
+        "Launched multi-vendor service marketplace on AWS",
+        "Created sophisticated chat system for vendor-user and community interactions",
+        "Integrated Stripe payment solutions",
+        "Built scalable backend architecture",
+        "Worked across US time zones successfully"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Flutter APIs",
+        "Stripe",
+        "AWS"
+      ]
+    }
+  ],
+  "skills": {
+    "backend": [
+      {
+        "name": "Node.js",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Express.js",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Fastify",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "2+"
+      },
+      {
+        "name": "REST APIs",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "GraphQL",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      },
+      {
+        "name": "Socket.io",
+        "proficiency": "Expert",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "Microservices",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      }
+    ],
+    "databases": [
+      {
+        "name": "MongoDB",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "MySQL",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      },
+      {
+        "name": "Redis",
+        "proficiency": "Intermediate",
+        "yearsOfExperience": "2+"
+      }
+    ],
+    "frontend": [
+      {
+        "name": "React.js",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Next.js",
+        "proficiency": "Expert",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "TypeScript",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "HTML/CSS",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Tailwind CSS",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      }
+    ],
+    "mobile": [
+      {
+        "name": "Flutter Backend Integration",
+        "proficiency": "Expert",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "React Native Backend",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "2+"
+      },
+      {
+        "name": "Mobile API Development",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      }
+    ],
+    "cloudAndDevOps": [
+      {
+        "name": "AWS (EC2, S3, RDS, CloudFront)",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Docker",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      },
+      {
+        "name": "CI/CD (GitHub Actions)",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      },
+      {
+        "name": "Linux Server Management",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Bash Scripting",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "3+"
+      },
+      {
+        "name": "Grafana Monitoring",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "2+"
+      },
+      {
+        "name": "DigitalOcean",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "Hetzner",
+        "proficiency": "Intermediate",
+        "yearsOfExperience": "2+"
+      }
+    ],
+    "paymentIntegration": [
+      {
+        "name": "Stripe",
+        "proficiency": "Expert",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "MAIB Payment Gateway",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "1+"
+      },
+      {
+        "name": "PayPal",
+        "proficiency": "Intermediate",
+        "yearsOfExperience": "2+"
+      }
+    ],
+    "other": [
+      {
+        "name": "Chrome Extension Development",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "2+"
+      },
+      {
+        "name": "Git & Version Control",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "Agile Methodologies",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "5+"
+      },
+      {
+        "name": "OpenAI API Integration",
+        "proficiency": "Advanced",
+        "yearsOfExperience": "1+"
+      },
+      {
+        "name": "WebSocket",
+        "proficiency": "Expert",
+        "yearsOfExperience": "4+"
+      },
+      {
+        "name": "JWT Authentication",
+        "proficiency": "Expert",
+        "yearsOfExperience": "5+"
+      }
+    ]
+  },
+  "services": [
+    {
+      "name": "MERN Stack Development",
+      "pricing": {
+        "hourlyRate": "$30/hour",
+        "projectRange": "$5,000 - $50,000+"
+      },
+      "description": "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js. Full-stack development with modern technologies and best practices.",
+      "includes": [
+        "MongoDB database design and implementation",
+        "Express.js backend development",
+        "React.js/Next.js frontend development",
+        "Node.js server-side programming",
+        "Responsive design (mobile, tablet, desktop)",
+        "Source code documentation",
+        "Deployment assistance",
+        "Post-launch support"
+      ],
+      "statistics": {
+        "completedWorks": "80+",
+        "experience": "5+ years",
+        "totalHoursWorked": "3000+ hours"
+      },
+      "timeline": {
+        "small": "2-4 weeks",
+        "medium": "1-2 months",
+        "large": "3-6 months"
+      }
+    },
+    {
+      "name": "API Development (RESTful & GraphQL)",
+      "pricing": {
+        "hourlyRate": "$40+/hour",
+        "simpleApis": "$3,000-$8,000",
+        "mediumApis": "$8,000-$20,000",
+        "complexApis": "$20,000-$50,000+",
+        "enterpriseApis": "$50,000+"
+      },
+      "description": "Designing and developing RESTful and GraphQL APIs for seamless data communication between applications, mobile apps, and third-party services.",
+      "includes": [
+        "Complete API design and architecture",
+        "RESTful API or GraphQL implementation",
+        "Comprehensive API documentation (Swagger/OpenAPI)",
+        "Authentication & authorization systems",
+        "Rate limiting and security measures",
+        "Database integration",
+        "Testing suite",
+        "Deployment configuration",
+        "30-day support period"
+      ],
+      "statistics": {
+        "completedWorks": "60+",
+        "experience": "5+ years",
+        "totalHoursWorked": "2000+ hours"
+      },
+      "timeline": {
+        "simple": "1-2 weeks",
+        "complex": "3-4 weeks",
+        "enterprise": "1-2 months"
+      }
+    },
+    {
+      "name": "Cloud & DevOps Services",
+      "pricing": {
+        "hourlyRate": "$80+/hour"
+      },
+      "description": "Server automation, VPN infrastructure, CI/CD pipelines, monitoring with Grafana, and deployment on AWS, DigitalOcean, and Hetzner.",
+      "includes": [
+        "AWS deployment and configuration",
+        "Server automation and provisioning",
+        "CI/CD pipeline setup",
+        "Docker containerization",
+        "Monitoring with Grafana",
+        "Database optimization",
+        "Load balancing",
+        "Security hardening",
+        "Performance optimization"
+      ],
+      "statistics": {
+        "completedWorks": "40+",
+        "experience": "3+ years",
+        "totalHoursWorked": "1500+ hours",
+        "serversManaged": "60+"
+      }
+    },
+    {
+      "name": "Complete Project Development",
+      "pricing": {
+        "hourlyRate": "$30+/hour",
+        "small": "$5,000 - $15,000",
+        "medium": "$15,000 - $40,000",
+        "large": "$40,000 - $100,000+"
+      },
+      "description": "End-to-end full-stack solutions including website, mobile app backend, and complete deployment with training.",
+      "includes": [
+        "Requirements analysis",
+        "System architecture design",
+        "Frontend development",
+        "Backend API development",
+        "Database design",
+        "Mobile app backend",
+        "Cloud deployment",
+        "Training and documentation",
+        "Post-launch support"
+      ],
+      "statistics": {
+        "completedWorks": "30+",
+        "experience": "4+ years",
+        "totalHoursWorked": "2500+ hours"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "eEagle VPN",
+      "type": "VPN/SaaS Service",
+      "industry": "Technology/Security",
+      "duration": "Ongoing",
+      "role": "Senior MERN Stack Developer",
+      "description": "VPN service with 1.4M+ downloads, 60+ production servers, Chrome Extension, and automated server provisioning",
+      "features": [
+        "Secure backend APIs for 1.4M+ users",
+        "Super Admin Dashboard for server management",
+        "Automated server provisioning",
+        "Grafana monitoring for 60+ servers",
+        "Chrome Extension deployment",
+        "Real-time server status",
+        "User management system",
+        "Analytics and reporting"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Next.js",
+        "AWS",
+        "Grafana",
+        "Docker",
+        "Linux/Bash",
+        "Chrome Extension API"
+      ],
+      "results": [
+        "1.4M+ downloads",
+        "60+ servers with 100% uptime",
+        "Automated provisioning reduced manual work by 80%",
+        "Handles millions of requests daily"
+      ],
+      "pages": 50,
+      "theme": "Dark",
+      "link": "https://play.google.com/store/apps/details?id=com.eeagle.vpn"
+    },
+    {
+      "name": "HOHEAL - Hotel Management SaaS",
+      "type": "Multi-Vendor SaaS Platform",
+      "industry": "Hospitality & Hotel Management",
+      "duration": "4 months",
+      "role": "Senior Backend Developer",
+      "description": "Comprehensive multi-vendor hotel management system enabling hotels to manage bookings, staff, inventory, and customer relationships",
+      "features": [
+        "Multi-tenant architecture",
+        "Admin control panel",
+        "Hotel management dashboard",
+        "Staff management portal",
+        "Booking management system",
+        "Real-time availability tracking",
+        "Payment processing integration",
+        "Analytics and reporting",
+        "Guest management",
+        "Inventory tracking",
+        "Multi-language support",
+        "Real-time staff-guest chat"
+      ],
+      "technologies": [
+        "MERN Stack",
+        "Socket.io",
+        "AWS",
+        "Docker",
+        "Next.js",
+        "MongoDB"
+      ],
+      "results": [
+        "50+ hotels successfully onboarded",
+        "1000+ bookings/month",
+        "99.9% uptime",
+        "Positive user feedback"
+      ],
+      "pages": 60,
+      "theme": "Light",
+      "link": "http://172.86.108.103:4000/en"
+    },
+    {
+      "name": "PIKUP POS - Restaurant Automation",
+      "type": "E-Commerce/POS Platform",
+      "industry": "Retail & E-Commerce",
+      "duration": "5 months",
+      "role": "Full-stack Developer",
+      "description": "Complete e-commerce platform with QR code ordering, real-time POS, Flutter mobile apps, and multi-vendor support",
+      "features": [
+        "QR code table ordering system",
+        "Real-time POS synchronization",
+        "Flutter mobile apps (iOS & Android)",
+        "Next.js Super Admin Dashboard",
+        "Vendor dashboards",
+        "Stripe payment processing",
+        "Inventory management",
+        "Order tracking",
+        "Kitchen display system",
+        "Multi-vendor marketplace",
+        "Sales analytics",
+        "Email notifications"
+      ],
+      "technologies": [
+        "MERN Stack",
+        "Flutter",
+        "Stripe",
+        "AWS",
+        "Next.js",
+        "Socket.io"
+      ],
+      "results": [
+        "500+ orders per month",
+        "4.5/5 customer satisfaction",
+        "50% mobile traffic",
+        "High conversion rate"
+      ],
+      "pages": 80,
+      "theme": "Dark",
+      "link": "https://pikuppos.hostdonor.com/"
+    },
+    {
+      "name": "Premier Vehicles",
+      "type": "Marketplace Application",
+      "industry": "Automotive",
+      "duration": "3 months",
+      "role": "Full-stack Developer",
+      "description": "Flutter-based mobile marketplace for vehicle listings with integrated payment options",
+      "features": [
+        "Vehicle listing with photos",
+        "Advanced search and filters",
+        "User authentication",
+        "In-app messaging",
+        "Payment integration",
+        "Push notifications",
+        "Saved searches and favorites",
+        "Vehicle comparison",
+        "Seller profiles",
+        "Rating and review system",
+        "Admin panel"
+      ],
+      "technologies": [
+        "Flutter",
+        "Node.js",
+        "MongoDB",
+        "AWS S3",
+        "Socket.io",
+        "Firebase"
+      ],
+      "results": [
+        "1,000+ car and bike listings",
+        "1000+ downloads in first month",
+        "4.2/5 app store rating",
+        "30% increase in transactions"
+      ],
+      "pages": 30,
+      "theme": "Dark",
+      "link": "https://github.com/aasim-shah/premier_dashboard"
+    },
+    {
+      "name": "AJAR - Rental Platform",
+      "type": "Marketplace",
+      "industry": "Rental Services",
+      "duration": "2 months",
+      "role": "Backend Developer",
+      "description": "Multi-vendor rental platform with Stripe payments and document verification",
+      "features": [
+        "Multi-vendor rental system",
+        "Stripe payment integration",
+        "Document verification",
+        "Dynamic registration flows",
+        "Real-time notifications",
+        "Admin and vendor dashboards",
+        "User authentication and authorization"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Stripe",
+        "Next.js",
+        "AWS"
+      ],
+      "pages": 45,
+      "theme": "Light"
+    },
+    {
+      "name": "Fyrebot - AI Chatbot Platform",
+      "type": "AI/SaaS",
+      "industry": "Artificial Intelligence",
+      "duration": "3 months",
+      "role": "Backend Developer",
+      "description": "SaaS platform for self-serve chatbot creation with OpenAI integration",
+      "features": [
+        "Self-serve chatbot creation",
+        "Multi-tenant architecture",
+        "API-key based authentication",
+        "npm widget for websites",
+        "React Native plugin",
+        "OpenAI integration",
+        "Custom training data",
+        "Analytics dashboard",
+        "White-label options"
+      ],
+      "technologies": [
+        "Node.js",
+        "OpenAI API",
+        "MongoDB",
+        "React",
+        "Next.js"
+      ],
+      "pages": 40,
+      "theme": "Dark"
+    }
+  ],
+  "products": [
+    {
+      "name": "eEagle VPN",
+      "type": "VPN Service",
+      "status": "Active",
+      "downloads": "1.4M+",
+      "description": "Comprehensive VPN service with mobile app and Chrome extension",
+      "platforms": [
+        "Android",
+        "Chrome Extension"
+      ],
+      "link": "https://play.google.com/store/apps/details?id=com.eeagle.vpn"
+    },
+    {
+      "name": "HOHEAL",
+      "type": "Hotel Management SaaS",
+      "status": "Active",
+      "users": "50+ hotels",
+      "description": "Multi-vendor hotel management platform",
+      "link": "http://172.86.108.103:4000/en"
+    },
+    {
+      "name": "PIKUP POS",
+      "type": "Restaurant Automation SaaS",
+      "status": "Active",
+      "orders": "500+/month",
+      "description": "Complete restaurant and e-commerce automation platform",
+      "link": "https://pikuppos.hostdonor.com/"
+    }
+  ],
+  "technicalExpertise": {
+    "primaryStack": "MERN (MongoDB, Express.js, React.js/Next.js, Node.js)",
+    "frameworks": [
+      "Next.js - Full-Stack React Framework",
+      "Express.js - Fast Node.js Framework",
+      "Fastify - High-Performance Backend",
+      "React.js - UI Library",
+      "Tailwind CSS - Utility-first CSS"
+    ],
+    "databases": [
+      "MongoDB - NoSQL Database",
+      "MySQL - Relational Database",
+      "PostgreSQL - Advanced Relational Database",
+      "Redis - In-memory Data Store"
+    ],
+    "cloudPlatforms": [
+      "AWS (EC2, S3, RDS, CloudFront, CloudWatch)",
+      "DigitalOcean",
+      "Hetzner"
+    ],
+    "devopsTools": [
+      "Docker - Containerization",
+      "GitHub Actions - CI/CD",
+      "Grafana - Monitoring & Analytics",
+      "Linux - Server Management"
+    ],
+    "integrations": [
+      "Stripe Payment Gateway",
+      "MAIB Payment Gateway",
+      "PayPal",
+      "OpenAI API",
+      "Socket.io",
+      "Firebase Cloud Messaging",
+      "AWS S3",
+      "Email Services"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Sarah Thompson",
+      "location": "New York City, USA",
+      "feedback": "The MERN stack web application Syed built for my business is top-notch! It's fast, scalable, and has completely streamlined our operations."
+    },
+    {
+      "name": "John Anderson",
+      "location": "Sydney, Australia",
+      "feedback": "Syed's API development skills are outstanding! He designed a seamless and efficient RESTful API for our mobile and web apps, making integrations smooth."
+    },
+    {
+      "name": "Mark Davis",
+      "location": "London, UK",
+      "feedback": "From backend optimization to cloud deployment, Syed handled our entire project flawlessly. Our platform is now running with excellent performance on AWS."
+    },
+    {
+      "name": "Laura Adams",
+      "location": "Madrid, Spain",
+      "feedback": "Syed delivered a full-stack solution, including a responsive website, an admin dashboard, and a cross-platform Flutter app. The end-to-end development was executed perfectly!"
+    }
+  ],
+  "availability": {
+    "status": "Available for Work",
+    "workingHours": "Flexible (PKT timezone UTC+5)",
+    "remoteWork": true,
+    "onSiteWork": "Available in Islamabad/Rawalpindi area",
+    "contractTypes": [
+      "Full-time",
+      "Part-time",
+      "Contract",
+      "Freelance"
+    ]
+  },
+  "paymentTerms": {
+    "milestoneBasedProjects": {
+      "deposit": "30% before work begins",
+      "midpoint": "40% at 50% project completion",
+      "final": "30% upon delivery"
+    },
+    "hourlyProjects": {
+      "billing": "Weekly or bi-weekly invoicing",
+      "paymentDue": "7 days"
+    },
+    "acceptedMethods": [
+      "Bank Transfer (local & international)",
+      "SafePay (Pakistan)",
+      "PayPal",
+      "Upwork",
+      "Fiverr"
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "January 2026",
+    "version": "1.0",
+    "generatedFor": "Professional Profile & Portfolio"
+  }
+}

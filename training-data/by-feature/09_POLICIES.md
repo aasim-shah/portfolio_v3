@@ -1,112 +1,109 @@
-==============================================
-TRAINING DATA: Policies & Legal Terms
-==============================================
+# Policies & Legal Terms
 
-BUSINESS INFORMATION:
-=====================
+## Business Information
 
-Business Name: Aasim Shah
-Registered Address: Bahria Town Phase 7, Rawalpindi, Pakistan
-Contact Email: contact@aasimshah.com
-Contact Phone: +92-348-3360070
-Service Type: Web & App Development Services
+- **Business Name:** Aasim Shah
+- **Address:** Bahria Town Phase 7, Rawalpindi, Pakistan
+- **Email:** contact@aasimshah.com
+- **Phone:** +92-348-3360070
+- **Service Type:** Web & App Development Services
 
-TERMS & CONDITIONS:
-===================
+---
 
-Last Updated: July 12, 2025
+## Terms & Conditions
 
-1. INTRODUCTION
+*Last Updated: July 12, 2025*
+
+### 1. Introduction
 These Terms govern your use of our web and app development services. By placing an order, you agree to abide by these Terms.
 
-2. SERVICES PROVIDED
+### 2. Services Provided
 We provide bespoke website and application development services. Project scope, timelines, deliverables, revisions, and pricing are defined in the invoice or proposal.
 
-3. QUOTES & PAYMENT
+### 3. Quotes & Payment
 
-Quote Validity:
-- All quotes are valid for 14 days unless stated otherwise
+**Quote Validity:**
+- All quotes valid for 14 days unless stated otherwise
 - After 14 days, pricing may be revised
 - Custom quotes provided for large projects
 
-Payment Terms:
-- Invoices are payable within 7 days of delivery
+**Payment Terms:**
+- Invoices payable within 7 days of delivery
 - Late payment fee: 2% per week after due date
-- Work may be paused if payment is delayed beyond 14 days
+- Work may be paused if payment delayed beyond 14 days
 
-Payment Schedule (Standard):
+**Payment Schedule (Standard):**
 - 30% deposit before commencing work
 - 40% payment at 50% project completion
 - 30% final payment upon delivery
 
-4. CANCELLATIONS & REFUNDS
+### 4. Cancellations & Refunds
 
-Cancellation Policy:
+**Cancellation Policy:**
 - Within 48 hours of deposit: 100% refund
-- 0-25% work completed: 75% refund
-- 26-50% work completed: 50% refund
+- 0–25% work completed: 75% refund
+- 26–50% work completed: 50% refund
 - More than 50% completed: No refund
 
-Refund Process:
+**Refund Process:**
 1. Email contact@aasimshah.com with invoice details
 2. State cancellation reason
 3. Receive response within 5 business days
 4. Refund processed within 14 business days
 5. Refunded to original payment method
 
-5. DELIVERY & REVISIONS
+### 5. Delivery & Revisions
 
-Delivery Timeline:
+**Delivery Timeline:**
 - Specified in project proposal
 - Delays communicated immediately
 - Force majeure circumstances excepted
 
-Revisions Included:
+**Revisions:**
 - Each project includes up to 2 rounds of revisions
 - Additional revisions charged separately
 - Major scope changes require change order
 
-6. CHARGEBACKS & DISPUTES
+### 6. Chargebacks & Disputes
 
-Chargeback Policy:
 - In event of chargeback, we reserve right to provide proof of service to SafePay or banks
 - Legitimate work constitutes full compliance with deliverables
 - We will contest any fraudulent disputes appropriately
 
-Dispute Resolution:
+**Dispute Resolution:**
 - Good faith negotiation first
 - Mediation if needed
 - Disputes governed by laws of Pakistan
 - Courts of Rawalpindi have jurisdiction
 
-7. INTELLECTUAL PROPERTY
+### 7. Intellectual Property
 
-Ownership Transfer:
+**Ownership Transfer:**
 - Final deliverables ownership transfers upon full payment
 - Until full payment: all IP remains with Aasim Shah
 - Source code, design files, documentation included
 
-Portfolio Rights:
+**Portfolio Rights:**
 - We may use non-confidential aspects for portfolio or demo
 - Client logo and project name may be displayed
 - Unless otherwise agreed in writing
 
-8. CONFIDENTIALITY
+### 8. Confidentiality
 
-Data Protection:
+**Data Protection:**
 - Maintain confidentiality of all client data
 - Secure storage with encryption
 - Access limited to authorized personnel
 - Can sign formal NDA if required
 
-Data Sharing:
+**Data Sharing:**
 - Only with SafePay for payment processing
 - When required by law or regulators
 - Never sold to third parties
 
-9. ACCEPTABLE USE
+### 9. Acceptable Use
 
-Clients Agree Not To Use Services For:
+Clients agree not to use services for:
 - Illegal, fraudulent, or harmful activities
 - Hacking, malware, or unauthorized access
 - Money laundering or financial fraud
@@ -115,137 +112,119 @@ Clients Agree Not To Use Services For:
 - Adult content (without prior agreement)
 - Gambling or betting (without proper licensing)
 
-Violation Consequences:
+**Violation Consequences:**
 - Immediate project termination
 - No refund of payments made
 - Legal action if necessary
 
-10. LIMITATION OF LIABILITY
+### 10. Limitation of Liability
 
-Our Liability Limited To:
+**Our Liability Limited To:**
 - Total amount paid under these Terms
 - Direct damages only
 - No indirect or consequential damages
 
-Not Responsible For:
+**Not Responsible For:**
 - Third-party service failures
 - Client-provided content or data
 - Actions of end-users
 - Force majeure events
 - Client's business losses
 
-11. WARRANTIES & DISCLAIMERS
+### 11. Warranties & Disclaimers
 
-We Warrant:
+**We Warrant:**
 - Services performed professionally
 - Industry-standard best practices followed
 - Reasonable security measures implemented
 
-We Do Not Warrant:
+**We Do Not Warrant:**
 - Specific business outcomes
 - Specific revenue or traffic results
 - 100% uptime (aim for 99.9%)
 - Compatibility with all future technologies
 
-12. GOVERNING LAW
-
-Jurisdiction:
+### 12. Governing Law
 - These Terms governed by laws of Pakistan
 - Disputes resolved in courts of Rawalpindi
 - English language version prevails
 
-13. MODIFICATIONS
-
-Changes to Terms:
+### 13. Modifications
 - We reserve right to modify Terms
 - Changes effective upon posting to website
 - Continued use constitutes acceptance
 - Major changes communicated via email
 
-14. CONTACT INFORMATION
+### 14. Contact Information
+- **Email:** contact@aasimshah.com
+- **Phone:** +92-348-3360070
+- **Address:** Bahria Town Phase 7, Rawalpindi, Pakistan
 
-For Terms-Related Questions:
-Email: contact@aasimshah.com
-Phone: +92-348-3360070
-Address: Bahria Town Phase 7, Rawalpindi, Pakistan
+---
 
-PRIVACY POLICY:
-===============
+## Privacy Policy
 
-Last Updated: July 12, 2025
+*Last Updated: July 12, 2025*
 
-1. INTRODUCTION
+### 1. Introduction
 Aasim Shah ("we", "us", "our") values your privacy. This policy explains how we collect, use, and protect your data when you use our services.
 
-2. INFORMATION WE COLLECT
+### 2. Information We Collect
 
-Personal Information:
+**Personal Information:**
 - Name and contact details
 - Email address and phone number
 - Company name and position
 - Billing address
 
-Project Information:
+**Project Information:**
 - Project requirements and specifications
 - Design preferences
 - Business objectives
 - Target audience details
 
-Payment Information:
+**Payment Information:**
 - Processed via SafePay (we don't store card numbers)
 - Transaction history
 - Invoice details
 
-Usage Data:
+**Usage Data:**
 - Website analytics (Google Analytics)
-- IP address
-- Device information
-- Browser type
+- IP address, device information, browser type
 - Pages visited
 
-3. HOW WE USE YOUR DATA
+### 3. How We Use Your Data
 
-Primary Uses:
+**Primary Uses:**
 - Create quotes and invoices
 - Deliver services efficiently
 - Process payments securely
 - Communicate updates and provide support
 - Improve our services
 
-Communication:
+**Communication:**
 - Project updates
 - Invoice delivery
 - Support responses
 - Marketing (with consent only)
 
-4. THIRD-PARTY SHARING
+### 4. Third-Party Sharing
 
-We Share Data Only With:
+**We Share Data Only With:**
 
-SafePay:
-- For secure payment processing
-- They have own privacy policy
-- We don't store sensitive payment data
+- **SafePay:** For secure payment processing (they have their own privacy policy; we don't store sensitive payment data)
+- **Law Enforcement:** When legally required, to protect our rights, or to prevent fraud
+- **Service Providers:** Hosting providers (AWS), email services, analytics (Google Analytics – anonymized)
 
-Law Enforcement:
-- When legally required
-- To protect our rights
-- To prevent fraud
-
-Service Providers:
-- Hosting providers (AWS)
-- Email services (for communication)
-- Analytics (Google Analytics - anonymized)
-
-We DO NOT:
+**We DO NOT:**
 - Sell your data
 - Share data with marketers
 - Use data for advertising
 - Share with unauthorized third parties
 
-5. DATA SECURITY
+### 5. Data Security
 
-Security Measures:
+**Security Measures:**
 - AES-256 encryption for data at rest
 - TLS encryption for data in transit
 - Strict access controls
@@ -253,28 +232,26 @@ Security Measures:
 - Secure backup systems
 - Password hashing (bcrypt)
 
-Employee Access:
+**Employee Access:**
 - Limited to authorized personnel only
-- Background checks for employees
 - Confidentiality agreements signed
 - Regular security training
 
-6. DATA RETENTION
+### 6. Data Retention
 
-How Long We Keep Data:
-- Active projects: Duration + 1 year
-- Completed projects: 5 years (legal requirement)
-- Financial records: 7 years (tax compliance)
-- Marketing data: Until you unsubscribe
+- **Active projects:** Duration + 1 year
+- **Completed projects:** 5 years (legal requirement)
+- **Financial records:** 7 years (tax compliance)
+- **Marketing data:** Until you unsubscribe
 
-Deletion Upon Request:
+**Deletion Upon Request:**
 - Contact us to request data deletion
 - Processed within 30 days
 - Some data retained for legal compliance
 
-7. YOUR RIGHTS
+### 7. Your Rights
 
-You Have Right To:
+You have the right to:
 - Access your data
 - Correct inaccurate data
 - Request data deletion
@@ -282,139 +259,107 @@ You Have Right To:
 - Data portability
 - Withdraw consent
 
-Exercise Your Rights:
-Email: contact@aasimshah.com
-Response Time: Within 14 days
-No charge for reasonable requests
+**Exercise Your Rights:** Email contact@aasimshah.com (response within 14 days, no charge for reasonable requests)
 
-8. COOKIES & TRACKING
+### 8. Cookies & Tracking
 
-We Use Cookies For:
+**We Use Cookies For:**
 - Website functionality
 - Analytics (Google Analytics)
 - Remembering preferences
 - Security purposes
 
-Cookie Types:
-- Essential: Required for website function
-- Analytics: Understanding usage patterns
-- Preference: Remember your settings
+**Cookie Types:**
+- **Essential:** Required for website function
+- **Analytics:** Understanding usage patterns
+- **Preference:** Remember your settings
 
-You Can:
-- Disable cookies in browser
-- Opt-out of Google Analytics
-- Use incognito/private mode
+You can disable cookies in browser, opt-out of Google Analytics, or use incognito/private mode.
 
-9. CHILDREN'S PRIVACY
+### 9. Children's Privacy
 - Services not directed to children under 13
 - We don't knowingly collect children's data
 - If discovered, immediately deleted
 
-10. INTERNATIONAL TRANSFERS
+### 10. International Transfers
 - Data processed in Pakistan
 - Adequate security measures in place
 - Compliance with local laws
 
-11. CHANGES TO PRIVACY POLICY
+### 11. Changes to Privacy Policy
 - We may update this policy
 - Changes posted on website
 - Notification for significant changes
 - Continued use implies acceptance
 
-12. CONTACT US
+### 12. Contact Us
+- **Email:** contact@aasimshah.com
+- **Phone:** +92-348-3360070
+- **Response Time:** Within 7 business days
 
-Privacy Questions:
-Email: contact@aasimshah.com
-Phone: +92-348-3360070
-Response Time: Within 7 business days
+---
 
-REFUND & CANCELLATION POLICY:
-==============================
+## Refund & Cancellation Policy
 
-Last Updated: July 12, 2025
+*Last Updated: July 12, 2025*
 
-1. SCOPE
+### 1. Scope
 This policy applies to all web and app development services provided by Aasim Shah.
 
-2. CANCELLATION POLICY
+### 2. Cancellation Policy
 
-You Can Cancel At Any Time By:
+You can cancel at any time by:
 - Emailing contact@aasimshah.com
 - Calling +92-348-3360070
 - Written notice (email accepted)
 
-Effective Date:
-- Cancellation effective upon receipt of notice
-- Work stops immediately
-- No new work initiated
+Cancellation effective upon receipt of notice. Work stops immediately, no new work initiated.
 
-3. REFUND ELIGIBILITY
+### 3. Refund Eligibility
 
-Refund Amount Based On Work Completed:
-
-Within 48 Hours of Deposit:
+**Within 48 Hours of Deposit:**
 - 100% refund (full deposit returned)
 - No questions asked
 - Processed within 14 days
 
-0-25% Work Completed:
+**0–25% Work Completed:**
 - 75% refund
 - 25% retained for work done
 - Work-in-progress provided if requested
 
-26-50% Work Completed:
+**26–50% Work Completed:**
 - 50% refund
 - 50% retained for work done
 - All completed work provided
 
-More Than 50% Work Completed:
+**More Than 50% Work Completed:**
 - No refund
 - All completed work provided
 - Option to pay for remaining work if desired
 
-Work Completion Calculated By:
+**Work Completion Calculated By:**
 - Milestones completed
 - Hours worked vs. estimated hours
 - Deliverables completed
 - Good faith assessment
 
-4. REFUND PROCESS
+### 4. Refund Process
 
-Step 1: Request Refund
-- Email contact@aasimshah.com
-- Include: Invoice number, project name, reason
-- Subject: "Refund Request - [Your Name]"
+1. **Request Refund** – Email contact@aasimshah.com with invoice number, project name, and reason
+2. **Review** – Request reviewed within 5 business days, assessment of work completed
+3. **Response** – Email response with decision, refund amount confirmed
+4. **Processing** – Refund processed within 14 business days to original payment method
 
-Step 2: Review
-- We review request within 5 business days
-- May request additional information
-- Assessment of work completed
-- Calculate eligible refund amount
-
-Step 3: Response
-- Email response with decision
-- Refund amount confirmed
-- Timeline provided
-- Work-in-progress delivery arranged
-
-Step 4: Processing
-- Refund processed within 14 business days
-- Returned to original payment method
-- Email confirmation sent
-- Receipt provided
-
-5. NON-REFUNDABLE ITEMS
-
-Not Eligible For Refund:
+### 5. Non-Refundable Items
 - Third-party costs (domains, hosting, licenses)
 - External service fees (payment gateway fees)
 - Custom graphics or purchased assets
 - Work beyond included revisions
 - Completed and approved milestones
 
-6. DISPUTE RESOLUTION
+### 6. Dispute Resolution
 
-If Disagreement On Refund:
+If disagreement on refund:
 1. Email detailed explanation
 2. Provide supporting documentation
 3. Request review meeting
@@ -422,107 +367,85 @@ If Disagreement On Refund:
 5. Mediation if necessary
 6. Legal recourse (last resort)
 
-Governed By:
-- Terms & Conditions
-- Laws of Pakistan
-- Courts of Rawalpindi
+Governed by Terms & Conditions, laws of Pakistan, courts of Rawalpindi.
 
-7. EXCEPTIONS
+### 7. Exceptions
 
-Force Majeure:
-- Natural disasters
-- War or civil unrest
-- Government actions
-- Acts of God
+**Force Majeure:**
+- Natural disasters, war or civil unrest, government actions
 - No refund in these cases
 
-Client Breach:
+**Client Breach:**
 - Failure to provide required information
 - Missed payment milestones
 - Violation of Terms & Conditions
 - May void refund eligibility
 
-8. CHARGEBACK POLICY
+### 8. Chargeback Policy
 
-If You File Chargeback:
+If you file a chargeback:
 - We provide proof of service to bank/SafePay
 - Work samples and communication logs submitted
-- Project agreement and deliverables shown
 - Legitimate work disputes chargeback
 
-Consequences of Fraudulent Chargeback:
-- Legal action pursued
-- Reported to payment processors
-- Future service denied
-- Added to fraud database
+**Better Alternative:** Contact us directly first. Most issues resolved amicably. Refund process is fair. Chargeback should be last resort.
 
-Better Alternative:
-- Contact us directly first
-- Most issues resolved amicably
-- Refund process is fair
-- Chargeback should be last resort
+### 9. Partial Refunds
 
-9. PARTIAL REFUNDS
-
-May Be Offered For:
+May be offered for:
 - Significant delays (our fault)
 - Missing agreed features
 - Quality issues
 - Mutual agreement
 
-Calculated Based On:
-- Severity of issue
-- Impact on project
-- Good faith basis
-- Mutual benefit
+Calculated based on severity, impact, and good faith.
 
-10. MODIFICATIONS
+### 10. Modifications
 - We reserve right to modify this policy
 - Changes posted on website
 - Applies to projects after posting date
 
-11. CONTACT FOR REFUNDS
+### 11. Contact for Refunds
+- **Email:** contact@aasimshah.com
+- **Phone:** +92-348-3360070
+- **Subject Line:** "Refund Request – [Your Name]"
+- **Include:** Invoice number, project name, detailed reason
+- **Response Time:** Within 5 business days
+- **Refund Processing:** Within 14 business days
 
-Email: contact@aasimshah.com
-Phone: +92-348-3360070
-Subject Line: "Refund Request - [Your Name]"
-Include: Invoice number, project name, detailed reason
+---
 
-Response Time: Within 5 business days
-Refund Processing: Within 14 business days
+## Compliance & Legal
 
-COMPLIANCE & LEGAL:
-===================
-
-Regulatory Compliance:
+### Regulatory Compliance
 - Pakistan business law compliant
 - State Bank of Pakistan (SBP) guidelines followed
 - Corporate tax obligations met
 - Data protection best practices
 
-Consumer Rights:
+### Consumer Rights
 - Fair pricing transparency
 - Clear service descriptions
 - Honest refund policy
 - Dispute resolution available
 
-Business Ethics:
+### Business Ethics
 - Honest communication
 - Quality work commitment
 - Fair pricing
 - Client satisfaction priority
 - Professional conduct
 
-QUESTIONS ABOUT POLICIES:
-=========================
+---
 
-For policy clarifications:
-Email: contact@aasimshah.com
-Phone: +92-348-3360070
-Response: Within 7 business days
+## Questions About Policies
 
-Legal Advice:
-- These policies provided in good faith
-- Not substitute for legal advice
-- Consult lawyer for legal matters
-- Policies subject to applicable law
+- **Email:** contact@aasimshah.com
+- **Phone:** +92-348-3360070
+- **Response:** Within 7 business days
+
+These policies are provided in good faith and are not a substitute for legal advice. Consult a lawyer for legal matters. Policies subject to applicable law.
+
+---
+
+*Last Updated: March 2026*

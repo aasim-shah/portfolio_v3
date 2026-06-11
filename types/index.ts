@@ -85,6 +85,16 @@ export interface myServicesPlansTypes {
   link: string;
 }
 
+export interface blogPostType {
+  id: number;
+  title: string;
+  excerpt: string;
+  category: string;
+  publishedAt: string;
+  readTime: string;
+  slug: string;
+}
+
 export type FAQ = {
   question: string;
   answer: string;

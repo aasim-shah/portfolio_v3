@@ -1,4 +1,4 @@
-import { Mail, User, Zap } from "lucide-react";
+import { BookOpen, Mail, User, Zap } from "lucide-react";
 import {
   client_1,
   client_2,
@@ -29,6 +29,7 @@ import { SiUpwork } from "react-icons/si";
 import { TbBrandFiverr } from "react-icons/tb";
 
 import {
+  blogPostType,
   counterListsType,
   FAQ,
   FollowerData,
@@ -61,6 +62,45 @@ export const pagesLists: pagesListsType[] = [
     title: "Contact",
     href: "/contact",
     icon: <Mail />,
+  },
+  {
+    id: 4,
+    title: "Blogs",
+    href: "/blogs",
+    icon: <BookOpen />,
+  },
+];
+
+export const blogPosts: blogPostType[] = [
+  {
+    id: 1,
+    title: "How I Build Scalable MERN Stack Applications for Real Clients",
+    excerpt:
+      "A practical breakdown of the architecture, development flow, and deployment patterns I use to ship stable MERN products that grow with the business.",
+    category: "MERN Stack",
+    publishedAt: "March 12, 2025",
+    readTime: "6 min read",
+    slug: "scalable-mern-stack-applications",
+  },
+  {
+    id: 2,
+    title: "What It Takes to Manage Production APIs and Cloud Infrastructure",
+    excerpt:
+      "From CI/CD pipelines to monitoring and server automation, this post covers the systems thinking required to keep modern backend platforms reliable in production.",
+    category: "Cloud & DevOps",
+    publishedAt: "February 21, 2025",
+    readTime: "7 min read",
+    slug: "production-apis-cloud-infrastructure",
+  },
+  {
+    id: 3,
+    title: "Designing SaaS Backends That Are Flexible, Secure, and Easy to Extend",
+    excerpt:
+      "Key lessons from building SaaS products with multi-tenant architecture, role-based access, payment integrations, and maintainable backend services.",
+    category: "SaaS",
+    publishedAt: "January 30, 2025",
+    readTime: "5 min read",
+    slug: "designing-flexible-saas-backends",
   },
 ];
 
