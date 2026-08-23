@@ -289,11 +289,11 @@ export default function RootLayout({
           forcedTheme="dark"
           disableTransitionOnChange
         >
-          <div className="flex items-start w-full">
+          <div className="flex min-h-screen w-full items-start bg-darkest-gray">
             <SideNavbar />
-            <div className="w-full lg:flex-1">
+            <div className="w-full bg-darkest-gray lg:flex-1">
               <Navbar />
-              <main>{children}</main>
+              <main className="bg-darkest-gray">{children}</main>
               <Footer />
             </div>
             <SocialLists />

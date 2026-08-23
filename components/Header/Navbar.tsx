@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="p-6 border-b border-border-color">
+      <nav className="border-b border-border-color bg-darkest-gray p-6">
         <div className="flex items-center justify-between">
           <AvailableForWorkBtn />
           <div className="hidden md:flex items-center gap-3">

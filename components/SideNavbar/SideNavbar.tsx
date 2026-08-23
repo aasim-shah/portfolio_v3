@@ -23,7 +23,7 @@ export default function SideNavbar({ isMenuOpen }: SideNavbarProps) {
       animate={{ x: 0 }}
       exit={{ x: "-100%" }}
       transition={{ duration: 0.5, type: "spring" }}
-      className=" absolute lg:block max-w-[13%] w-full border-r border-border-color h-screen md:sticky top-0 flex-none z-10"
+      className="absolute top-0 z-10 h-screen w-full max-w-[13%] flex-none border-r border-border-color bg-darkest-gray lg:block md:sticky"
       style={{
         left: isMenuOpen ? "0" : "-100%",
         maxWidth: isMenuOpen ? "140px" : "13%",

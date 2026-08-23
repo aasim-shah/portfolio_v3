@@ -6,10 +6,10 @@ import { motion } from "framer-motion"
 
 export default function SocialLists() {
     return (
-        <aside className='hidden lg:block max-w-[13%] w-full  h-screen top-0 flex-none sticky z-10 '>
-            <div className="flex items-start overflow-hidden justify-center h-full flex-nowrap relative p-0 flex-col gap-2 ">
+        <aside className='sticky top-0 z-10 hidden h-screen w-full max-w-[13%] flex-none bg-darkest-gray lg:block'>
+            <div className="relative flex h-full flex-col flex-nowrap items-start justify-center gap-2 overflow-hidden bg-darkest-gray p-0">
                 {/* middle  */}
-                <div className="flex items-start overflow-hidden justify-center h-full flex-nowrap relative p-[20px_0px_40px_30px] flex-col flex-1 border-l border-border-color">
+                <div className="relative flex h-full flex-1 flex-col flex-nowrap items-start justify-center overflow-hidden border-l border-border-color bg-darkest-gray p-[20px_0px_40px_30px]">
                     <motion.ul
                         initial={{ opacity: 0, }}
                         whileInView={{ opacity: 1, }}
