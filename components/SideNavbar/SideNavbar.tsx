@@ -40,7 +40,7 @@ export default function SideNavbar({ isMenuOpen }: SideNavbarProps) {
               <Image
                 src={AvatarMe}
                 fill
-                quality={100}
+                sizes="50px"
                 alt="Avatar"
                 className="block w-full h-full rounded-full opacity-80 object-fill object-center"
               />

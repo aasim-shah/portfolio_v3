@@ -5,7 +5,7 @@ const greenColor: string = "#6dd33d";
 
 export default function AvailableForWorkBtn() {
   return (
-    <Link href={"https://www.upwork.com/freelancers/aasimshah"}>
+    <Link href={"/contact"}>
       <button className="h-11 px-4 rounded-3xl bg-dark-gray-3 border border-border-color">
         <div className="flex items-center justify-center gap-3">
           <div

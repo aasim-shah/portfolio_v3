@@ -17,7 +17,7 @@ export default function MyServices() {
         <SectionHeading
           icon={zapIcon}
           title="My Services"
-          description="Formulating comprehensive strategies to meet your design goals and exceed expectations."
+          description="Architecture and engineering support for production software, from backend design through deployment and managed operations."
         />
       </div>
       <div className="w-full">

@@ -15,8 +15,8 @@ export default function MyExperience() {
       <div className="flex-none h-auto relative w-full">
         <SectionHeading
           icon={briefcaseIconley}
-          title="My experience"
-          description="Navigating diverse environments with adaptability and expertise for holistic solutions."
+          title="My Experience"
+          description="5+ years designing, building, and operating production systems across backend engineering, SaaS, mobile, cloud infrastructure, fintech, healthtech, and real-time platforms."
         />
       </div>
       <div className="w-full">
@@ -36,7 +36,7 @@ export default function MyExperience() {
               key={exp.id}
               className=" border border-dark-gray-3 w-full rounded-xl flex flex-col flex-nowrap gap-5 h-min justify-start overflow-visible p-4 sm:p-6 relative"
             >
-              <div className="w-full flex justify-between flex-none items-center h-min flex-nowrap overflow-visible p-0 relative">
+              <div className="w-full flex justify-between flex-none items-start gap-5 h-min flex-wrap sm:flex-nowrap overflow-visible p-0 relative">
                 <div className="flex items-center flex-1 gap-2 h-min justify-start overflow-visible p-0 relative ">
                   {/* <div className="bg-dark-gray-4 border border-border-color rounded-lg flex float-none gap-[10px] h-min justify-center items-center overflow-visible p-[10px] relative w-min ">
                     <div className="flex-none aspect-square h-auto overflow-visible relative w-[30px] ">
@@ -59,13 +59,16 @@ export default function MyExperience() {
                         </p>
                       </div>
                       <div className="flex-none h-auto relative whitespace-pre w-auto flex flex-col justify-start flex-shrink-0">
-                        <Link
-                          href={exp.link}
-                          target="_blank"
-                          className="font-medium cursor-pointer  text-[15px]  text-light-gray-2"
-                        >
-                          {exp.link}
-                        </Link>
+                        {exp.link && (
+                          <Link
+                            href={exp.link}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium cursor-pointer text-[15px] text-light-gray-2 hover:text-light-gray-4 transition-colors"
+                          >
+                            {exp.link}
+                          </Link>
+                        )}
                       </div>
                     </div>
 
@@ -80,7 +83,7 @@ export default function MyExperience() {
                 </div>
 
                 <div className="flex flex-nowrap gap-[10px] h-min overflow-visible p-0 w-min items-center flex-none whitespace-pre">
-                  <h3 className="text-light-gray-4 font-bold text-lg sm:text-[22px] leading-[1.2em] ">
+                  <h3 className="text-light-gray-4 font-bold text-base sm:text-[22px] leading-[1.2em] ">
                     {exp.year}
                   </h3>
                 </div>
@@ -90,12 +93,30 @@ export default function MyExperience() {
                   <p className="text-light-gray-4 text-base font-bold">
                     {exp.title}
                   </p>
+                  {exp.focus && (
+                    <p className="mt-1 font-IBM_Plex_Mono text-[10px] uppercase tracking-[0.12em] text-light-gray-1">
+                      {exp.focus}
+                    </p>
+                  )}
                 </div>
                 <div className="flex flex-none flex-shrink-0 flex-col justify-start relative whitespace-pre-wrap w-full break-words">
-                  <p className="text-light-gray-2 text-[15px] text-base font-medium ">
+                  <p className="mt-2 text-light-gray-2 text-[15px] leading-6 font-medium">
                     {exp.description}
                   </p>
                 </div>
+                {exp.highlights && exp.highlights.length > 0 && (
+                  <ul className="mt-4 space-y-3 border-t border-dark-gray-3 pt-4">
+                    {exp.highlights.map((highlight) => (
+                      <li
+                        key={highlight}
+                        className="grid grid-cols-[8px_1fr] gap-3 text-[14px] leading-6 text-light-gray-2"
+                      >
+                        <span className="mt-[9px] h-1.5 w-1.5 rounded-full bg-light-gray-1" />
+                        <span>{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </motion.li>
           ))}

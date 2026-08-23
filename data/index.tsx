@@ -1,12 +1,8 @@
-import { BookOpen, Mail, User, Zap } from "lucide-react";
+import { BookOpen, FolderKanban, Info, Mail, User, Zap } from "lucide-react";
 import {
-  client_1,
-  client_2,
-  client_3,
-  client_4,
   discord,
   itecExpertsIcon,
-  fiverr,
+  AvatarMe,
   dcodaxIcon,
   dribble,
   facebook,
@@ -16,6 +12,10 @@ import {
   nextjsIcon,
   pos,
   primier,
+  project_1,
+  project_2,
+  project_3,
+  project_4,
   pinterest,
   seoOptIcon,
   snapchat,
@@ -24,9 +24,7 @@ import {
   webDevIcon,
   XLogo,
 } from "@/app/assets/assets";
-import { Github } from "lucide-react";
-import { SiUpwork } from "react-icons/si";
-import { TbBrandFiverr } from "react-icons/tb";
+import { Github, Instagram, Linkedin } from "lucide-react";
 
 import {
   blogPostType,
@@ -53,18 +51,30 @@ export const pagesLists: pagesListsType[] = [
   },
   {
     id: 2,
+    title: "Projects",
+    href: "/projects",
+    icon: <FolderKanban />,
+  },
+  {
+    id: 3,
+    title: "About",
+    href: "/about",
+    icon: <Info />,
+  },
+  {
+    id: 4,
     title: "Services",
     href: "/services",
     icon: <Zap />,
   },
   {
-    id: 3,
+    id: 5,
     title: "Contact",
     href: "/contact",
     icon: <Mail />,
   },
   {
-    id: 4,
+    id: 6,
     title: "Blogs",
     href: "/blogs",
     icon: <BookOpen />,
@@ -107,21 +117,21 @@ export const blogPosts: blogPostType[] = [
 export const socialLists: socialListsTypes[] = [
   {
     id: 1,
-    title: "Fiverr",
-    icon: <TbBrandFiverr size={22} />,
-    link: "https://www.fiverr.com/users/aaasimmshah",
-  },
-  {
-    id: 2,
-    title: "Upwork",
-    icon: <SiUpwork size={22} />,
-    link: "https://www.upwork.com/freelancers/aasimshah",
-  },
-  {
-    id: 3,
     title: "Github",
     icon: <Github size={22} />,
     link: "https://www.github.com/aasim-shah",
+  },
+  {
+    id: 2,
+    title: "LinkedIn",
+    icon: <Linkedin size={22} />,
+    link: "https://www.linkedin.com/in/aasimshah/",
+  },
+  {
+    id: 3,
+    title: "Instagram",
+    icon: <Instagram size={22} />,
+    link: "https://www.instagram.com/themistyframes_/",
   },
 ];
 
@@ -167,18 +177,27 @@ export const socialBrands: socialBrandsTypes[] = [
 export const counterLists: counterListsType[] = [
   {
     id: 1,
-    title: "Happy Clients",
-    value: 100,
+    title: "VPN Servers",
+    value: 45,
+    suffix: "+",
   },
   {
     id: 2,
-    title: "Year of Experience",
-    value: 5,
+    title: "Global Regions",
+    value: 20,
+    suffix: "+",
   },
   {
     id: 3,
-    title: "Completed Projects",
-    value: 80,
+    title: "Mobile Users",
+    value: 2,
+    suffix: "M+",
+  },
+  {
+    id: 4,
+    title: "Products Launched",
+    value: 8,
+    suffix: "+",
   },
 ];
 
@@ -187,45 +206,67 @@ export const myExperience: myExperienceTypes[] = [
     id: 1,
     year: "Oct 2025 - Present",
     title: "MERN Stack Developer",
+    focus: "Backend & Infrastructure Architecture",
     company: "Appworks",
     label: "Islamabad, PK",
     description:
-      "Developed secure backend APIs for eEagle VPN (1.4M+ downloads). Built Super Admin Dashboard for VPN server management. Automated VPN server provisioning with Node.js, Bash, and Linux automation. Set up Grafana monitoring for 60+ production servers. Built and deployed eEagle VPN Chrome Extension.",
-    link: "https://appworks.com",
+      "Backend and infrastructure architecture for eEagle VPN and its globally distributed production fleet.",
+    highlights: [
+      "Architected secure backend APIs and a Super Admin Dashboard for eEagle VPN (2M+ downloads), owning authentication, server allocation, and lifecycle management across 45+ servers in 20+ regions.",
+      "Built repeatable infrastructure automation for WireGuard and server provisioning with Node.js, Bash, and a remote script-based deployment pipeline.",
+      "Established Grafana and Prometheus observability using Kafka, Docker, Node, and Redis exporters, with alerting for fleet health, uptime, and performance.",
+      "Own production security hardening and performance, and shipped the eEagle VPN Chrome Extension for browser-level connectivity.",
+    ],
+    link: "https://eeaglevpn.com",
     logo: dcodaxIcon,
   },
   {
     id: 2,
     year: "Sep 2024 - Sep 2025",
     title: "MERN Stack Developer",
+    focus: "Backend Architecture",
     company: "Dcodax Pvt Ltd",
     label: "Islamabad, PK",
     description:
-      "Developed RESTful APIs for multi-vendor hotel management SaaS (Hoheal) with real-time staff-guest chat. Built PIKUP POS restaurant automation with QR ordering and Flutter apps. Delivered Ajar rental platform with Stripe payments. Created Bite.md multi-vendor marketplace with MAIB payment gateway integration.",
+      "Backend architecture and cross-functional delivery across four production SaaS platforms.",
+    highlights: [
+      "Architected REST APIs for Hoheal, including multi-vendor hotel workflows, service requests, and real-time staff–guest messaging.",
+      "Designed PIKUP POS backend architecture for QR ordering and real-time POS synchronization, plus Ajar rental workflows with Stripe and document-backed registration.",
+      "Designed Bite.md backend and MAIB payments, directing React and Flutter delivery across four SaaS products shipped within 12 months.",
+    ],
     link: "http://dcodax.com",
     logo: dcodaxIcon,
   },
   {
     id: 3,
-    year: "July 2023 - Aug 2024",
+    year: "Jul 2023 - Aug 2024",
     title: "MERN Stack Developer",
     company: "ItecExperts Pvt Ltd",
     label: "Peshawar, PK",
     description:
-      "Engineered backend APIs for Flutter apps including marketplaces, automation tools, e-commerce, and chat solutions. Built advanced messaging platform with Socket.io. Optimized MySQL and MongoDB databases. Implemented Stripe payment solutions. Managed AWS deployment and CI/CD pipelines with GitHub Actions.",
+      "Backend engineering for mobile applications, marketplaces, automation tools, commerce, and B2B systems.",
+    highlights: [
+      "Engineered production APIs powering Flutter apps, marketplaces, automation tools, e-commerce, and B2B products.",
+      "Led a Socket.io messaging platform with file transfers, forwarding, and reactions, while optimizing MySQL and MongoDB data models.",
+      "Architected subscription and billing workflows and owned AWS and GitHub Actions CI/CD, reducing deployment time by 40%.",
+    ],
     link: "https://itecexperts.com",
     logo: itecExpertsIcon,
   },
   {
     id: 4,
-    year: "Feb 2021 - June 2023",
+    year: "Feb 2021 - Jun 2023",
     title: "Backend Developer",
     company: "47Apps Company",
     label: "Remote, US",
     description:
-      "Engineered backend APIs for Flutter apps, websites, and admin dashboards. Launched multi-vendor service marketplace on AWS. Created sophisticated chat system for vendor-user and community interactions. Integrated Stripe payment solutions securing transactions.",
+      "Backend APIs and production infrastructure for mobile, web, marketplace, and real-time products.",
+    highlights: [
+      "Engineered APIs for Flutter apps, marketing websites, and admin dashboards, and launched a multi-vendor service marketplace on AWS.",
+      "Built real-time vendor–user chat and integrated Stripe payment infrastructure, reducing payment errors.",
+    ],
     link: "",
-    logo: fiverr,
+    logo: AvatarMe,
   },
 ];
 
@@ -321,7 +362,7 @@ export const myServices: myServicesTypes[] = [
     id: 1,
     title: "MERN Stack Development",
     description:
-      "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js with 5+ years of experience.",
+      "Designing and building production web applications with Node.js, React, Next.js, TypeScript, MongoDB, MySQL, and PostgreSQL.",
     icon: webDesignIcon,
     link: "/services",
   },
@@ -329,7 +370,7 @@ export const myServices: myServicesTypes[] = [
     id: 2,
     title: "API Development & Integration",
     description:
-      "Designing RESTful APIs, GraphQL endpoints, and integrating third-party services including Stripe, OpenAI, and payment gateways.",
+      "Architecting secure REST APIs, database models, real-time systems, and integrations for Stripe, MAIB, OpenAI, and other platforms.",
     icon: webDevIcon,
     link: "/services",
   },
@@ -337,7 +378,7 @@ export const myServices: myServicesTypes[] = [
     id: 3,
     title: "Cloud Infrastructure & DevOps",
     description:
-      "Server automation, VPN infrastructure, CI/CD pipelines, monitoring with Grafana, and deployment on AWS, DigitalOcean, and Hetzner.",
+      "Automating Linux and WireGuard infrastructure, CI/CD, monitoring, and deployments across AWS, DigitalOcean, Contabo, and Gthost.",
     icon: seoOptIcon,
     link: "/services",
   },
@@ -345,7 +386,7 @@ export const myServices: myServicesTypes[] = [
     id: 4,
     title: "SaaS Product Development",
     description:
-      "End-to-end SaaS development including multi-tenant architecture, admin dashboards, Chrome extensions, and mobile app backends.",
+      "Taking multi-tenant products from architecture through launch, including admin dashboards, payments, AI/RAG, and mobile app backends.",
     icon: webDesignIcon,
     link: "/services",
   },
@@ -354,155 +395,210 @@ export const myServices: myServicesTypes[] = [
 export const myShowCases: myShowCasesTypes[] = [
   {
     id: 1,
-    title: "eEagle VPN",
+    title: "FyreWay",
     description:
-      "Secure backend APIs and Super Admin Dashboard for VPN management. Handles 1.4M+ downloads with automated server provisioning and Grafana monitoring for 60+ servers.",
-    link: "https://play.google.com/store/apps/details?id=com.eeagle.vpn",
-    type: "VPN/SaaS",
-    theme: "Dark",
-    pages: 50,
-    image: pos,
+      "Self-serve infrastructure platform that provisions production-ready VPN servers across 20+ global locations, with automated lifecycle management, SDKs, monitoring, and reliability controls.",
+    link: "https://fyreway.com",
+    type: "VPN Infrastructure",
+    status: "Live",
+    technologies: "Node.js · Bash · WireGuard",
+    image: project_1,
   },
   {
     id: 2,
-    title: "PIKUP POS",
+    title: "eEagle VPN",
     description:
-      "Complete restaurant automation with QR table ordering, real-time POS sync, Flutter mobile apps, and Next.js dashboards for Super Admin and Vendors.",
-    link: "https://pikuppos.hostdonor.com/",
-    type: "E-Commerce/POS",
-    theme: "Dark",
-    pages: 80,
-    image: pos,
+      "Backend and infrastructure architecture for a consumer VPN serving approximately 2M mobile users through 45+ servers in 20+ regions, with automated provisioning and fleet-wide observability.",
+    link: "https://eeaglevpn.com",
+    type: "VPN Platform",
+    status: "Live",
+    technologies: "Node.js · WireGuard · Grafana",
+    image: project_2,
   },
   {
     id: 3,
-    title: "HOHEAL - Hotel Management SaaS",
+    title: "FyreMaps",
     description:
-      "Multi-vendor hotel management system with service request handling, real-time staff-guest chat, and comprehensive admin panels. Onboarded 50+ hotels.",
-    link: "http://172.86.108.103:4000/en",
-    type: "SaaS",
-    theme: "Light",
-    pages: 60,
-    image: hoheal,
+      "Location infrastructure combining maps, routing, search, navigation, geofencing, and geocoding through a single production-ready integration.",
+    link: "https://fyremaps.com",
+    type: "Location Infrastructure",
+    status: "Live",
+    technologies: "PostGIS · MapLibre GL · AWS",
+    image: project_3,
   },
   {
     id: 4,
-    title: "Fyrebot - AI Chatbot Platform",
+    title: "GetRestro",
     description:
-      "SaaS platform for self-serve chatbot creation in under 10 minutes. Multi-tenant API-key architecture with npm widget, React Native plugin, and OpenAI integration.",
-    link: "#",
-    type: "AI/SaaS",
-    theme: "Dark",
-    pages: 40,
+      "Multi-tenant restaurant management SaaS combining POS, kitchen display, staff workflows, inventory, online ordering, and real-time analytics for multi-location operators.",
+    link: "https://getrestro.com",
+    type: "Restaurant SaaS",
+    status: "In production",
+    technologies: "Next.js · Node.js · Real-time",
     image: pos,
   },
   {
     id: 5,
-    title: "Premier Vehicles Marketplace",
+    title: "RunMyPharmacy",
     description:
-      "Comprehensive vehicle marketplace with admin panel enabling 1,000+ listings of cars and bikes. Integrated secure payment options with 30% increase in transactions.",
-    link: "github.com/aasim-shah/premier_dashboard",
-    type: "Marketplace",
-    theme: "Dark",
-    pages: 30,
-    image: primier,
+      "Web-based pharmacy POS and inventory platform with checkout, batch and expiry tracking, reporting, and real-time synchronization, used by 30+ businesses.",
+    link: "https://runmypharmacy.com",
+    type: "Pharmacy SaaS",
+    status: "In production",
+    technologies: "POS · Inventory · Real-time",
+    image: project_4,
   },
   {
     id: 6,
-    title: "Ajar - Rental Platform",
+    title: "FeedWink",
     description:
-      "Multi-vendor rental platform with Stripe payments, dynamic registration with document verification, real-time notifications, and Next.js admin/vendor dashboards.",
-    link: "#",
-    type: "Marketplace",
-    theme: "Light",
-    pages: 45,
+      "Private baby-care app for tracking feeds, sleep, growth, vaccines, and milestones, with AI-assisted health insights and real-time caregiver sharing.",
+    link: "https://www.feedwink.com",
+    type: "Healthtech",
+    status: "Live",
+    technologies: "AI Insights · Mobile · Real-time",
+    image: project_1,
+  },
+  {
+    id: 7,
+    title: "FyreBot",
+    description:
+      "Multi-tenant AI chatbot platform trained on business-provided knowledge, with retrieval-scoped answers and embeddable React, Vue, and JavaScript widgets.",
+    link: "https://fyrebot.fyreway.com",
+    type: "AI SaaS",
+    status: "Live",
+    technologies: "RAG · OpenAI · Embeddable SDKs",
+    image: project_2,
+  },
+  {
+    id: 8,
+    title: "PIKUP POS",
+    description:
+      "Restaurant automation platform with a Super Admin Dashboard, React website, Flutter apps, custom POS, QR-code table ordering, and real-time synchronization.",
+    link: "",
+    type: "Restaurant Automation",
+    status: "Production deployment",
+    technologies: "React · Flutter · POS",
     image: pos,
+  },
+  {
+    id: 9,
+    title: "Hoheal",
+    description:
+      "Hotel management platform with service-request workflows and real-time staff–guest chat, onboarding 50+ hotels during its first six months.",
+    link: "",
+    type: "Hospitality SaaS",
+    status: "Production deployment",
+    technologies: "Node.js · Socket.io · SaaS",
+    image: hoheal,
+  },
+  {
+    id: 10,
+    title: "Ajar",
+    description:
+      "Multi-vendor rental platform with Stripe payments, document-verification-backed registration, real-time notifications, and dedicated admin and vendor dashboards.",
+    link: "",
+    type: "Rental Marketplace",
+    status: "Client project",
+    technologies: "Next.js · Stripe · Node.js",
+    image: project_3,
+  },
+  {
+    id: 11,
+    title: "Bite.md",
+    description:
+      "Multi-vendor marketplace spanning pharmacy, grocery, and restaurant ordering, supported by backend architecture and a MAIB payment integration.",
+    link: "",
+    type: "Multi-vendor Marketplace",
+    status: "Client project",
+    technologies: "Node.js · MAIB · Marketplace",
+    image: project_4,
+  },
+  {
+    id: 12,
+    title: "Pizzayolo",
+    description:
+      "Food-ordering platform for pizza operations with loyalty points, coupons, category and vendor management, real-time order tracking, and web and mobile delivery workflows.",
+    link: "",
+    type: "Food Ordering",
+    status: "Client platform",
+    technologies: "Web · Mobile · Real-time",
+    image: primier,
+  },
+  {
+    id: 13,
+    title: "Papa'sNV",
+    description:
+      "Multi-vendor food-ordering platform with loyalty, coupon, catalogue, order-tracking, and delivery workflows designed for fast-food operations.",
+    link: "",
+    type: "Food Ordering",
+    status: "Client platform",
+    technologies: "Web · Mobile · Real-time",
+    image: project_1,
+  },
+  {
+    id: 14,
+    title: "FeastFlow",
+    description:
+      "Food commerce platform supporting vendor and category management, promotional offers, real-time ordering, and end-to-end delivery workflows across web and mobile.",
+    link: "",
+    type: "Food Ordering",
+    status: "Client platform",
+    technologies: "Web · Mobile · Real-time",
+    image: project_2,
   },
 ];
 
-export const testimonials: testimonialsTypes[] = [
-  {
-    id: 1,
-    name: "Sarah Thompson",
-    description:
-      "The MERN stack web application Syed built for my business is top-notch! It's fast, scalable, and has completely streamlined our operations.",
-    location: "New York City, USA.",
-    avatar: client_1,
-  },
-  {
-    id: 2,
-    name: "John Anderson",
-    description:
-      "Syed's API development skills are outstanding! He designed a seamless and efficient RESTful API for our mobile and web apps, making integrations smooth.",
-    location: "Sydney, Australia.",
-    avatar: client_2,
-  },
-  {
-    id: 3,
-    name: "Mark Davis",
-    description:
-      "From backend optimization to cloud deployment, Syed handled our entire project flawlessly. Our platform is now running with excellent performance on AWS.",
-    location: "London, UK.",
-    avatar: client_3,
-  },
-  {
-    id: 4,
-    name: "Laura Adams",
-    description:
-      "Syed delivered a full-stack solution, including a responsive website, an admin dashboard, and a cross-platform Flutter app. The end-to-end development was executed perfectly!",
-    location: "Madrid, Spain.",
-    avatar: client_4,
-  },
-];
+export const testimonials: testimonialsTypes[] = [];
 
 export const myServicesPlans: myServicesPlansTypes[] = [
   {
     id: 1,
     service: "MERN Stack Development",
-    price: "$30",
+    price: "Custom",
     description:
       "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js with proven expertise.",
-    completedWorks: "80+",
+    completedWorks: "Architecture → launch",
     experience: "5+ years",
-    totalHoursWorked: "3000+ hours",
+    totalHoursWorked: "Remote / global",
     icon: webDesignIcon,
-    link: "https://www.upwork.com/freelancers/aasimshah",
+    link: "/contact",
   },
   {
     id: 2,
     service: "API Development & Integration",
-    price: "$35",
+    price: "Custom",
     description:
-      "Designing RESTful and GraphQL APIs with third-party integrations including Stripe, OpenAI, and payment gateways.",
-    completedWorks: "60+",
+      "Designing secure REST APIs, database architecture, and integrations including Stripe, MAIB, OpenAI, and real-time services.",
+    completedWorks: "APIs & integrations",
     experience: "5+ years",
-    totalHoursWorked: "2000+ hours",
+    totalHoursWorked: "Project / retainer",
     icon: webDevIcon,
-    link: "https://www.upwork.com/freelancers/aasimshah",
+    link: "/contact",
   },
   {
     id: 3,
     service: "Cloud Infrastructure & DevOps",
-    price: "$40",
+    price: "Custom",
     description:
-      "Server automation, VPN infrastructure, CI/CD pipelines, monitoring with Grafana. Managing 60+ production servers.",
-    completedWorks: "40+",
+      "Server automation, VPN infrastructure, CI/CD, and Grafana and Prometheus monitoring across 45+ production servers.",
+    completedWorks: "45+ server fleet",
     experience: "3+ years",
-    totalHoursWorked: "1500+ hours",
+    totalHoursWorked: "Build / managed ops",
     icon: seoOptIcon,
-    link: "https://www.upwork.com/freelancers/aasimshah",
+    link: "/contact",
   },
   {
     id: 4,
     service: "SaaS Product Development",
-    price: "$35",
+    price: "Custom",
     description:
       "Complete SaaS development with multi-tenant architecture, admin dashboards, Chrome extensions, and mobile backends.",
-    completedWorks: "30+",
+    completedWorks: "8+ products launched",
     experience: "4+ years",
-    totalHoursWorked: "2500+ hours",
+    totalHoursWorked: "Project / retainer",
     icon: webDesignIcon,
-    link: "https://www.upwork.com/freelancers/aasimshah",
+    link: "/contact",
   },
 ];
 
@@ -525,7 +621,7 @@ export const faqData: FAQ[] = [
   {
     question: "Can you handle server infrastructure and deployment?",
     answer:
-      "Yes! I have extensive experience with AWS, DigitalOcean, Hetzner, and other cloud providers. I can set up and manage production servers, implement CI/CD pipelines, configure monitoring with Grafana, and handle automated server provisioning. I currently manage 60+ production servers.",
+      "Yes. I work across AWS, DigitalOcean, Contabo, Gthost, and Linux environments. I can provision production servers, automate deployments, configure Grafana and Prometheus, and manage WireGuard infrastructure. My current work spans 45+ servers across 20+ regions.",
   },
   {
     question: "Do you integrate third-party services and payment gateways?",
@@ -535,12 +631,12 @@ export const faqData: FAQ[] = [
   {
     question: "Can you build Chrome extensions and browser tools?",
     answer:
-      "Yes! I've built multiple Chrome extensions including VPN tools and email schedulers. I'm proficient with Chrome Extension Manifest V3, background workers, and secure proxy configurations.",
+      "Yes. I shipped the eEagle VPN Chrome Extension, extending the platform's backend connectivity to browser-level VPN access.",
   },
   {
     question: "Do you offer maintenance and support?",
     answer:
-      "Yes, I offer ongoing maintenance and support services to ensure your application remains secure, updated, and optimized. This includes bug fixes, feature additions, performance optimization, and 24/7 monitoring for critical systems.",
+      "Yes. I offer ongoing maintenance and managed operations covering bug fixes, feature delivery, security updates, performance work, observability, and incident alerting for production systems.",
   },
   {
     question: "What is your development approach?",
@@ -551,21 +647,21 @@ export const faqData: FAQ[] = [
 
 export const followerData: FollowerData[] = [
   {
-    platform: "twitter",
-    followers: "2.1K",
-    url: "https://twitter.com/",
-    icon: XLogo,
+    platform: "LinkedIn",
+    followers: "Connect",
+    url: "https://www.linkedin.com/in/aasimshah/",
+    icon: linkedInIcon,
+  },
+  {
+    platform: "GitHub",
+    followers: "View code",
+    url: "https://github.com/aasim-shah",
+    icon: "https://github.githubassets.com/favicons/favicon.svg",
   },
   {
     platform: "Instagram",
-    followers: "1.3K",
-    url: "https://www.instagram.com/",
+    followers: "@themistyframes_",
+    url: "https://www.instagram.com/themistyframes_/",
     icon: instagramIcon,
-  },
-  {
-    platform: "LinkedIn",
-    followers: "2.5K",
-    url: "https://www.linkedin.com/in/aasimshah",
-    icon: linkedInIcon,
   },
 ];

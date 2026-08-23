@@ -4,7 +4,6 @@ import MyExperience from "@/components/MyExperience/MyExperience";
 import MyServices from "@/components/MyServices/MyServices";
 import MyStack from "@/components/MyStack/MyStack";
 import ShowCase from "@/components/ShowCase";
-import Testimonials from "@/components/Testimonials";
 import ChatbotWidget from "fyrebot-widget";
 import React from "react";
 
@@ -18,14 +17,14 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "Aasim Shah - Full Stack Developer Portfolio",
-            description: "Portfolio of Aasim Shah, an experienced Full Stack Developer specializing in MERN Stack development, API development, and cloud solutions.",
+            name: "Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
+            description: "Portfolio of Aasim Shah, a backend-focused Senior Full-Stack Engineer and Solution Architect specializing in production SaaS, infrastructure, fintech, and AI systems.",
             url: "https://aasimshah.com",
             mainEntity: {
               "@type": "Person",
               name: "Aasim Shah",
-              jobTitle: "Full Stack Developer",
-              description: "Experienced Full Stack Developer with 5+ years of experience, specializing in MERN Stack, API development, and cloud solutions. 40+ completed projects.",
+              jobTitle: "Senior Full-Stack Engineer & Solution Architect",
+              description: "Backend-focused engineer with 5+ years of experience across multi-tenant SaaS, VPN infrastructure, fintech payments, healthtech, and AI systems.",
             },
             breadcrumb: {
               "@type": "BreadcrumbList",
@@ -42,7 +41,7 @@ export default function Home() {
         }}
       />
       
-      {/* Structured Data for Offers/Services */}
+      {/* Structured Data for Services */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -51,40 +50,28 @@ export default function Home() {
             "@type": "ItemList",
             itemListElement: [
               {
-                "@type": "Offer",
+                "@type": "Service",
                 position: 1,
-                name: "MERN Stack Development",
-                description: "Building scalable and high-performance web applications using MongoDB, Express, React, and Node.js.",
-                price: "30",
-                priceCurrency: "USD",
-                availability: "https://schema.org/InStock",
+                name: "Full-Stack Product Engineering",
+                description: "Production applications using Node.js, React, Next.js, TypeScript, and relational and document databases.",
               },
               {
-                "@type": "Offer",
+                "@type": "Service",
                 position: 2,
                 name: "API Development",
-                description: "Designing and developing RESTful and GraphQL APIs for seamless data communication.",
-                price: "40",
-                priceCurrency: "USD",
-                availability: "https://schema.org/InStock",
+                description: "REST APIs, database architecture, real-time systems, payment gateways, and AI integrations.",
               },
               {
-                "@type": "Offer",
+                "@type": "Service",
                 position: 3,
                 name: "Cloud & DevOps",
-                description: "Deploying and managing cloud-based applications with CI/CD pipelines, Docker, and AWS.",
-                price: "80",
-                priceCurrency: "USD",
-                availability: "https://schema.org/InStock",
+                description: "Linux and WireGuard automation, CI/CD, observability, and multi-cloud deployments.",
               },
               {
-                "@type": "Offer",
+                "@type": "Service",
                 position: 4,
-                name: "Complete Project Development",
-                description: "End-to-end development including website, admin dashboard, cross-platform mobile app, and AWS deployment.",
-                price: "30",
-                priceCurrency: "USD",
-                availability: "https://schema.org/InStock",
+                name: "SaaS Product Development",
+                description: "Multi-tenant SaaS delivery from system design through launch and managed operations.",
               },
             ],
           }),
@@ -97,16 +84,15 @@ export default function Home() {
           <MyExperience />
           <MyStack />
           <MyServices />
-          <ShowCase showData={2} isMore />
-          <Testimonials />
+          <ShowCase showData={4} isMore />
           <ChatbotWidget
             apiUrl="https://api.fyreway.com/api"
             apiKey="sk_Eul4xSznW_uisLy8wBi1k4Nfb6jaGXmB"
             primaryColor="#000ff"
             title="Chat with Aasim"
-            subtitle="Ask me about Aasim shah"
+            subtitle="Ask about my experience and projects"
             suggestedQuestions={[
-              {id: "0", question: "Who is Aasim shah ?"},
+              {id: "0", question: "Who is Aasim Shah?"},
               {id: "1", question: "What services do you offer?"},
               {id: "2", question: "Can you tell me about your experience?"},
               {id: "3", question: "What technologies do you specialize in?"},

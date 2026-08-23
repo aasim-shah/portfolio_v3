@@ -22,11 +22,11 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://aasimshah.com'),
   title: {
-    default: "Syed Aasim Shah - MERN Stack Developer | VPN Infrastructure | Backend APIs | SaaS Development",
-    template: "%s | Syed Aasim Shah - MERN Stack Developer"
+    default: "Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
+    template: "%s | Syed Aasim Shah"
   },
   description:
-    "Syed Aasim Shah is an experienced MERN Stack Developer from Islamabad, Pakistan, specializing in backend APIs, VPN infrastructure, SaaS platforms, and cloud automation. Currently at Appworks building eEagle VPN (1.4M+ downloads). Expert in Node.js, React, MongoDB, AWS, server automation, and real-time systems. 5+ years experience, 80+ completed projects, managing 60+ production servers.",
+    "Syed Aasim Shah is a backend-focused Senior Full-Stack Engineer and Solution Architect in Islamabad, Pakistan, with 5+ years of experience across VPN infrastructure, multi-tenant SaaS, fintech, healthtech, AI systems, and cloud automation.",
   keywords: [
     "Syed Aasim Shah",
     "Aasim Shah",
@@ -102,10 +102,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://aasimshah.com",
-    siteName: "Syed Aasim Shah - MERN Stack Developer",
-    title: "Syed Aasim Shah - MERN Stack Developer | VPN Infrastructure | Backend APIs",
+    siteName: "Syed Aasim Shah - Engineering Portfolio",
+    title: "Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
     description:
-      "Experienced MERN Stack Developer specializing in VPN infrastructure, backend APIs, and SaaS platforms. Built eEagle VPN (1.4M+ downloads), managing 60+ production servers. 5+ years experience, 80+ completed projects. Expert in Node.js, React, MongoDB, AWS, server automation.",
+      "Backend-focused engineer with 5+ years of experience across multi-tenant SaaS, VPN infrastructure serving approximately 2M users, fintech, healthtech, AI, and cloud automation.",
     images: [
       {
         url: "/profile.png",
@@ -117,11 +117,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Syed Aasim Shah - MERN Stack Developer | VPN Infrastructure Expert",
+    title: "Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
     description:
-      "MERN Stack Developer specializing in VPN infrastructure, backend APIs, SaaS platforms. Built eEagle VPN (1.4M+ downloads). Managing 60+ production servers. 5+ years experience.",
+      "Backend-focused engineer building production SaaS, VPN infrastructure, real-time systems, payments, AI platforms, and cloud automation.",
     images: ["/profile.png"],
-    creator: "@aasimshah",
   },
   robots: {
     index: true,
@@ -136,11 +135,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://aasimshah.com",
-  },
-  verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification code
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
   },
   category: "Technology",
 };
@@ -182,11 +176,10 @@ export default function RootLayout({
               },
               sameAs: [
                 "https://github.com/aasim-shah",
-                "https://www.linkedin.com/in/aasimshah",
-                "https://www.upwork.com/freelancers/aasimshah",
-                "https://www.fiverr.com/users/aaasimmshah",
+                "https://www.linkedin.com/in/aasimshah/",
+                "https://www.instagram.com/themistyframes_/",
               ],
-              jobTitle: "MERN Stack Developer",
+              jobTitle: "Senior Full-Stack Engineer & Solution Architect",
               worksFor: {
                 "@type": "Organization",
                 name: "Appworks",
@@ -262,12 +255,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              name: "Syed Aasim Shah - MERN Stack Development Services",
-              description: "Professional MERN Stack development, VPN infrastructure, backend APIs, and SaaS solutions",
+              name: "Syed Aasim Shah - Software Architecture & Engineering Services",
+              description: "Backend architecture, production SaaS, VPN infrastructure, cloud automation, payments, and AI engineering services.",
               image: "https://aasimshah.com/profile.png",
               "@id": "https://aasimshah.com",
               url: "https://aasimshah.com",
-              priceRange: "$30 - $40",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Islamabad",
@@ -277,18 +269,12 @@ export default function RootLayout({
                 "@type": "GeoCoordinates",
                 addressCountry: "PK",
               },
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "5",
-                reviewCount: "100",
-                bestRating: "5",
-              },
               areaServed: "Worldwide",
               availableLanguage: ["English", "Urdu"],
               sameAs: [
                 "https://github.com/aasim-shah",
-                "https://www.upwork.com/freelancers/aasimshah",
-                "https://www.fiverr.com/users/aaasimmshah",
+                "https://www.linkedin.com/in/aasimshah/",
+                "https://www.instagram.com/themistyframes_/",
               ],
             }),
           }}

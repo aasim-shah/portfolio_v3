@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Loader from "../ui/Loader";
 import SuccessForm from "../ui/SuccessForm";
 import { formVariants } from "@/animation/varients";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Form() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -52,11 +53,11 @@ export default function Form() {
       className="flex flex-col w-full gap-0"
     >
       {isSubmitting ? (
-        <div className="h-full min-h-[350px] w-full flex flex-col items-center justify-center bg-dark-gray-2 rounded-xl border border-dark-gray-3 select-none">
+        <div className="flex min-h-[350px] w-full select-none flex-col items-center justify-center rounded-2xl border border-dark-gray-4 bg-very-dark-gray">
           {loader ? <Loader /> : <SuccessForm action={errorOnSubmit ? "error" : "success"} />}
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="grid gap-4">
+        <form onSubmit={handleSubmit} className="grid gap-5">
           <div className="hidden">
             <input
               value={data.honeypot}
@@ -65,50 +66,62 @@ export default function Form() {
             />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <input
-              className="p-4 rounded-lg bg-dark-gray-2 text-very-light-gray outline-none"
-              name="name"
-              placeholder="Name"
-              type="text"
-              value={data.name}
-              onChange={e => setData({ ...data, name: e.target.value })}
-              required
-            />
-            <input
-              className="p-4 rounded-lg bg-dark-gray-2 text-very-light-gray outline-none"
-              name="email"
-              placeholder="Email"
-              type="email"
-              value={data.email}
-              onChange={e => setData({ ...data, email: e.target.value })}
-              required
-            />
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <label className="grid gap-2">
+              <span className="font-IBM_Plex_Mono text-[8px] uppercase tracking-[0.16em] text-light-gray-1">Name</span>
+              <input
+                className="min-h-12 rounded-xl border border-dark-gray-4 bg-very-dark-gray px-4 text-sm text-very-light-gray outline-none transition-colors placeholder:text-medium-gray focus:border-dark-gray-8"
+                name="name"
+                placeholder="Your name"
+                type="text"
+                value={data.name}
+                onChange={e => setData({ ...data, name: e.target.value })}
+                required
+              />
+            </label>
+            <label className="grid gap-2">
+              <span className="font-IBM_Plex_Mono text-[8px] uppercase tracking-[0.16em] text-light-gray-1">Email</span>
+              <input
+                className="min-h-12 rounded-xl border border-dark-gray-4 bg-very-dark-gray px-4 text-sm text-very-light-gray outline-none transition-colors placeholder:text-medium-gray focus:border-dark-gray-8"
+                name="email"
+                placeholder="you@company.com"
+                type="email"
+                value={data.email}
+                onChange={e => setData({ ...data, email: e.target.value })}
+                required
+              />
+            </label>
           </div>
 
-          <textarea
-            className="p-4 rounded-lg bg-dark-gray-2 text-very-light-gray outline-none resize-y min-h-56 max-h-96"
-            name="message"
-            placeholder="Message"
-            rows={8}
-            value={data.message}
-            onChange={e => setData({ ...data, message: e.target.value })}
-            required
-          />
+          <label className="grid gap-2">
+            <span className="font-IBM_Plex_Mono text-[8px] uppercase tracking-[0.16em] text-light-gray-1">Project details</span>
+            <textarea
+              className="min-h-48 max-h-96 resize-y overflow-x-hidden rounded-xl border border-dark-gray-4 bg-very-dark-gray p-4 text-sm leading-6 text-very-light-gray outline-none transition-colors placeholder:text-medium-gray focus:border-dark-gray-8"
+              name="message"
+              wrap="soft"
+              placeholder="Tell me about the product, current stage, scope, and timeline."
+              rows={7}
+              value={data.message}
+              onChange={e => setData({ ...data, message: e.target.value })}
+              required
+            />
+          </label>
 
-          <button
-            type="submit"
-            className="w-full bg-almost-black text-white p-4 rounded-lg hover:bg-dark-gray-4 transition"
-          >
-            Send Your Message
-          </button>
+          <div className="flex flex-col gap-4 pt-1 sm:flex-row sm:items-center sm:justify-between">
+            <button
+              type="submit"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-white px-6 text-xs font-semibold text-black transition-transform hover:-translate-y-0.5"
+            >
+              Send enquiry <ArrowUpRight size={14} />
+            </button>
 
-          <p className="text-center text-light-gray-2 text-sm">
-            Or email directly at{" "}
-            <a href="mailto:contact@aasimshah.com" className="text-blue-600 hover:underline">
-              contact@aasimshah.com
-            </a>
-          </p>
+            <p className="text-xs text-light-gray-1">
+              Prefer email?{" "}
+              <a href="mailto:contact@aasimshah.com" className="text-light-gray-3 transition-colors hover:text-white">
+                Write directly
+              </a>
+            </p>
+          </div>
         </form>
       )}
     </motion.div>

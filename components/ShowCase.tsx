@@ -1,9 +1,11 @@
 "use client";
-import React from "react";
-import SectionHeading from "./SectionHeading";
-import { flyIcon, linkIcon, rightArrow } from "@/app/assets/assets";
-import Image from "next/image";
+
 import { myShowCases } from "@/data";
+import {
+  ProjectGraphic,
+  publicProjectPresentation,
+} from "./ProjectsCasebook";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -14,135 +16,125 @@ export default function ShowCase({
   isMore: boolean;
   showData: number;
 }) {
+  const projects = myShowCases.slice(0, Math.min(showData, 7));
+
   return (
-    <section
-      id="projects"
-      className="flex items-start flex-none flex-col flex-nowrap gap-[30px] h-min justify-start overflow-visible relative w-full "
-    >
-      <div className="flex-none h-auto relative w-full">
-        <SectionHeading
-          title="Creative Design Showcase"
-          icon={flyIcon}
-          description="Explore a collection of my most innovative and visually stunning design works."
-        />
+    <section id="projects" className="w-full">
+      <header className="pb-8">
+        <p className="font-IBM_Plex_Mono text-[10px] uppercase tracking-[0.2em] text-light-gray-1">
+          Selected engineering work
+        </p>
+        <div className="mt-5 grid gap-4 md:grid-cols-[1fr_0.7fr] md:items-end">
+          <h2 className="text-[30px] font-semibold leading-[1.08] tracking-[-0.04em] text-white sm:text-[36px]">
+            Production systems,
+            <br />
+            shown as they ship.
+          </h2>
+          <p className="text-sm leading-6 text-light-gray-2">
+            Real interfaces, technical decisions, and operating scale.
+          </p>
+        </div>
+      </header>
+
+      <div className="border-t border-dashed border-dark-gray-6" />
+
+      <div className="grid gap-5 border-b border-dark-gray-4 py-6 sm:grid-cols-[0.42fr_1fr_auto] sm:items-center">
+        <div>
+          <p className="font-IBM_Plex_Mono text-[9px] uppercase tracking-[0.16em] text-light-gray-1">
+            Leadership / Studio
+          </p>
+          <p className="mt-2 text-xs text-light-gray-2">Founder &amp; CTO</p>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold text-white">CoreByte Studio</h3>
+          <p className="mt-2 text-xs leading-5 text-light-gray-2">
+            Architecture, engineering direction, delivery, and production
+            operations across web, mobile, cloud, and AI products.
+          </p>
+        </div>
+        <Link
+          href="https://corebytestudio.com"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-2 text-xs font-medium text-white transition-opacity hover:opacity-70"
+        >
+          Studio <ArrowUpRight size={14} />
+        </Link>
       </div>
 
-      <div className="flex items-start flex-none flex-wrap gap-[10px] h-min justify-start overflow-visible p-0 relative w-full">
-        {myShowCases?.slice(0, showData).map((item, index) => (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            viewport={{
-              once: true,
-            }}
-            className="flex-none h-auto relative w-full "
-            key={item.id}
-          >
-            <div className="bg-very-dark-gray w-full border border-dark-gray-3 rounded-xl flex items-center flex-nowrap flex-col lg:flex-row  gap-5 h-min justify-start overflow-visible p-4 lg:p-[8px_24px_8px_8px] relative ">
-              <div className="lg:flex-1 w-full rounded-xl h-[180px] relative ">
-                <figure className="lg:absolute relative h-full w-full inset-0 rounded-xl ">
-                  <Image
-                    src={item.image}
-                    className="w-full block h-full rounded-[inherit] object-cover object-center "
-                    height={180}
-                    width={180}
-                    alt={item.title}
-                  />
-                </figure>
-              </div>
+      <div>
+        {projects.map((item, index) => {
+          const presentation = publicProjectPresentation[item.id];
 
-              <div className="flex items-start flex-1 flex-col flex-nowrap gap-5 h-min justify-start overflow-visible p-0 relative w-full ">
-                <div className="flex items-start flex-1 flex-col flex-nowrap gap-4 h-min justify-start overflow-visible p-0 relative w-full">
-                  <div className="flex items-center flex-none flex-nowrap gap-5 h-min justify-between overflow-visible p-0 relative w-full">
-                    <div className="flex-1  h-auto relative whitespace-pre-wrap break-words justify-start flex-shrink-0 flex-col ">
-                      <h3 className="font-bold text-white text-[17px]  ">
-                        {item.title}
-                      </h3>
-                    </div>
+          return (
+            <motion.article
+              key={item.id}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: index * 0.06 }}
+              viewport={{ once: true, margin: "-60px" }}
+              className="grid gap-7 border-b border-dark-gray-4 py-9 xl:grid-cols-[minmax(0,1.28fr)_minmax(300px,0.72fr)] xl:items-stretch"
+            >
+              <ProjectGraphic
+                title={item.title}
+                href={item.link}
+                projectId={item.id}
+                presentation={presentation}
+              />
 
-                    <div className="flex-none h-auto relative">
-                      <Link
-                        href={item.link}
-                        target="_blank"
-                        className="bg-almost-black border border-dark-gray-4 flex cursor-pointer items-center flex-nowrap gap-[6px] h-min justify-center overflow-visible  relative w-min rounded-lg custom-padding group hover:bg-dark-gray-4 transition-all duration-500"
-                      >
-                        <div className="opacity-70 aspect-square h-auto overflow-visible w-5 relative flex-none group-hover:opacity-100 duration-500 transition-all">
-                          <figure className="absolute inset-0 w-full h-full rounded-[inherit] ">
-                            <Image
-                              src={linkIcon}
-                              alt="Link icon"
-                              className="block w-full h-full object-cover object-center rounded-[inherit] "
-                              height={20}
-                              width={20}
-                            />
-                          </figure>
-                        </div>
-
-                        <div className="flex-none h-auto relative whitespace-pre w-auto flex flex-col flex-shrink-0 opacity-70  group-hover:opacity-100 transition-all duration-500 ">
-                          {/* <p className="text-light-gray-3 font-sm  leading-[100%] text-[14px] ">
-                            {item.link}
-                          </p> */}
-                        </div>
-                      </Link>
-                    </div>
+              <div className="flex min-w-0 flex-col border-t border-dark-gray-4 pt-5 xl:border-l xl:border-t-0 xl:pl-7 xl:pt-0">
+                <div>
+                  <div className="flex items-center justify-between gap-4">
+                    <p className="font-IBM_Plex_Mono text-[9px] uppercase tracking-[0.16em] text-light-gray-1">
+                      {String(index + 1).padStart(2, "0")} / {presentation.eyebrow}
+                    </p>
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
                   </div>
-
-                  <div className="border-y border-dark-gray-3 flex flex-none gap-3 h-min justify-start overflow-visible px-0 py-3 relative w-full flex-nowrap items-center">
-                    <div className="flex flex-col flex-shrink-0 flex-none h-auto whitespace-pre w-auto relative ">
-                      <p className="text-light-gray-2 text-[15px] font-medium ">
-                        {item.type}
-                      </p>
-                    </div>
-                    <div className="bg-medium-gray rounded-full h-[5px] aspect-square flex-none relative w-[5px] "></div>
-                    <div className="flex flex-col flex-shrink-0 flex-none h-auto whitespace-pre w-auto relative ">
-                      <p className="text-light-gray-2 text-[15px] font-medium ">
-                        {item.pages} Pages
-                      </p>
-                    </div>
-                    <div className="bg-medium-gray rounded-full h-[5px] aspect-square flex-none relative w-[5px] "></div>
-                    <div className="flex flex-col flex-shrink-0 flex-none h-auto whitespace-pre w-auto relative ">
-                      <p className="text-light-gray-2 text-[15px] font-medium ">
-                        {item.theme} Theme
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex flex-col justify-start flex-none h-auto relative whitespace-pre-wrap w-full break-words ">
-                  <p className="text-[15px] font-medium text-light-gray-2 ">
+                  <h3 className="mt-4 text-[24px] font-semibold tracking-[-0.03em] text-white">
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 text-[13px] leading-6 text-light-gray-2">
                     {item.description}
                   </p>
                 </div>
+
+                <div className="mt-5">
+                  <ul className="space-y-1.5 border-y border-dark-gray-4 py-3 text-[10px] leading-5 text-light-gray-2">
+                    {presentation.features.map((feature) => (
+                      <li key={feature}>• {feature}</li>
+                    ))}
+                  </ul>
+                  <div className="mt-4 flex items-center justify-between gap-4">
+                    <p className="font-IBM_Plex_Mono text-[8px] uppercase tracking-widest text-light-gray-1">
+                      {item.technologies}
+                    </p>
+                    <Link
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex shrink-0 items-center gap-1.5 text-[11px] font-medium text-white transition-opacity hover:opacity-70"
+                    >
+                      View live <ArrowUpRight size={13} />
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
-          </motion.div>
-        ))}
+            </motion.article>
+          );
+        })}
       </div>
+
       {isMore && (
-        <div className="flex-1 h-auto relative w-full block ">
-          <Link
-            href={`/services`}
-            className="bg-almost-black rounded-[10px] border border-dark-gray-4 w-full flex cursor-pointer gap-[6px] p-[14px_18px] flex-nowrap justify-center items-center overflow-visible h-min relative group hover:bg-dark-gray-4 transition-all duration-500"
-          >
-            <div className="flex flex-shrink-0 group-hover:opacity-100  transition-all duration-500 justify-start opacity-70 flex-none h-auto w-auto whitespace-pre relative ">
-              <p className="uppercase font-medium font-IBM_Plex_Mono text-[15px] text-very-light-gray ">
-                View All projects
-              </p>
-            </div>
-            <div className="aspect-square flex-none h-auto relative overflow-hidden w-5 transition-all group-hover:opacity-100 duration-500  opacity-70">
-              <figure className="absolute inset-0 rounded-[inherit] ">
-                <Image
-                  src={rightArrow}
-                  alt="Right arrow icon"
-                  className="block w-full h-full object-cover object-center rounded-[inherit]  -rotate-45"
-                  height={10}
-                  width={10}
-                />
-              </figure>
-            </div>
-          </Link>
-        </div>
+        <Link
+          href="/projects"
+          className="group mt-6 flex w-full items-center justify-between border-y border-dark-gray-4 py-4 text-sm font-medium text-white transition-colors hover:border-dark-gray-7"
+        >
+          <span>View the complete project casebook</span>
+          <ArrowRight
+            size={17}
+            className="transition-transform group-hover:translate-x-1"
+          />
+        </Link>
       )}
     </section>
   );

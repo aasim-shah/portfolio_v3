@@ -1,12 +1,10 @@
-"use client"
-import type React from "react"
-import { emailIcon, questionMarkIcon } from "@/app/assets/assets"
-import SectionHeading from "@/components/SectionHeading"
-import { faqData } from "@/data"
-import Button from "@/components/ui/Button"
-import { Calendar1, Mail } from "lucide-react"
-import ContactForm from "@/components/ContactForm/ContactForm"
-import FAQ from "@/components/FAQ/FAQ"
+"use client";
+import type React from "react";
+import { faqData } from "@/data";
+import { ArrowUpRight, Mail } from "lucide-react";
+import ContactForm from "@/components/ContactForm/ContactForm";
+import FAQ from "@/components/FAQ/FAQ";
+import ScheduleButton from "@/components/ui/ScheduleButton";
 
 export default function ContactPage() {
   return (
@@ -24,13 +22,13 @@ export default function ContactPage() {
             mainEntity: {
               "@type": "Person",
               name: "Aasim Shah",
-              jobTitle: "Full Stack Developer",
+              jobTitle: "Senior Full-Stack Engineer & Solution Architect",
               email: "contact@aasimshah.com",
               url: "https://aasimshah.com",
               sameAs: [
                 "https://github.com/aasim-shah",
-                "https://www.upwork.com/freelancers/aasimshah",
-                "https://www.fiverr.com/users/aaasimmshah",
+                "https://www.linkedin.com/in/aasimshah/",
+                "https://www.instagram.com/themistyframes_/",
               ],
             },
           }),
@@ -81,34 +79,56 @@ export default function ContactPage() {
         }}
       />
 
-      <div className="flex flex-col flex-1 gap-0 h-min overflow-hidden p-0 relative w-full items-center justify-start">
-        <div className="flex flex-col gap-[60px] w-full max-w-full px-5 lg:px-0 lg:max-w-[750px] lg:w-[80%] items-center p-[80px_0px]">
-          <SectionHeading
-            icon={emailIcon}
-            title="I Love to hear from you."
-            description="Connect with Me Today. Let's Create Something Amazing Together!"
-          >
-            <div className="w-full ">
-              <div className="flex  items-start flex-none flex-nowrap  w-full gap-5 h-min justify-start p-0 relative">
-                <Button position='left' className="w-min" icon={<Mail size={18} />} title='Email Me' />
-                <Button position='left' className="w-min" icon={<Calendar1 size={18} />} title='Schedule Call' />
-              </div>
+      <main className="w-full px-5 sm:px-8 lg:px-10">
+        <div className="mx-auto w-full max-w-[960px] py-12 sm:py-16">
+          <header className="pb-12 sm:pb-14">
+            <p className="font-IBM_Plex_Mono text-[9px] uppercase tracking-[0.18em] text-light-gray-1">
+              Contact
+            </p>
+            <h1 className="mt-5 text-[40px] font-semibold leading-none tracking-[-0.05em] text-white sm:text-[52px]">
+              Let&apos;s work together.
+            </h1>
+            <p className="mt-6 max-w-[620px] text-[15px] leading-7 text-light-gray-2">
+              Tell me what you&apos;re building, where you&apos;re stuck, and what a
+              successful outcome looks like.
+            </p>
+
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <a
+                href="mailto:contact@aasimshah.com"
+                className="inline-flex min-h-11 items-center gap-2 rounded-full bg-white px-5 text-xs font-semibold text-black transition-transform hover:-translate-y-0.5"
+              >
+                Email me <Mail size={14} />
+              </a>
+              <ScheduleButton label="Schedule a call" />
+              <a
+                href="/Aasim_Shah_Senior_FSE.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="ml-1 inline-flex min-h-11 items-center gap-2 px-2 text-xs font-medium text-light-gray-2 transition-colors hover:text-white"
+              >
+                Résumé <ArrowUpRight size={13} />
+              </a>
             </div>
-          </SectionHeading>
+          </header>
 
-          <ContactForm />
+          <section className="border-t border-dark-gray-4 py-12 sm:py-14">
+            <ContactForm />
+          </section>
 
-          <SectionHeading
-            icon={questionMarkIcon}
-            title="Common Queries"
-            description="Get Answers to Common Queries. Your Questions, Addressed Simply."
-          />
-
-          <FAQ data={faqData} />
-
+          <section className="border-t border-dark-gray-4 pt-12 sm:pt-14">
+            <div className="pb-8">
+              <h2 className="text-[26px] font-semibold tracking-[-0.035em] text-white">
+                Common questions
+              </h2>
+              <p className="mt-3 max-w-xl text-sm leading-6 text-light-gray-2">
+                A few useful details before we start.
+              </p>
+            </div>
+            <FAQ data={faqData} />
+          </section>
         </div>
-      </div>
+      </main>
     </>
   )
 }
-

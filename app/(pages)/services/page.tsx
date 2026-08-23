@@ -3,7 +3,6 @@ import { zapIcon } from "@/app/assets/assets";
 import MyStack from "@/components/MyStack/MyStack";
 import SectionHeading from "@/components/SectionHeading";
 import ShowCase from "@/components/ShowCase";
-import Testimonials from "@/components/Testimonials";
 import { myServicesPlans } from "@/data";
 import Image from "next/image";
 import React from "react";
@@ -37,14 +36,7 @@ export default function SearvicesPage() {
                   name: plan.service,
                   description: plan.description,
                 },
-                price: plan.price.replace('$', '').replace('+', ''),
-                priceCurrency: "USD",
-                priceSpecification: {
-                  "@type": "UnitPriceSpecification",
-                  price: plan.price.replace('$', '').replace('+', ''),
-                  priceCurrency: "USD",
-                  unitText: "HOUR",
-                },
+                url: "https://aasimshah.com/contact",
               })),
             },
           }),
@@ -81,7 +73,7 @@ export default function SearvicesPage() {
           <SectionHeading
             icon={zapIcon}
             title="My Services"
-            description="Formulating comprehensive strategies to meet your design goals and exceed expectations."
+            description="Architecture and engineering support for production software, from backend design through deployment and managed operations."
           />
 
           <div className="flex-0 w-full gap-[10px] h-min grid justify-center overflow-visible p-0 relative grid-cols-1 lg:grid-cols-[repeat(2,minmax(50px,1fr))] lg:grid-rows-[repeat(2,min-content)] ">
@@ -116,7 +108,7 @@ export default function SearvicesPage() {
                         </div>
 
                         <div className="flex flex-col flex-1 justify-start">
-                          <p className="font-bold text-[20px] text-very-light-gray">
+                          <p className="font-bold text-xl text-very-light-gray">
                             {plan.service}
                           </p>
                         </div>
@@ -125,13 +117,8 @@ export default function SearvicesPage() {
                       {/* Right Section with Price */}
                       <div className="flex items-center gap-0">
                         <div className="flex flex-col justify-start">
-                          <p className="text-light-gray-3 font-semibold text-[18px]">
-                            {plan.price}/
-                          </p>
-                        </div>
-                        <div className="flex flex-col justify-start">
-                          <p className="text-light-gray-2 font-medium text-[14px]">
-                            hour
+                          <p className="text-light-gray-3 font-semibold text-lg">
+                            {plan.price}
                           </p>
                         </div>
                       </div>
@@ -145,21 +132,21 @@ export default function SearvicesPage() {
                     </div>
                   </div>
 
-                  <div className="flex flex-col gap-2 h-auto w-full rounded-xl border border-dark-gray-3 py-2">
+                  <div className="flex flex-col gap-2 h-auto w-full rounded-xl bg-darkest-gray py-2">
                     <InfoRow
-                      label="Completed Works"
+                      label="Scope"
                       value={plan.completedWorks}
                     />
-                    <InfoRow label="Experiences" value={plan.experience} />
+                    <InfoRow label="Experience" value={plan.experience} />
                     <InfoRow
-                      label="Total Hours Worked"
+                      label="Engagement"
                       value={plan.totalHoursWorked}
                     />
                   </div>
                   <div className="h-auto w-full">
                     <Link
                       href={plan.link}
-                      className="flex justify-center items-center w-full h-full bg-dark-gray-3 border border-border-color rounded-lg p-2"
+                      className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-white px-5 text-[13px] font-semibold text-black transition-transform duration-300 hover:-translate-y-0.5"
                     >
                       Make Offer
                     </Link>
@@ -170,8 +157,7 @@ export default function SearvicesPage() {
           </div>
 
           <MyStack />
-          <ShowCase isMore={false} showData={4} />
-          <Testimonials />
+          <ShowCase isMore showData={4} />
         </div>
       </div>
     </>
@@ -190,7 +176,7 @@ const InfoRow: React.FC<InfoRowProps> = ({ label, value }) => {
         <p className="font-medium text-[15px] text-light-gray-2">{label}</p>
       </div>
       <div className="flex-1 text-right">
-        <p className="font-bold text-[18px] text-light-gray-4">{value}</p>
+        <p className="font-bold text-lg text-light-gray-4">{value}</p>
       </div>
     </div>
   );

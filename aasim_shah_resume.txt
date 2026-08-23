@@ -1,0 +1,89 @@
+Syed Aasim Shah
+Senior Full-Stack Engineer & Solution Architect
+
+Islamabad, Pakistan | contact@aasimshah.com | +923483360070
+
+SUMMARY
+Solution architect and Senior Full-Stack Engineer (Backend-focused) with 5+ years designing, building, and operating production systems across networking infrastructure, multi-tenant SaaS, fintech payments, healthtech, and AI/LLM platforms. Sole technical architect on systems spanning 45+ globally distributed VPN servers across 20+ regions serving 2M+ mobile users, and on multi-tenant platforms with isolated per-tenant data architecture serving hospitality, pharmacy, and retail operators in production. Owns the full stack end to end: system design, API and database architecture, cloud and server provisioning, observability, and infrastructure automation. As Founder and CTO of CoreByte Studio, has taken 8+ SaaS and infrastructure products from architecture through launch and managed operations, directing engineering decisions across React/Next.js, Node.js/Fastify, Flutter, MySQL/MongoDB, and event-driven, WebSocket-based real-time systems.
+
+WORK EXPERIENCE
+
+Appworks, Islamabad PK, MERN Stack Developer, Backend & Infrastructure Architecture			Oct 2025 - Present
+Architected secure backend APIs and a Super Admin Dashboard for eEagle VPN (2.0M+ downloads), owning server allocation, authentication, and fleet-wide lifecycle management across 45+ servers in 20+ regions.
+Built infrastructure-as-code automation for VPN/server provisioning (WireGuard, Node.js, Bash) and a script.sh remote provisioning pipeline, replacing manual setup with repeatable scripted workflows.
+Stood up Grafana and Prometheus observability with Kafka, Docker, Node, and Redis exporters and alerting rules for real-time metrics, uptime, and performance analysis.
+Own security hardening and performance across the production fleet; shipped the eEagle VPN Chrome Extension, extending backend connectivity to browser-level VPN access.
+
+Dcodax Pvt Ltd, Islamabad PK, MERN Stack Developer, Backend Architecture			Sep 2024 - Sep 2025
+Architected RESTful APIs and backend systems for Hoheal, a multi-vendor hotel management SaaS with service-request workflows and a real-time staff-guest chat system.
+Designed backend architecture for PIKUP POS (QR table ordering, real-time POS sync, Next.js dashboards) and Ajar, a multi-vendor rental platform with Stripe payments and document-verification-backed registration.
+Designed backend and MAIB payment integration for Bite.md, a multi-vendor pharma/grocery/restaurant marketplace; directed cross-functional React.js/Flutter delivery, shipping four production SaaS platforms in 12 months.
+
+ItecExperts Pvt Ltd, Peshawar PK, MERN Stack Developer			Jul 2023 - Aug 2024
+Engineered backend APIs powering Flutter apps, marketplaces, automation tools, e-commerce, and B2B systems across multiple client engagements.
+Led the architecture of a real-time Socket.io messaging platform (file transfers, forwarding, reactions) and optimized MySQL/MongoDB schemas for query performance and data integrity.
+Architected subscription/billing payment workflows; owned AWS deployment and GitHub Actions CI/CD, cutting deployment time by 40 percent.
+
+47Apps Company, Remote, US, Backend Developer			Feb 2021 - Jun 2023
+Engineered backend APIs for Flutter apps, marketing websites, and admin dashboards; designed and launched a multi-vendor service marketplace on AWS.
+Built a real-time chat system for vendor-user interactions and integrated Stripe payment infrastructure, reducing payment errors.
+
+INFRASTRUCTURE & PLATFORM ENGINEERING
+Additional platforms within the same Appworks product suite as eEagle VPN.
+
+FyreWay (fyreway.com) - VPN Infrastructure Provisioning & Automation Platform
+Self-serve platform that provisions production-ready, pre-configured VPN servers in minutes across 20+ global locations, with built-in SDKs and monitoring for SaaS and app teams. Designed end-to-end automation for server lifecycle management, secure provisioning, and reliability controls, cutting DevOps overhead for teams launching VPN-backed products.
+Tech: Node.js, Bash, WireGuard, Linux, multi-cloud provisioning APIs.
+
+eEagle VPN (eeaglevpn.com) - Backend & Infrastructure
+Own backend and infrastructure architecture for 45+ global VPN servers across 10+ countries (UK, US, Germany, Finland, Canada, France, Australia, South Africa, Singapore, and more), powering the eEagle VPN iOS/Android apps (~2M downloads). Designed the API layer for server allocation, authentication, and client connectivity, automated WireGuard provisioning and lifecycle management across multiple cloud providers, and built the Grafana/Prometheus observability stack with Kafka, Docker, Node, and Redis exporters plus alerting for real-time fleet health.
+Tech: Node.js, Express.js, Linux, WireGuard, Bash, Grafana, Prometheus, Docker, Nginx.
+
+FyreMaps (fyremaps.com) - Maps, Routing, Search & Navigation Infrastructure
+Production-ready location infrastructure platform giving app teams maps, routing, search, and navigation through a single integration instead of stitching together multiple geo/location vendors. Implements MapLibre GL vector-tile rendering, geofencing, and geocoding/reverse geocoding backed by PostGIS spatial queries, with S3-backed asset storage and Amplify-managed deployment.
+Tech: Node.js, PostgreSQL/PostGIS, MapLibre GL, geofencing, geocoding, AWS S3, AWS Amplify, REST APIs.
+
+PRODUCTS (SAAS PLATFORMS, FOUNDER & CTO)
+Founder and CTO at CoreByte Studio (corebytestudio.com), a software development studio building web, mobile, backend, cloud, and AI products. Lead architecture, engineering direction, product delivery, and managed operations for the SaaS products below end to end, from system design through launch, spanning hospitality, healthtech, and AI infrastructure domains.
+
+GetRestro (getrestro.com) - All-in-One Restaurant Management Platform
+Multi-tenant restaurant management SaaS with real-time ordering, inventory, and staff management, in production for cafes, QSR chains, and multi-location restaurant groups.
+
+RunMyPharmacy (runmypharmacy.com) - Pharmacy POS & Inventory Management
+Pharmacy POS and inventory management platform with real-time sync, in active production use by 30+ businesses.
+
+FeedWink (feedwink.com) - AI-Powered Baby Care Tracking App
+Mobile healthtech app for infant care tracking with AI-driven insights and real-time caregiver sharing.
+
+Fyrebot (fyrebot.fyreway.com) - SaaS AI Chatbot Platform
+Self-serve multi-tenant AI chatbot platform with knowledge-base-scoped retrieval to prevent hallucinated answers, plus embeddable React/Vue/JS widgets.
+
+ADDITIONAL PROJECTS
+
+PIKUP POS - Full-scale restaurant automation platform: Super Admin Dashboard, React.js website, Flutter mobile apps, and a custom POS system with QR-code table ordering and real-time sync, deployed in production for live restaurants.
+
+Hoheal - Hotel management platform with service-request management and a staff/guest chat system that improved communication efficiency by 40 percent; onboarded 50+ hotels within the first six months.
+
+Pizzayolo, Papa'sNV, FeastFlow - Multi-vendor food ordering platforms for fast-food and pizza chains, with loyalty points, coupon systems, category and vendor management, real-time order tracking, and delivery flow across web and mobile.
+
+TECHNICAL SKILLS
+Architecture & System Design: Multi-tenant SaaS architecture, isolated per-tenant data models, event-driven and real-time (WebSocket) systems, REST API design, infrastructure-as-code style automation, high-availability server fleet design
+Languages & Frameworks: Node.js, Express.js, Fastify, React.js (incl. React 19), Next.js, JavaScript, TypeScript
+Databases: MySQL, MongoDB, PostgreSQL, Sequelize, Firebase, Supabase
+Styling: Tailwind CSS, Material UI, Bootstrap, CSS, ShadCn
+Servers, Cloud & DevOps: Ubuntu server administration, multi-cloud deployments (AWS EC2/S3/Amplify, DigitalOcean, Contabo, Gthost), SSH automation, infrastructure provisioning, WireGuard VPN infrastructure, CI/CD with GitHub Actions, Node.js/Bash server automation
+Automation & Workflows: n8n workflow automation, API orchestration, background job systems, event-driven workflows, script-based infrastructure automation
+AI / LLM Systems: RAG pipelines, vector embeddings, semantic search, OpenAI APIs, custom Ollama models, document ingestion pipelines, knowledge-base indexing
+AI Dev & Coding Tools: Cursor, Windsurf, Replit Agent, GitHub Copilot, Claude Code, GPT APIs, Bolt.new, Lovable.dev, Anti-gravity
+Monitoring & Observability: Grafana, Prometheus, metrics exporters (Kafka, Docker, Node, Redis), alerting rules and incident notification pipelines, log analysis, performance monitoring, uptime tracking
+Payments & Fintech: Stripe integration, MAIB, Razorpay, and Paymob payment gateways, PK PayTM integration, subscription billing, recurring payments, refund/card management workflows
+
+EDUCATION
+2019 - 2023 | AUP Peshawar | Bachelor of Computer Science
+
+LANGUAGES
+Fluent in English, Urdu; German (Basic)
+
+CERTIFICATIONS & TRAINING
+2023 | Coursera | Advanced Backend Development using Node.js and Express.js
+2021 | Udemy | Advanced MERN Stack course

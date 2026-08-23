@@ -55,7 +55,6 @@ import multiplyIcon from "@assets/multiply.svg";
 
 import dcodaxIcon from "@assets/dcodax.png";
 import itecExpertsIcon from "@assets/itecexperts.webp";
-import fiverr from "@assets/fiverrr.png";
 
 import hoheal from "@assets/hoheal.png";
 import primier from "@assets/premier.png";
@@ -71,7 +70,6 @@ export {
   hoheal,
   pos,
   primier,
-  fiverr,
   dcodaxIcon,
   discord,
   twitter,

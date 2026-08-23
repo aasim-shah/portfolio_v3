@@ -1,10 +1,9 @@
 "use client"
 import type React from "react"
 import { useState } from "react"
-import Image from "next/image"
 import { motion, AnimatePresence, } from "framer-motion"
-import { multiplyIcon } from "@/app/assets/assets"
 import type { FAQ as FAQType } from "@/types"
+import { Plus } from "lucide-react"
 
 type FAQProps = {
     data: FAQType[]
@@ -21,7 +20,7 @@ const FAQ: React.FC<FAQProps> = ({ data }) => {
 
     return (
         <div className="w-full">
-            <div className="grid grid-cols-1 transition-all duration-500 lg:grid-cols-2 gap-[20px] w-full">
+            <div className="grid w-full grid-cols-1 border-t border-dark-gray-4 transition-all duration-500">
                 {data.map((faq, index) => (
                     <motion.div
                         key={index}
@@ -31,38 +30,32 @@ const FAQ: React.FC<FAQProps> = ({ data }) => {
                         viewport={{
                             once: true,
                         }}
-                        className={`flex w-full select-none `}
+                        className="flex w-full select-none border-b border-dark-gray-4"
                     >
                         <div className="w-full">
                             <motion.div
                                 onClick={() => handleToggle(index)}
-                                className="cursor-pointer bg-very-dark-gray hover:bg-[#fff]/[0.03] duration-300 text-white p-6 border border-dark-gray-3 rounded-[14px] transition-all"
+                                className="cursor-pointer py-6 text-white transition-colors duration-300 hover:bg-white/[0.015] sm:px-1"
                             >
-                                <div className="flex items-center gap-2 justify-between">
-                                    <div className="flex flex-col">
+                                <div className="flex items-start justify-between gap-6">
+                                    <div className="flex items-start gap-5">
+                                        <span className="pt-1 font-IBM_Plex_Mono text-[8px] text-light-gray-1">
+                                            {String(index + 1).padStart(2, "0")}
+                                        </span>
                                         <motion.p
                                             animate={{
                                                 color: openIndices.includes(index) ? "rgb(230, 230, 230)" : "rgb(153, 153, 153)",
                                             }}
-                                            className="text-[17px]  font-medium"
+                                            className="max-w-2xl text-[15px] font-medium sm:text-base"
                                         >
                                             {faq.question}
                                         </motion.p>
                                     </div>
                                     <motion.div
-                                        className="bg-dark-gray-2 flex-shrink-0 border border-dark-gray-4 rounded-[10px] flex items-center justify-center p-2"
+                                        className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-dark-gray-6 text-light-gray-2"
                                         animate={{ rotate: openIndices.includes(index) ? 45 : 0 }}
                                     >
-                                        <Image
-                                            src={multiplyIcon || "/placeholder.svg"}
-                                            alt="toggle icon"
-                                            className="transition-opacity rotate-45 duration-500"
-                                            style={{
-                                                opacity: openIndices.includes(index) ? 1 : 0.6,
-                                            }}
-                                            width={20}
-                                            height={20}
-                                        />
+                                        <Plus size={14} />
                                     </motion.div>
                                 </div>
 
@@ -79,14 +72,14 @@ const FAQ: React.FC<FAQProps> = ({ data }) => {
                                                 animate={{ opacity: 1 }}
                                                 exit={{ opacity: 0 }}
                                                 transition={{ duration: 0.2 }}
-                                                className="bg-dark-gray-3 w-full h-[1px] my-4"
+                                                className="ml-9 my-4 h-px max-w-2xl bg-dark-gray-4"
                                             />
                                             <motion.p
                                                 initial={{ opacity: 0, y: 10 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 exit={{ opacity: 0, y: 10 }}
                                                 transition={{ duration: 0.3 }}
-                                                className="text-light-gray-2 font-medium text-[16px]"
+                                                className="ml-9 max-w-2xl text-sm font-normal leading-7 text-light-gray-2"
                                             >
                                                 {faq.answer}
                                             </motion.p>

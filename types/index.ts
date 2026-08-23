@@ -25,15 +25,18 @@ export interface counterListsType {
   id: number;
   title: string;
   value: number;
+  suffix: string;
 }
 
 export interface myExperienceTypes {
   id: number;
   year: string;
   title: string;
+  focus?: string;
   company: string;
   label: string;
   description: string;
+  highlights?: string[];
   link: string;
   logo: string | StaticImageData;
 }
@@ -60,8 +63,8 @@ export interface myShowCasesTypes {
   description: string;
   link: string;
   type: string;
-  theme: string;
-  pages: number;
+  status: string;
+  technologies: string;
   image: StaticImageData | string;
 }
 

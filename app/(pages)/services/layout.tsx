@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Web Development Services - MERN Stack, API Development & Cloud Solutions",
-  description: "Professional web development services by Aasim Shah. Specializing in MERN Stack development, RESTful & GraphQL API development, Cloud & DevOps solutions, and complete project development. Starting from $30/hour.",
+  description: "Architecture and engineering services by Aasim Shah across backend APIs, multi-tenant SaaS, cloud infrastructure, real-time systems, payments, and AI platforms.",
   keywords: [
     "web development services",
     "MERN stack services",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Web Development Services - MERN Stack, API Development & Cloud Solutions",
-    description: "Professional web development services. MERN Stack, API development, Cloud & DevOps. Starting from $30/hour. 40+ completed projects.",
+    description: "Backend architecture, multi-tenant SaaS, API development, cloud infrastructure, real-time systems, payments, and AI engineering.",
     url: "https://aasimshah.com/services",
     type: "website",
   },
