@@ -149,7 +149,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="canonical" href="https://aasimshah.com" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#070708" />
         <meta name="application-name" content="Aasim Shah Portfolio" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />

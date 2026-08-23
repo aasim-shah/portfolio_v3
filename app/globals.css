@@ -5,7 +5,7 @@
 :root {
   --white: rgb(255, 255, 255);
   --black: rgb(0, 0, 0);
-  --darkest-gray: rgb(5, 5, 5);
+  --darkest-gray: rgb(7, 7, 8);
   --very-dark-gray: rgb(10, 10, 11);
   --dark-gray-1: rgb(15, 15, 16);
   --dark-gray-2: rgb(15, 15, 16);
@@ -65,6 +65,7 @@ html {
   scroll-behavior: smooth !important;
 }
 
+html,
 body {
   background-color: var(--darkest-gray);
   color: var(--white);
