@@ -4,8 +4,8 @@ import MyExperience from "@/components/MyExperience/MyExperience";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "About - Senior Full-Stack Engineer & Solution Architect",
-  description: "Learn about Aasim Shah's background in backend architecture, production SaaS, cloud infrastructure, fintech payments, healthtech, and AI systems.",
+  title: "About Aasim Shah (Asim Shah) - Full-Stack Developer",
+  description: "Learn about Aasim Shah, also searched as Asim Shah, a senior full-stack developer in Islamabad, Pakistan with experience in SaaS, APIs, cloud infrastructure, fintech, healthtech, and AI.",
   alternates: { canonical: "https://aasimshah.com/about" },
   openGraph: {
     title: "About Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
@@ -17,9 +17,12 @@ export const metadata: Metadata = {
 
 const aboutSchema = {
   "@context": "https://schema.org",
-  "@type": "AboutPage",
+  "@type": "ProfilePage",
+  "@id": "https://aasimshah.com/about#profile",
   name: "About Syed Aasim Shah",
+  description: "Professional profile of Syed Aasim Shah, also known as Aasim Shah and Asim Shah, a senior full-stack developer in Islamabad, Pakistan.",
   url: "https://aasimshah.com/about",
+  isPartOf: { "@id": "https://aasimshah.com/#website" },
   mainEntity: { "@id": "https://aasimshah.com/#person" },
   breadcrumb: {
     "@type": "BreadcrumbList",
@@ -53,6 +56,9 @@ export default function About() {
           <h2 className="text-[24px] font-bold text-white">Engineering production systems end to end</h2>
           <p className="mt-4 text-[16px] font-medium leading-[1.7] text-light-gray-2">
             I am a backend-focused engineer with 5+ years of experience across networking infrastructure, multi-tenant SaaS, fintech payments, healthtech, and AI/LLM platforms. My work spans system design, APIs, databases, cloud and server provisioning, observability, infrastructure automation, and the React and Next.js applications that operate those systems.
+          </p>
+          <p className="mt-4 text-[16px] font-medium leading-[1.7] text-light-gray-2">
+            My full name is Syed Aasim Shah, and my name is also commonly searched and spelled as Asim Shah. I am based in Islamabad and work with product teams and clients across Pakistan and internationally.
           </p>
           <p className="mt-4 text-[16px] font-medium leading-[1.7] text-light-gray-2">
             I currently help operate infrastructure covering 45+ VPN servers across 20+ regions for a consumer product serving approximately 2M mobile users. As Founder and CTO at CoreByte Studio, I have also taken 8+ SaaS and infrastructure products from architecture through launch and managed operations.

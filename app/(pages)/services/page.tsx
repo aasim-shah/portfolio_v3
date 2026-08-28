@@ -20,12 +20,10 @@ export default function SearvicesPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            serviceType: "Web Development Services",
-            provider: {
-              "@type": "Person",
-              name: "Aasim Shah",
-              url: "https://aasimshah.com",
-            },
+            "@id": "https://aasimshah.com/services#service",
+            serviceType: "Full-Stack Development Services in Pakistan",
+            provider: { "@id": "https://aasimshah.com/#person" },
+            url: "https://aasimshah.com/services",
             areaServed: "Worldwide",
             hasOfferCatalog: {
               "@type": "OfferCatalog",
@@ -74,9 +72,21 @@ export default function SearvicesPage() {
           <SectionHeading
             icon={zapIcon}
             titleAs="h1"
-            title="Full-Stack & Cloud Development Services"
-            description="Architecture and engineering support for production software, from backend design through deployment and managed operations."
+            title="Full-Stack Development Services in Pakistan"
+            description="Work with a senior full-stack developer in Islamabad, Pakistan for production software—from backend architecture and user-facing applications through deployment and managed operations."
           />
+
+          <section className="w-full rounded-xl border border-dark-gray-3 bg-very-dark-gray p-6">
+            <h2 className="text-[24px] font-bold text-white">
+              Full-stack engineering from architecture to launch
+            </h2>
+            <p className="mt-4 text-[16px] font-medium leading-[1.7] text-light-gray-2">
+              I help startups and product teams build reliable web platforms with Node.js, React, Next.js, TypeScript, PostgreSQL, MongoDB, and cloud infrastructure. Based in Islamabad, I work remotely with clients across Pakistan and worldwide on SaaS products, backend APIs, real-time systems, payment integrations, AI features, and production operations.
+            </p>
+            <p className="mt-4 text-[16px] font-medium leading-[1.7] text-light-gray-2">
+              Engagements can cover a complete product build, a difficult backend or infrastructure problem, or ongoing engineering support. My experience includes 8+ launched products and infrastructure serving approximately 2M users across 20+ regions.
+            </p>
+          </section>
 
           <div className="flex-0 w-full gap-[10px] h-min grid justify-center overflow-visible p-0 relative grid-cols-1 lg:grid-cols-[repeat(2,minmax(50px,1fr))] lg:grid-rows-[repeat(2,min-content)] ">
             {myServicesPlans?.map((plan, index) => (

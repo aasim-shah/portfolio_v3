@@ -1,23 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Web Development Services - MERN Stack, API Development & Cloud Solutions",
-  description: "Architecture and engineering services by Aasim Shah across backend APIs, multi-tenant SaaS, cloud infrastructure, real-time systems, payments, and AI platforms.",
-  keywords: [
-    "web development services",
-    "MERN stack services",
-    "API development services",
-    "cloud services",
-    "DevOps services",
-    "freelance developer",
-    "hire full stack developer",
-    "custom web application",
-    "professional web development",
-    "Aasim Shah services",
-  ],
+  title: "Full-Stack Developer in Pakistan",
+  description: "Hire Aasim Shah, a senior full-stack developer in Pakistan, for Node.js, React, Next.js, SaaS, API, cloud infrastructure, payments, and AI product development.",
   openGraph: {
-    title: "Web Development Services - MERN Stack, API Development & Cloud Solutions",
-    description: "Backend architecture, multi-tenant SaaS, API development, cloud infrastructure, real-time systems, payments, and AI engineering.",
+    title: "Full-Stack Developer in Pakistan | Aasim Shah",
+    description: "Senior full-stack development services from Islamabad, Pakistan for SaaS, APIs, cloud infrastructure, payments, and AI products.",
     url: "https://aasimshah.com/services",
     type: "website",
   },
