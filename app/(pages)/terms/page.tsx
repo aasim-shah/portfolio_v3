@@ -1,4 +1,12 @@
 import type React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions",
+  description:
+    "Terms governing the use of Syed Aasim Shah's web and app development services.",
+  alternates: { canonical: "https://aasimshah.com/terms" },
+};
 
 export default function Terms() {
   return (

@@ -81,6 +81,9 @@ export default function Hero() {
 
           <h1 className="mt-7 text-[42px] font-semibold leading-none tracking-[-0.055em] text-white sm:text-[50px] xl:whitespace-nowrap xl:text-[58px]">
             Syed Aasim Shah
+            <span className="mt-3 block text-[17px] font-medium leading-[1.35] tracking-[-0.02em] text-light-gray-3 sm:text-[19px]">
+              Senior Full-Stack Engineer &amp; Solution Architect
+            </span>
           </h1>
 
           <p className="mt-8 max-w-[640px] text-[16px] leading-[1.75] text-light-gray-2 sm:text-[17px]">

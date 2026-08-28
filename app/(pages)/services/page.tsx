@@ -3,6 +3,7 @@ import { zapIcon } from "@/app/assets/assets";
 import MyStack from "@/components/MyStack/MyStack";
 import SectionHeading from "@/components/SectionHeading";
 import ShowCase from "@/components/ShowCase";
+import Testimonials from "@/components/Testimonials";
 import { myServicesPlans } from "@/data";
 import Image from "next/image";
 import React from "react";
@@ -29,7 +30,7 @@ export default function SearvicesPage() {
             hasOfferCatalog: {
               "@type": "OfferCatalog",
               name: "Web Development Services",
-              itemListElement: myServicesPlans.map((plan, index) => ({
+              itemListElement: myServicesPlans.map((plan) => ({
                 "@type": "Offer",
                 itemOffered: {
                   "@type": "Service",
@@ -72,7 +73,8 @@ export default function SearvicesPage() {
         <div className="gap-[60px] flex-col max-w-full w-full lg:max-w-[750px] px-5 lg:px-0 lg:w-[80%] flex-nowrap flex items-center flex-none h-min justify-center  relative overflow-visible p-[80px_0px]  ">
           <SectionHeading
             icon={zapIcon}
-            title="My Services"
+            titleAs="h1"
+            title="Full-Stack & Cloud Development Services"
             description="Architecture and engineering support for production software, from backend design through deployment and managed operations."
           />
 
@@ -101,7 +103,8 @@ export default function SearvicesPage() {
                               width={24}
                               height={24}
                               src={plan.icon}
-                              alt="calendar"
+                              alt=""
+                              aria-hidden="true"
                               className="object-cover object-center w-full h-full"
                             />
                           </div>
@@ -155,6 +158,19 @@ export default function SearvicesPage() {
               </motion.div>
             ))}
           </div>
+
+          <Testimonials />
+
+          <p className="w-full text-[13px] leading-6 text-light-gray-2">
+            Client references from past engagements are available on request —{" "}
+            <a
+              href="mailto:contact@aasimshah.com"
+              className="font-semibold text-light-gray-4 hover:underline"
+            >
+              contact@aasimshah.com
+            </a>
+            .
+          </p>
 
           <MyStack />
           <ShowCase isMore showData={4} />

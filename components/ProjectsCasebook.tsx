@@ -1,5 +1,6 @@
 import { myShowCases } from "@/data";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export type PublicProjectPresentation = {
@@ -311,11 +312,12 @@ export function ProjectGraphic({
       className="group relative block h-[300px] self-stretch overflow-hidden rounded-2xl bg-transparent sm:aspect-[16/9] sm:h-auto xl:aspect-auto xl:h-full"
     >
       <div className="absolute inset-0 overflow-hidden transition-transform duration-700 group-hover:scale-[1.01]">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={presentation.screenshot}
           alt={`${title} production interface`}
-          className="h-full w-full object-cover object-top"
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 60vw, 720px"
+          className="object-cover object-top"
         />
       </div>
 

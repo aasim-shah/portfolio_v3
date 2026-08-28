@@ -70,10 +70,18 @@ export interface myShowCasesTypes {
 
 export interface testimonialsTypes {
   id: number;
+  /** Full name of a real, attributable client. Do not use placeholder names. */
   name: string;
+  /** The quote itself. */
   description: string;
   location: string;
-  avatar: StaticImageData | string;
+  /** Optional role/title, e.g. "Founder". */
+  role?: string;
+  /** Optional company name. */
+  company?: string;
+  /** Optional short label of the work delivered, e.g. "MERN application". */
+  projectType?: string;
+  avatar?: StaticImageData | string;
 }
 
 export interface myServicesPlansTypes {
@@ -93,7 +101,12 @@ export interface blogPostType {
   title: string;
   excerpt: string;
   category: string;
+  /** Human-readable publish date, e.g. "March 12, 2025" (display only). */
   publishedAt: string;
+  /** ISO 8601 publish date, e.g. "2025-03-12" (schema + sitemap). */
+  date: string;
+  /** ISO 8601 last-modified date. Falls back to `date` when absent. */
+  updated?: string;
   readTime: string;
   slug: string;
 }

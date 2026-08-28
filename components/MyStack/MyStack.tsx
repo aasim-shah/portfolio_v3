@@ -70,7 +70,8 @@ export default function MyStack() {
                   <div className="absolute rounded-full inset-0 flex items-center justify-center w-full h-full">
                     <Image
                       src={rightArrow}
-                      alt="arrow"
+                      alt=""
+                      aria-hidden="true"
                       width={24}
                       height={24}
                       className="block w-full h-full rounded-full object-cover object-center transition-all duration-500 group-hover:-rotate-45"

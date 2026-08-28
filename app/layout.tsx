@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Header/Navbar";
@@ -106,21 +106,14 @@ export const metadata: Metadata = {
     title: "Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
     description:
       "Backend-focused engineer with 5+ years of experience across multi-tenant SaaS, VPN infrastructure serving approximately 2M users, fintech, healthtech, AI, and cloud automation.",
-    images: [
-      {
-        url: "/profile.png",
-        width: 1200,
-        height: 630,
-        alt: "Syed Aasim Shah - MERN Stack Developer Portfolio",
-      },
-    ],
+    // Social share image is provided by app/opengraph-image.tsx (1200×630, generated).
   },
   twitter: {
     card: "summary_large_image",
     title: "Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
     description:
       "Backend-focused engineer building production SaaS, VPN infrastructure, real-time systems, payments, AI platforms, and cloud automation.",
-    images: ["/profile.png"],
+    // Card image is provided by app/twitter-image.tsx.
   },
   robots: {
     index: true,
@@ -137,6 +130,160 @@ export const metadata: Metadata = {
     canonical: "https://aasimshah.com",
   },
   category: "Technology",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  appleWebApp: {
+    capable: true,
+    title: "Aasim Shah",
+    statusBarStyle: "default",
+  },
+  applicationName: "Aasim Shah Portfolio",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#070708",
+};
+
+const personId = "https://aasimshah.com/#person";
+const orgId = "https://corebytestudio.com/#organization";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aasimshah.com/#website",
+      url: "https://aasimshah.com",
+      name: "Syed Aasim Shah",
+      description:
+        "Portfolio of Syed Aasim Shah, a backend-focused Senior Full-Stack Engineer and Solution Architect.",
+      inLanguage: "en",
+      publisher: { "@id": personId },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: "https://aasimshah.com/blogs?q={search_term_string}",
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": personId,
+      name: "Syed Aasim Shah",
+      alternateName: "Aasim Shah",
+      url: "https://aasimshah.com",
+      image: "https://aasimshah.com/profile.png",
+      email: "contact@aasimshah.com",
+      telephone: "+923483360070",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Islamabad",
+        addressCountry: "PK",
+      },
+      sameAs: [
+        "https://github.com/aasim-shah",
+        "https://www.linkedin.com/in/aasimshah/",
+        "https://www.instagram.com/themistyframes_/",
+      ],
+      jobTitle: "Senior Full-Stack Engineer & Solution Architect",
+      // Current employer. The founder relationship with CoreByte Studio is
+      // expressed via the Organization node's `founder` field + `affiliation` below.
+      worksFor: {
+        "@type": "Organization",
+        name: "Appworks",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Islamabad",
+          addressCountry: "PK",
+        },
+      },
+      affiliation: { "@id": orgId },
+      alumniOf: {
+        "@type": "EducationalOrganization",
+        name: "AUP Peshawar",
+        description: "Bachelor of Computer Science",
+      },
+      knowsAbout: [
+        "MERN Stack Development",
+        "VPN Infrastructure",
+        "Backend API Development",
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "Next.js",
+        "MongoDB",
+        "MySQL",
+        "Server Automation",
+        "Linux Administration",
+        "Grafana Monitoring",
+        "AWS Cloud Services",
+        "Docker",
+        "CI/CD Pipelines",
+        "Socket.io",
+        "Real-time Systems",
+        "TypeScript",
+        "JavaScript",
+        "Payment Gateway Integration",
+        "Stripe",
+        "Chrome Extensions",
+        "SaaS Development",
+        "Multi-tenant Architecture",
+        "WireGuard VPN",
+        "Bash Scripting",
+      ],
+      hasCredential: [
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "Advanced Backend Development using Nodejs and Expressjs",
+          credentialCategory: "Certificate",
+          recognizedBy: { "@type": "Organization", name: "Coursera" },
+          dateCreated: "2023",
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          name: "Advanced MERN Stack course",
+          credentialCategory: "Certificate",
+          recognizedBy: { "@type": "Organization", name: "Udemy" },
+          dateCreated: "2021",
+        },
+      ],
+    },
+    {
+      "@type": "Organization",
+      "@id": orgId,
+      name: "CoreByte Studio",
+      url: "https://corebytestudio.com",
+      description:
+        "Software studio building reliable web, mobile, backend, cloud, and AI products.",
+      founder: { "@id": personId },
+      foundingDate: "2023",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Islamabad",
+        addressCountry: "PK",
+      },
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://aasimshah.com/#service",
+      name: "Syed Aasim Shah - Software Architecture & Engineering Services",
+      description:
+        "Backend architecture, production SaaS, VPN infrastructure, cloud automation, payments, and AI engineering services.",
+      image: "https://aasimshah.com/profile.png",
+      url: "https://aasimshah.com",
+      provider: { "@id": personId },
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Islamabad",
+        addressCountry: "PK",
+      },
+      areaServed: "Worldwide",
+      availableLanguage: ["English", "Urdu"],
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -147,137 +294,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="canonical" href="https://aasimshah.com" />
-        <meta name="theme-color" content="#070708" />
-        <meta name="application-name" content="Aasim Shah Portfolio" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Aasim Shah" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        
-        {/* Structured Data - Person */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Syed Aasim Shah",
-              alternateName: "Aasim Shah",
-              url: "https://aasimshah.com",
-              image: "https://aasimshah.com/profile.png",
-              email: "contact@aasimshah.com",
-              telephone: "+923483360070",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Islamabad",
-                addressCountry: "PK",
-              },
-              sameAs: [
-                "https://github.com/aasim-shah",
-                "https://www.linkedin.com/in/aasimshah/",
-                "https://www.instagram.com/themistyframes_/",
-              ],
-              jobTitle: "Senior Full-Stack Engineer & Solution Architect",
-              worksFor: {
-                "@type": "Organization",
-                name: "Appworks",
-                address: {
-                  "@type": "PostalAddress",
-                  addressLocality: "Islamabad",
-                  addressCountry: "PK",
-                },
-              },
-              alumniOf: {
-                "@type": "EducationalOrganization",
-                name: "AUP Peshawar",
-                description: "Bachelor of Computer Science",
-              },
-              knowsAbout: [
-                "MERN Stack Development",
-                "VPN Infrastructure",
-                "Backend API Development",
-                "Node.js",
-                "Express.js",
-                "React.js",
-                "Next.js",
-                "MongoDB",
-                "MySQL",
-                "Server Automation",
-                "Linux Administration",
-                "Grafana Monitoring",
-                "AWS Cloud Services",
-                "Docker",
-                "CI/CD Pipelines",
-                "Socket.io",
-                "Real-time Systems",
-                "TypeScript",
-                "JavaScript",
-                "Payment Gateway Integration",
-                "Stripe",
-                "Chrome Extensions",
-                "SaaS Development",
-                "Multi-tenant Architecture",
-                "WireGuard VPN",
-                "Bash Scripting",
-              ],
-              hasCredential: [
-                {
-                  "@type": "EducationalOccupationalCredential",
-                  name: "Advanced Backend Development using Nodejs and Expressjs",
-                  credentialCategory: "Certificate",
-                  recognizedBy: {
-                    "@type": "Organization",
-                    name: "Coursera",
-                  },
-                  dateCreated: "2023",
-                },
-                {
-                  "@type": "EducationalOccupationalCredential",
-                  name: "Advanced MERN Stack course",
-                  credentialCategory: "Certificate",
-                  recognizedBy: {
-                    "@type": "Organization",
-                    name: "Udemy",
-                  },
-                  dateCreated: "2021",
-                },
-              ],
-            }),
-          }}
-        />
-        
-        {/* Structured Data - Professional Service */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ProfessionalService",
-              name: "Syed Aasim Shah - Software Architecture & Engineering Services",
-              description: "Backend architecture, production SaaS, VPN infrastructure, cloud automation, payments, and AI engineering services.",
-              image: "https://aasimshah.com/profile.png",
-              "@id": "https://aasimshah.com",
-              url: "https://aasimshah.com",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Islamabad",
-                addressCountry: "PK",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                addressCountry: "PK",
-              },
-              areaServed: "Worldwide",
-              availableLanguage: ["English", "Urdu"],
-              sameAs: [
-                "https://github.com/aasim-shah",
-                "https://www.linkedin.com/in/aasimshah/",
-                "https://www.instagram.com/themistyframes_/",
-              ],
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
       <body

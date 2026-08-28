@@ -41,7 +41,7 @@ export default function SideNavbar({ isMenuOpen }: SideNavbarProps) {
                 src={AvatarMe}
                 fill
                 sizes="50px"
-                alt="Avatar"
+                alt="Syed Aasim Shah — go to home"
                 className="block w-full h-full rounded-full opacity-80 object-fill object-center"
               />
             </div>

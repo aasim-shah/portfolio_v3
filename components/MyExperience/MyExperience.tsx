@@ -45,7 +45,7 @@ export default function MyExperience() {
                           width={100}
                           height={100}
                           src={exp.logo}
-                          alt="icon"
+                          alt={`${exp.company} logo`}
                           className="block w-full h-full rounded-[inherit] object-cover object-center "
                         />
                       </figure>

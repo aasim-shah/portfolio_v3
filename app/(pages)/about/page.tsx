@@ -7,6 +7,27 @@ export const metadata: Metadata = {
   title: "About - Senior Full-Stack Engineer & Solution Architect",
   description: "Learn about Aasim Shah's background in backend architecture, production SaaS, cloud infrastructure, fintech payments, healthtech, and AI systems.",
   alternates: { canonical: "https://aasimshah.com/about" },
+  openGraph: {
+    title: "About Syed Aasim Shah - Senior Full-Stack Engineer & Solution Architect",
+    description: "Backend-focused engineer with 5+ years across VPN infrastructure, multi-tenant SaaS, fintech, healthtech, AI systems, and cloud automation.",
+    url: "https://aasimshah.com/about",
+    type: "profile",
+  },
+};
+
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About Syed Aasim Shah",
+  url: "https://aasimshah.com/about",
+  mainEntity: { "@id": "https://aasimshah.com/#person" },
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://aasimshah.com" },
+      { "@type": "ListItem", position: 2, name: "About", item: "https://aasimshah.com/about" },
+    ],
+  },
 };
 
 const focusAreas = [
@@ -21,8 +42,12 @@ const focusAreas = [
 export default function About() {
   return (
     <div className="flex flex-col flex-1 gap-0 h-min overflow-hidden p-0 relative w-full items-center justify-start">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <div className="flex flex-col gap-[60px] w-full max-w-full px-5 lg:px-0 lg:max-w-[750px] lg:w-[80%] items-center p-[80px_0px]">
-        <SectionHeading icon={briefcaseIconley} title="About Aasim" description="Senior Full-Stack Engineer and Solution Architect based in Islamabad, Pakistan." />
+        <SectionHeading icon={briefcaseIconley} titleAs="h1" title="About Syed Aasim Shah" description="Senior Full-Stack Engineer and Solution Architect based in Islamabad, Pakistan." />
 
         <section className="w-full rounded-xl border border-dark-gray-3 bg-very-dark-gray p-6">
           <h2 className="text-[24px] font-bold text-white">Engineering production systems end to end</h2>

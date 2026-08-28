@@ -1,4 +1,12 @@
 import type React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "How Syed Aasim Shah collects, uses, and protects your data when you use these web and app development services.",
+  alternates: { canonical: "https://aasimshah.com/privacy" },
+};
 
 export default function Privacy() {
   return (

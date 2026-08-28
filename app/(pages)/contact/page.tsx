@@ -79,7 +79,7 @@ export default function ContactPage() {
         }}
       />
 
-      <main className="w-full px-5 sm:px-8 lg:px-10">
+      <div className="w-full px-5 sm:px-8 lg:px-10">
         <div className="mx-auto w-full max-w-[960px] py-12 sm:py-16">
           <header className="pb-12 sm:pb-14">
             <p className="font-IBM_Plex_Mono text-[9px] uppercase tracking-[0.18em] text-light-gray-1">
@@ -128,7 +128,7 @@ export default function ContactPage() {
             <FAQ data={faqData} />
           </section>
         </div>
-      </main>
+      </div>
     </>
   )
 }

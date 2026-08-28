@@ -1,4 +1,12 @@
 import type React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Refund & Cancellation Policy",
+  description:
+    "Cancellation windows and refund terms for Syed Aasim Shah's web and app development services.",
+  alternates: { canonical: "https://aasimshah.com/refund" },
+};
 
 export default function Refund() {
   return (

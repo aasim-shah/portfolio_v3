@@ -1,10 +1,16 @@
+import type { Metadata } from 'next'
 import { Undo2 } from 'lucide-react'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+    title: 'Page Not Found',
+    robots: { index: false, follow: true },
+}
 
 export default function NotFound() {
     return (
         <div className='flex items-center justify-center h-full flex-col py-36 w-full'>
-            <h2 className='text-7xl font-bold text-light-gray-3 mb-1' >404</h2>
+            <h1 className='text-7xl font-bold text-light-gray-3 mb-1' >404</h1>
             <p className='font-semibold text-light-gray-4 text-xl'> Page Not Found</p>
             <div className="my-10">
                 <Link href="/" className='px-3 py-2 rounded-3xl bg-almost-black border border-border-color flex items-center gap-2 hover:bg-dark-gray-4 group transition-all w-min duration-500 flex-nowrap'>

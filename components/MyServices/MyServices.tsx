@@ -50,7 +50,8 @@ export default function MyServices() {
                           width={30}
                           height={30}
                           src={service.icon}
-                          alt="icon"
+                          alt=""
+                          aria-hidden="true"
                           className="block w-full h-full rounded-[inherit] object-cover object-center"
                         />
                       </figure>
@@ -69,7 +70,8 @@ export default function MyServices() {
                         width={20}
                         height={20}
                         src={rightArrow}
-                        alt="icon"
+                        alt=""
+                          aria-hidden="true"
                         className="block w-full h-full rounded-[inherit] object-cover object-center group-hover:-rotate-45 transition-all duration-500"
                       />
                     </figure>
