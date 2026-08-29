@@ -92,14 +92,15 @@ export function PricingClient({
       <section className="mx-auto max-w-[720px] text-center">
         <div className="mx-auto mb-5 flex w-fit items-center gap-2 rounded-full border border-dark-gray-4 bg-very-dark-gray px-4 py-2 font-IBM_Plex_Mono text-xs uppercase tracking-[0.16em] text-light-gray-3">
           <Sparkles size={14} aria-hidden="true" />
-          Simple, transparent pricing
+          Development, on subscription
         </div>
         <h1 className="text-balance text-4xl font-bold leading-[1.08] text-white sm:text-5xl lg:text-6xl">
-          Choose the plan that fits your next stage.
+          A senior developer for your product, on retainer.
         </h1>
         <p className="mx-auto mt-6 max-w-[620px] text-lg font-medium leading-8 text-light-gray-2">
-          Start with a seven-day free trial. Paddle automatically shows the
-          correct local price and handles secure billing.
+          Submit unlimited development requests, worked one at a time in a
+          queue. Pause or cancel anytime. Start with a seven-day free trial —
+          Paddle shows the correct local price and handles secure billing.
         </p>
       </section>
 

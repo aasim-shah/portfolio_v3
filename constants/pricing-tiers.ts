@@ -11,47 +11,57 @@ export interface Tier {
 export const PRICING_TIERS: Tier[] = [
   {
     name: "Starter",
-    description: "The essentials for launching a focused product or side project.",
+    description:
+      "One development request in progress at a time. For solo founders and small products that need steady, ongoing help.",
     features: [
-      "One production workspace",
-      "Core product features",
-      "Community support",
+      "1 active request at a time",
+      "Unlimited requests, queued one by one",
+      "~3–5 business day average turnaround",
+      "MERN stack, APIs, and integrations",
+      "Async updates via email or Slack",
+      "Pause or cancel anytime",
       "7-day free trial",
     ],
     priceId: {
-      month: "pri_01m16hwhs90dw1n1ftcetpw9fc",
-      year: "pri_01m16hwj3cqt7rjm90fz0jwq5w",
+      month: "pri_01m16y43rqwc767bybc0aqdxtd",
+      year: "pri_01m16y445mk38671g904awasb2",
     },
   },
   {
     name: "Pro",
-    description: "More capacity and support for growing products and teams.",
+    description:
+      "Two requests moving in parallel with priority turnaround. For growing products that need consistent development throughput.",
     features: [
       "Everything in Starter",
-      "Unlimited workspaces",
-      "Advanced product features",
-      "Priority support",
+      "2 active requests in parallel",
+      "~2–3 business day average turnaround",
+      "Priority queue placement",
+      "Weekly progress call",
+      "Cloud infrastructure & DevOps support",
       "7-day free trial",
     ],
     featured: true,
     priceId: {
-      month: "pri_01m16hwjnszt8k8scb7vhs19pm",
-      year: "pri_01m16hwjymwbtw2k2w4k4b27v7",
+      month: "pri_01m16y44s1p6ysh7f2zr8vxc1q",
+      year: "pri_01m16y451zc3a8r1v87t894zzc",
     },
   },
   {
     name: "Advanced",
-    description: "High-touch delivery for established teams with bigger workloads.",
+    description:
+      "Dedicated capacity and direct access. For teams that need a senior engineer embedded in their roadmap.",
     features: [
       "Everything in Pro",
-      "Advanced controls",
-      "Higher usage limits",
-      "Dedicated support",
+      "3+ active requests / dedicated hours",
+      "Next-business-day turnaround on priority items",
+      "Direct Slack channel with faster response SLA",
+      "Architecture & technical leadership input",
+      "SaaS product development support",
       "7-day free trial",
     ],
     priceId: {
-      month: "pri_01m16hwm8035ydfvcycvwxbejb",
-      year: "pri_01m16hwmgn9wg4cyhah1w1pmnr",
+      month: "pri_01m16y45nzxcqkmnj158sp35vj",
+      year: "pri_01m16y45z0vrzbq70b7xrr6bsx",
     },
   },
 ];
