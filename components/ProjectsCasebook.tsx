@@ -289,11 +289,13 @@ function ProjectDiagram({
 export function ProjectGraphic({
   title,
   href,
+  liveHref,
   projectId,
   presentation,
 }: {
   title: string;
   href: string;
+  liveHref?: string;
   projectId: number;
   presentation: PublicProjectPresentation;
 }) {
@@ -305,11 +307,10 @@ export function ProjectGraphic({
     presentation.evidenceLabel;
 
   return (
+    <div className="group relative h-[300px] self-stretch overflow-hidden rounded-2xl bg-transparent sm:aspect-[16/9] sm:h-auto xl:aspect-auto xl:h-full">
     <Link
       href={href}
-      target="_blank"
-      rel="noreferrer"
-      className="group relative block h-[300px] self-stretch overflow-hidden rounded-2xl bg-transparent sm:aspect-[16/9] sm:h-auto xl:aspect-auto xl:h-full"
+      className="absolute inset-0 block"
     >
       <div className="absolute inset-0 overflow-hidden transition-transform duration-700 group-hover:scale-[1.01]">
         <Image
@@ -361,9 +362,21 @@ export function ProjectGraphic({
       </div>
 
       <span className="absolute bottom-5 right-5 inline-flex items-center gap-2 text-[10px] font-medium text-white transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 sm:bottom-7 sm:right-7">
-        Explore system <ArrowUpRight size={12} />
+        Case study <ArrowUpRight size={12} />
       </span>
     </Link>
+
+    {liveHref ? (
+      <a
+        href={liveHref}
+        target="_blank"
+        rel="noreferrer"
+        className="absolute right-5 top-5 z-10 inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 font-IBM_Plex_Mono text-[9px] uppercase tracking-widest text-white backdrop-blur-sm transition-colors hover:bg-black/80 sm:right-7 sm:top-7"
+      >
+        Live <ArrowUpRight size={10} />
+      </a>
+    ) : null}
+    </div>
   );
 }
 
@@ -436,7 +449,8 @@ export default function ProjectsCasebook() {
           >
             <ProjectGraphic
               title={item.title}
-              href={item.link}
+              href={`/projects/${item.slug}`}
+              liveHref={item.link}
               projectId={item.id}
               presentation={presentation}
             />
@@ -466,14 +480,24 @@ export default function ProjectsCasebook() {
                     <li key={feature}>• {feature}</li>
                   ))}
                 </ul>
-                <Link
-                  href={item.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-5 inline-flex items-center gap-2 text-xs font-medium text-white transition-opacity hover:opacity-70"
-                >
-                  View live <ArrowUpRight size={14} />
-                </Link>
+                <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2">
+                  <Link
+                    href={`/projects/${item.slug}`}
+                    className="inline-flex items-center gap-2 text-xs font-medium text-white transition-opacity hover:opacity-70"
+                  >
+                    Read case study <ArrowUpRight size={14} />
+                  </Link>
+                  {item.link ? (
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-xs font-medium text-light-gray-2 transition-opacity hover:opacity-70"
+                    >
+                      Visit live site <ArrowUpRight size={14} />
+                    </a>
+                  ) : null}
+                </div>
               </div>
             </div>
           </article>

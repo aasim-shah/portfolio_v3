@@ -1,0 +1,466 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Syed Aasim Shah — go to home" [ref=e8]
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=e21]:
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /contact
+        - listitem [ref=e37]:
+          - link [ref=e38] [cursor=pointer]:
+            - /url: /blogs
+      - link [ref=e43] [cursor=pointer]:
+        - /url: "#top"
+    - generic [ref=e47]:
+      - navigation [ref=e48]:
+        - generic [ref=e49]:
+          - link [ref=e50] [cursor=pointer]:
+            - /url: /contact
+            - button "Available For Work" [ref=e51]
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Islamabad ( PKT )
+            - generic [ref=e57]:
+              - paragraph
+      - main [ref=e58]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - img "Illustrated portrait of Syed Aasim Shah" [ref=e64]
+              - generic [ref=e65]:
+                - generic [ref=e66]:
+                  - generic [ref=e67]:
+                    - img "Waving hand" [ref=e68]
+                    - paragraph [ref=e69]: Hello, I am
+                  - generic [ref=e70]:
+                    - generic [ref=e71]: Founder & CTO
+                    - generic [ref=e72]: /
+                    - link "CoreByte Studio" [ref=e73] [cursor=pointer]:
+                      - /url: https://corebytestudio.com
+                - heading "Syed Aasim Shah Senior Full-Stack Developer & Solution Architect in Pakistan" [level=1] [ref=e77]:
+                  - text: Syed Aasim Shah
+                  - generic [ref=e78]: Senior Full-Stack Developer & Solution Architect in Pakistan
+                - paragraph [ref=e79]: I architect and ship dependable digital products—from multi-tenant SaaS and cloud infrastructure to fintech, healthtech, and applied AI.
+                - generic [ref=e80]:
+                  - link "Let's work together" [ref=e81] [cursor=pointer]:
+                    - /url: mailto:contact@aasimshah.com
+                  - button "Book a call" [ref=e86] [cursor=pointer]
+                  - link "Explore work" [ref=e90] [cursor=pointer]:
+                    - /url: "#projects"
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - paragraph [ref=e96]: Career at a glance
+                - link "Download résumé" [ref=e97] [cursor=pointer]:
+                  - /url: /Aasim_Shah_Senior_FSE.pdf
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - strong [ref=e103]: 5+
+                  - paragraph [ref=e104]: Years of experience
+                - generic [ref=e105]:
+                  - strong [ref=e106]: 8+
+                  - paragraph [ref=e107]: Products launched
+                - generic [ref=e108]:
+                  - strong [ref=e109]: "5"
+                  - paragraph [ref=e110]: Product domains
+            - generic [ref=e111]:
+              - paragraph [ref=e112]: Core stack
+              - generic [ref=e113]:
+                - generic [ref=e114]: Node.js
+                - generic [ref=e115]: TypeScript
+                - generic [ref=e116]: PostgreSQL
+                - generic [ref=e117]: AWS
+                - generic [ref=e118]: Docker
+                - generic [ref=e119]: WireGuard
+                - generic [ref=e120]: Grafana
+                - generic [ref=e121]: Next.js
+          - generic [ref=e122]:
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - figure [ref=e127]
+                - heading "My Experience" [level=2] [ref=e130]
+              - paragraph [ref=e132]: 5+ years designing, building, and operating production systems across backend engineering, SaaS, mobile, cloud infrastructure, fintech, healthtech, and real-time platforms.
+            - list [ref=e134]:
+              - listitem [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - paragraph [ref=e141]: Appworks
+                      - link "https://eeaglevpn.com" [ref=e143] [cursor=pointer]:
+                        - /url: https://eeaglevpn.com
+                    - paragraph [ref=e146]: Islamabad, PK
+                  - heading "Oct 2025 - Present" [level=3] [ref=e148]
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - paragraph [ref=e151]: MERN Stack Developer
+                    - paragraph [ref=e152]: Backend & Infrastructure Architecture
+                  - paragraph [ref=e154]: Backend and infrastructure architecture for eEagle VPN and its globally distributed production fleet.
+                  - list [ref=e155]:
+                    - listitem [ref=e156]:
+                      - generic [ref=e158]: Architected secure backend APIs and a Super Admin Dashboard for eEagle VPN (2M+ downloads), owning authentication, server allocation, and lifecycle management across 45+ servers in 20+ regions.
+                    - listitem [ref=e159]:
+                      - generic [ref=e161]: Built repeatable infrastructure automation for WireGuard and server provisioning with Node.js, Bash, and a remote script-based deployment pipeline.
+                    - listitem [ref=e162]:
+                      - generic [ref=e164]: Established Grafana and Prometheus observability using Kafka, Docker, Node, and Redis exporters, with alerting for fleet health, uptime, and performance.
+                    - listitem [ref=e165]:
+                      - generic [ref=e167]: Own production security hardening and performance, and shipped the eEagle VPN Chrome Extension for browser-level connectivity.
+              - listitem [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - generic [ref=e172]:
+                      - paragraph [ref=e174]: Dcodax Pvt Ltd
+                      - link "http://dcodax.com" [ref=e176] [cursor=pointer]:
+                        - /url: http://dcodax.com
+                    - paragraph [ref=e179]: Islamabad, PK
+                  - heading "Sep 2024 - Sep 2025" [level=3] [ref=e181]
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - paragraph [ref=e184]: MERN Stack Developer
+                    - paragraph [ref=e185]: Backend Architecture
+                  - paragraph [ref=e187]: Backend architecture and cross-functional delivery across four production SaaS platforms.
+                  - list [ref=e188]:
+                    - listitem [ref=e189]:
+                      - generic [ref=e191]: Architected REST APIs for Hoheal, including multi-vendor hotel workflows, service requests, and real-time staff–guest messaging.
+                    - listitem [ref=e192]:
+                      - generic [ref=e194]: Designed PIKUP POS backend architecture for QR ordering and real-time POS synchronization, plus Ajar rental workflows with Stripe and document-backed registration.
+                    - listitem [ref=e195]:
+                      - generic [ref=e197]: Designed Bite.md backend and MAIB payments, directing React and Flutter delivery across four SaaS products shipped within 12 months.
+              - listitem [ref=e198]:
+                - generic [ref=e199]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]:
+                      - paragraph [ref=e204]: ItecExperts Pvt Ltd
+                      - link "https://itecexperts.com" [ref=e206] [cursor=pointer]:
+                        - /url: https://itecexperts.com
+                    - paragraph [ref=e209]: Peshawar, PK
+                  - heading "Jul 2023 - Aug 2024" [level=3] [ref=e211]
+                - generic [ref=e212]:
+                  - paragraph [ref=e214]: MERN Stack Developer
+                  - paragraph [ref=e216]: Backend engineering for mobile applications, marketplaces, automation tools, commerce, and B2B systems.
+                  - list [ref=e217]:
+                    - listitem [ref=e218]:
+                      - generic [ref=e220]: Engineered production APIs powering Flutter apps, marketplaces, automation tools, e-commerce, and B2B products.
+                    - listitem [ref=e221]:
+                      - generic [ref=e223]: Led a Socket.io messaging platform with file transfers, forwarding, and reactions, while optimizing MySQL and MongoDB data models.
+                    - listitem [ref=e224]:
+                      - generic [ref=e226]: Architected subscription and billing workflows and owned AWS and GitHub Actions CI/CD, reducing deployment time by 40%.
+              - listitem [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e230]:
+                    - paragraph [ref=e233]: 47Apps Company
+                    - paragraph [ref=e236]: Remote, US
+                  - heading "Feb 2021 - Jun 2023" [level=3] [ref=e238]
+                - generic [ref=e239]:
+                  - paragraph [ref=e241]: Backend Developer
+                  - paragraph [ref=e243]: Backend APIs and production infrastructure for mobile, web, marketplace, and real-time products.
+                  - list [ref=e244]:
+                    - listitem [ref=e245]:
+                      - generic [ref=e247]: Engineered APIs for Flutter apps, marketing websites, and admin dashboards, and launched a multi-vendor service marketplace on AWS.
+                    - listitem [ref=e248]:
+                      - generic [ref=e250]: Built real-time vendor–user chat and integrated Stripe payment infrastructure, reducing payment errors.
+          - generic [ref=e251]:
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - figure [ref=e256]
+                - heading "My Stacks" [level=2] [ref=e259]
+              - paragraph [ref=e261]: Commitment to staying updated with the latest design trends and techniques.
+            - list [ref=e263]:
+              - listitem [ref=e264]:
+                - link [ref=e265] [cursor=pointer]:
+                  - /url: https://nextjs.org
+                  - figure [ref=e268]:
+                    - img "Next.js" [ref=e269]
+                  - generic [ref=e270]:
+                    - paragraph [ref=e272]: Next.js
+                    - paragraph [ref=e274]: Full-Stack React Framework
+              - listitem [ref=e278]:
+                - link [ref=e279] [cursor=pointer]:
+                  - /url: https://nodejs.org
+                  - figure [ref=e282]:
+                    - img "Node.js" [ref=e283]
+                  - generic [ref=e284]:
+                    - paragraph [ref=e286]: Node.js
+                    - paragraph [ref=e288]: JavaScript Runtime
+              - listitem [ref=e292]:
+                - link [ref=e293] [cursor=pointer]:
+                  - /url: https://expressjs.com
+                  - figure [ref=e296]:
+                    - img "Express.js" [ref=e297]
+                  - generic [ref=e298]:
+                    - paragraph [ref=e300]: Express.js
+                    - paragraph [ref=e302]: Fast Node.js Framework
+              - listitem [ref=e306]:
+                - link [ref=e307] [cursor=pointer]:
+                  - /url: https://reactjs.org
+                  - figure [ref=e310]:
+                    - img "React.js" [ref=e311]
+                  - generic [ref=e312]:
+                    - paragraph [ref=e314]: React.js
+                    - paragraph [ref=e316]: UI Library
+              - listitem [ref=e320]:
+                - link [ref=e321] [cursor=pointer]:
+                  - /url: https://www.mongodb.com
+                  - figure [ref=e324]:
+                    - img "MongoDB" [ref=e325]
+                  - generic [ref=e326]:
+                    - paragraph [ref=e328]: MongoDB
+                    - paragraph [ref=e330]: NoSQL Database
+              - listitem [ref=e334]:
+                - link [ref=e335] [cursor=pointer]:
+                  - /url: https://www.mysql.com
+                  - figure [ref=e338]:
+                    - img "MySQL" [ref=e339]
+                  - generic [ref=e340]:
+                    - paragraph [ref=e342]: MySQL
+                    - paragraph [ref=e344]: Relational Database
+              - listitem [ref=e348]:
+                - link [ref=e349] [cursor=pointer]:
+                  - /url: https://www.typescriptlang.org
+                  - figure [ref=e352]:
+                    - img "TypeScript" [ref=e353]
+                  - generic [ref=e354]:
+                    - paragraph [ref=e356]: TypeScript
+                    - paragraph [ref=e358]: Strongly Typed JavaScript
+              - listitem [ref=e362]:
+                - link [ref=e363] [cursor=pointer]:
+                  - /url: https://aws.amazon.com
+                  - figure [ref=e366]:
+                    - img "AWS" [ref=e367]
+                  - generic [ref=e368]:
+                    - paragraph [ref=e370]: AWS
+                    - paragraph [ref=e372]: Cloud Computing Platform
+              - listitem [ref=e376]:
+                - link [ref=e377] [cursor=pointer]:
+                  - /url: https://www.docker.com
+                  - figure [ref=e380]:
+                    - img "Docker" [ref=e381]
+                  - generic [ref=e382]:
+                    - paragraph [ref=e384]: Docker
+                    - paragraph [ref=e386]: Containerization
+              - listitem [ref=e390]:
+                - link [ref=e391] [cursor=pointer]:
+                  - /url: https://socket.io
+                  - figure [ref=e394]:
+                    - img "Socket.io" [ref=e395]
+                  - generic [ref=e396]:
+                    - paragraph [ref=e398]: Socket.io
+                    - paragraph [ref=e400]: Real-time Communication
+              - listitem [ref=e404]:
+                - link [ref=e405] [cursor=pointer]:
+                  - /url: https://grafana.com
+                  - figure [ref=e408]:
+                    - img "Grafana" [ref=e409]
+                  - generic [ref=e410]:
+                    - paragraph [ref=e412]: Grafana
+                    - paragraph [ref=e414]: Monitoring & Analytics
+              - listitem [ref=e418]:
+                - link [ref=e419] [cursor=pointer]:
+                  - /url: https://www.linux.org
+                  - figure [ref=e422]:
+                    - img "Linux" [ref=e423]
+                  - generic [ref=e424]:
+                    - paragraph [ref=e426]: Linux
+                    - paragraph [ref=e428]: Server Management
+          - generic [ref=e432]:
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - figure [ref=e437]
+                - heading "My Services" [level=2] [ref=e440]
+              - paragraph [ref=e442]: Architecture and engineering support for production software, from backend design through deployment and managed operations.
+            - list [ref=e444]:
+              - listitem [ref=e445]:
+                - link [ref=e446] [cursor=pointer]:
+                  - /url: /services
+                  - generic [ref=e447]:
+                    - figure [ref=e450]
+                    - paragraph [ref=e453]: MERN Stack Development
+                    - figure [ref=e455]
+                  - paragraph [ref=e458]: Designing and building production web applications with Node.js, React, Next.js, TypeScript, MongoDB, MySQL, and PostgreSQL.
+              - listitem [ref=e459]:
+                - link [ref=e460] [cursor=pointer]:
+                  - /url: /services
+                  - generic [ref=e461]:
+                    - figure [ref=e464]
+                    - paragraph [ref=e467]: API Development & Integration
+                    - figure [ref=e469]
+                  - paragraph [ref=e472]: Architecting secure REST APIs, database models, real-time systems, and integrations for Stripe, MAIB, OpenAI, and other platforms.
+              - listitem [ref=e473]:
+                - link [ref=e474] [cursor=pointer]:
+                  - /url: /services
+                  - generic [ref=e475]:
+                    - figure [ref=e478]
+                    - paragraph [ref=e481]: Cloud Infrastructure & DevOps
+                    - figure [ref=e483]
+                  - paragraph [ref=e486]: Automating Linux and WireGuard infrastructure, CI/CD, monitoring, and deployments across AWS, DigitalOcean, Contabo, and Gthost.
+              - listitem [ref=e487]:
+                - link [ref=e488] [cursor=pointer]:
+                  - /url: /services
+                  - generic [ref=e489]:
+                    - figure [ref=e492]
+                    - paragraph [ref=e495]: SaaS Product Development
+                    - figure [ref=e497]
+                  - paragraph [ref=e500]: Taking multi-tenant products from architecture through launch, including admin dashboards, payments, AI/RAG, and mobile app backends.
+          - generic [ref=e501]:
+            - generic [ref=e502]:
+              - paragraph [ref=e503]: Selected engineering work
+              - generic [ref=e504]:
+                - heading "Production systems, shown as they ship." [level=2] [ref=e505]: Production systems,shown as they ship.
+                - paragraph [ref=e506]: Real interfaces, technical decisions, and operating scale.
+            - generic [ref=e508]:
+              - generic [ref=e509]:
+                - paragraph [ref=e510]: Leadership / Studio
+                - paragraph [ref=e511]: Founder & CTO
+              - generic [ref=e512]:
+                - heading "CoreByte Studio" [level=3] [ref=e513]
+                - paragraph [ref=e514]: Architecture, engineering direction, delivery, and production operations across web, mobile, cloud, and AI products.
+              - link "Studio" [ref=e515] [cursor=pointer]:
+                - /url: https://corebytestudio.com
+            - generic [ref=e519]:
+              - article [ref=e520]:
+                - link [ref=e521] [cursor=pointer]:
+                  - /url: https://fyreway.com
+                  - img "FyreWay production interface" [ref=e523]
+                  - generic [ref=e525]:
+                    - paragraph [ref=e527]: 01 / Infrastructure
+                    - generic [ref=e528]:
+                      - paragraph [ref=e529]: Selected system
+                      - heading "FyreWay" [level=3] [ref=e530]
+                      - paragraph [ref=e531]: Automated server provisioning
+                      - generic [ref=e533]:
+                        - strong [ref=e534]: 20+
+                        - paragraph [ref=e535]: global locations
+                  - generic [ref=e536]: Explore system
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - paragraph [ref=e543]: 01 / Infrastructure
+                    - heading "FyreWay" [level=3] [ref=e545]
+                    - paragraph [ref=e546]: Self-serve infrastructure platform that provisions production-ready VPN servers across 20+ global locations, with automated lifecycle management, SDKs, monitoring, and reliability controls.
+                  - generic [ref=e547]:
+                    - list [ref=e548]:
+                      - listitem [ref=e549]: • Automated server provisioning
+                      - listitem [ref=e550]: • Multi-cloud lifecycle management
+                      - listitem [ref=e551]: • SDKs and fleet monitoring
+                    - generic [ref=e552]:
+                      - paragraph [ref=e553]: Node.js · Bash · WireGuard
+                      - link "View live" [ref=e554] [cursor=pointer]:
+                        - /url: https://fyreway.com
+              - article [ref=e558]:
+                - link [ref=e559] [cursor=pointer]:
+                  - /url: https://eeaglevpn.com
+                  - img "eEagle VPN production interface" [ref=e561]
+                  - generic [ref=e563]:
+                    - paragraph [ref=e565]: 02 / VPN Platform
+                    - generic [ref=e566]:
+                      - paragraph [ref=e567]: Selected system
+                      - heading "eEagle VPN" [level=3] [ref=e568]
+                      - paragraph [ref=e569]: 45+ server production fleet
+                      - generic [ref=e571]:
+                        - strong [ref=e572]: ~2M
+                        - paragraph [ref=e573]: mobile users
+                  - generic [ref=e574]: Explore system
+                - generic [ref=e578]:
+                  - generic [ref=e579]:
+                    - paragraph [ref=e581]: 02 / VPN Platform
+                    - heading "eEagle VPN" [level=3] [ref=e583]
+                    - paragraph [ref=e584]: Backend and infrastructure architecture for a consumer VPN serving approximately 2M mobile users through 45+ servers in 20+ regions, with automated provisioning and fleet-wide observability.
+                  - generic [ref=e585]:
+                    - list [ref=e586]:
+                      - listitem [ref=e587]: • 45+ server production fleet
+                      - listitem [ref=e588]: • 20+ global regions
+                      - listitem [ref=e589]: • Fleet-wide observability
+                    - generic [ref=e590]:
+                      - paragraph [ref=e591]: Node.js · WireGuard · Grafana
+                      - link "View live" [ref=e592] [cursor=pointer]:
+                        - /url: https://eeaglevpn.com
+              - article [ref=e596]:
+                - link [ref=e597] [cursor=pointer]:
+                  - /url: https://fyremaps.com
+                  - img "FyreMaps production interface" [ref=e599]
+                  - generic [ref=e601]:
+                    - paragraph [ref=e603]: 03 / Location Infrastructure
+                    - generic [ref=e604]:
+                      - paragraph [ref=e605]: Selected system
+                      - heading "FyreMaps" [level=3] [ref=e606]
+                      - paragraph [ref=e607]: Search and geocoding
+                      - generic [ref=e609]:
+                        - strong [ref=e610]: Live
+                        - paragraph [ref=e611]: One stack
+                  - generic [ref=e612]: Explore system
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - paragraph [ref=e619]: 03 / Location Infrastructure
+                    - heading "FyreMaps" [level=3] [ref=e621]
+                    - paragraph [ref=e622]: Location infrastructure combining maps, routing, search, navigation, geofencing, and geocoding through a single production-ready integration.
+                  - generic [ref=e623]:
+                    - list [ref=e624]:
+                      - listitem [ref=e625]: • Search and geocoding
+                      - listitem [ref=e626]: • Routing and navigation
+                      - listitem [ref=e627]: • Geofencing APIs
+                    - generic [ref=e628]:
+                      - paragraph [ref=e629]: PostGIS · MapLibre GL · AWS
+                      - link "View live" [ref=e630] [cursor=pointer]:
+                        - /url: https://fyremaps.com
+              - article [ref=e634]:
+                - link [ref=e635] [cursor=pointer]:
+                  - /url: https://getrestro.com
+                  - img "GetRestro production interface" [ref=e637]
+                  - generic [ref=e639]:
+                    - paragraph [ref=e641]: 04 / Restaurant SaaS
+                    - generic [ref=e642]:
+                      - paragraph [ref=e643]: Selected system
+                      - heading "GetRestro" [level=3] [ref=e644]
+                      - paragraph [ref=e645]: POS and kitchen display
+                      - generic [ref=e647]:
+                        - strong [ref=e648]: Live
+                        - paragraph [ref=e649]: Order flow
+                  - generic [ref=e650]: Explore system
+                - generic [ref=e654]:
+                  - generic [ref=e655]:
+                    - paragraph [ref=e657]: 04 / Restaurant SaaS
+                    - heading "GetRestro" [level=3] [ref=e659]
+                    - paragraph [ref=e660]: Multi-tenant restaurant management SaaS combining POS, kitchen display, staff workflows, inventory, online ordering, and real-time analytics for multi-location operators.
+                  - generic [ref=e661]:
+                    - list [ref=e662]:
+                      - listitem [ref=e663]: • POS and kitchen display
+                      - listitem [ref=e664]: • Inventory and staff workflows
+                      - listitem [ref=e665]: • Multi-tenant analytics
+                    - generic [ref=e666]:
+                      - paragraph [ref=e667]: Next.js · Node.js · Real-time
+                      - link "View live" [ref=e668] [cursor=pointer]:
+                        - /url: https://getrestro.com
+            - link "View the complete project casebook" [ref=e672] [cursor=pointer]:
+              - /url: /projects
+          - button "Open chat" [ref=e677] [cursor=pointer]
+      - contentinfo [ref=e680]:
+        - generic [ref=e681]:
+          - link "Terms & Conditions" [ref=e682] [cursor=pointer]:
+            - /url: /terms
+          - link "Privacy Policy" [ref=e683] [cursor=pointer]:
+            - /url: /privacy
+          - link "Refund Policy" [ref=e684] [cursor=pointer]:
+            - /url: /refund
+        - generic [ref=e685]: © 2026 Aasim Shah. All rights reserved.
+    - complementary [ref=e686]:
+      - list [ref=e689]:
+        - listitem [ref=e690]:
+          - link [ref=e691] [cursor=pointer]:
+            - /url: https://www.github.com/aasim-shah
+        - listitem [ref=e696]:
+          - link [ref=e697] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/aasimshah/
+        - listitem [ref=e703]:
+          - link [ref=e704] [cursor=pointer]:
+            - /url: https://www.instagram.com/themistyframes_/
+  - alert [ref=e709]

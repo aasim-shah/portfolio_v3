@@ -1,10 +1,23 @@
-"use client";
-import type React from "react";
+import type { Metadata } from "next";
 import { faqData } from "@/data";
 import { ArrowUpRight, Mail } from "lucide-react";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import FAQ from "@/components/FAQ/FAQ";
 import ScheduleButton from "@/components/ui/ScheduleButton";
+
+export const metadata: Metadata = {
+  title: "Contact Aasim Shah - Hire a Full-Stack Developer in Pakistan",
+  description:
+    "Get in touch with Syed Aasim Shah (Aasim Shah / Asim Shah), a senior full-stack developer in Islamabad, Pakistan, for SaaS, backend, and cloud infrastructure projects.",
+  alternates: { canonical: "https://aasimshah.com/contact" },
+  openGraph: {
+    title: "Contact Aasim Shah - Hire a Full-Stack Developer in Pakistan",
+    description:
+      "Get in touch with Syed Aasim Shah for SaaS, backend, and cloud infrastructure projects.",
+    url: "https://aasimshah.com/contact",
+    type: "website",
+  },
+};
 
 export default function ContactPage() {
   return (

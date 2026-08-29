@@ -66,6 +66,8 @@ export interface myShowCasesTypes {
   status: string;
   technologies: string;
   image: StaticImageData | string;
+  /** Present only on projects with a public case-study page at /projects/[slug]. */
+  slug?: string;
 }
 
 export interface testimonialsTypes {

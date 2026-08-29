@@ -450,6 +450,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "Live",
     technologies: "Node.js · Bash · WireGuard",
     image: project_1,
+    slug: "fyreway",
   },
   {
     id: 2,
@@ -461,6 +462,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "Live",
     technologies: "Node.js · WireGuard · Grafana",
     image: project_2,
+    slug: "eeagle-vpn",
   },
   {
     id: 3,
@@ -472,6 +474,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "Live",
     technologies: "PostGIS · MapLibre GL · AWS",
     image: project_3,
+    slug: "fyremaps",
   },
   {
     id: 4,
@@ -483,6 +486,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "In production",
     technologies: "Next.js · Node.js · Real-time",
     image: pos,
+    slug: "getrestro",
   },
   {
     id: 5,
@@ -494,6 +498,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "In production",
     technologies: "POS · Inventory · Real-time",
     image: project_4,
+    slug: "runmypharmacy",
   },
   {
     id: 6,
@@ -505,6 +510,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "Live",
     technologies: "AI Insights · Mobile · Real-time",
     image: project_1,
+    slug: "feedwink",
   },
   {
     id: 7,
@@ -516,6 +522,7 @@ export const myShowCases: myShowCasesTypes[] = [
     status: "Live",
     technologies: "RAG · OpenAI · Embeddable SDKs",
     image: project_2,
+    slug: "fyrebot",
   },
   {
     id: 8,
