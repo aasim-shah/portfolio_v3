@@ -3,6 +3,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import AvailableForWorkBtn from "../ui/AvailableForWorkBtn";
 import { Equal, X } from "lucide-react";
 import SideNavbar from "../SideNavbar/SideNavbar";
+import { Show, SignInButton, UserButton } from "@clerk/nextjs";
 
 export default function Navbar() {
   const [time, setTime] = useState<string>("");
@@ -42,6 +43,16 @@ export default function Navbar() {
                 {time}
               </p>
             </div>
+            <Show when="signed-in">
+              <UserButton />
+            </Show>
+            <Show when="signed-out">
+              <SignInButton mode="modal">
+                <button className="rounded-xl border border-dark-gray-4 bg-almost-black px-4 py-2.5 font-IBM_Plex_Mono text-xs font-semibold uppercase text-white transition-colors hover:bg-dark-gray-4">
+                  Sign in
+                </button>
+              </SignInButton>
+            </Show>
           </div>
           <button
             onClick={toggleMenu}

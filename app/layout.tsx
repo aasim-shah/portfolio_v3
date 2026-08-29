@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, IBM_Plex_Mono } from "next/font/google";
 import Script from "next/script";
+import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import Navbar from "@/components/Header/Navbar";
 import SocialLists from "@/components/Socials/SocialLists";
@@ -242,37 +243,37 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.variable} ${ibmPlexMono.variable} antialiased`}
       >
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-NS5JRS57S0"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-NS5JRS57S0');
-          `}
-        </Script>
-        <ThemeProvider
-          attribute="data-theme"
-          defaultTheme="dark"
-          forcedTheme="dark"
-          disableTransitionOnChange
-        >
-          <div className="flex min-h-screen w-full items-start bg-darkest-gray">
-            <SideNavbar />
-            <div className="w-full bg-darkest-gray lg:flex-1">
-              <Navbar />
-              <main className="bg-darkest-gray">{children}</main>
-              <Footer />
+        <ClerkProvider>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-NS5JRS57S0"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NS5JRS57S0');
+            `}
+          </Script>
+          <ThemeProvider
+            attribute="data-theme"
+            defaultTheme="dark"
+            forcedTheme="dark"
+            disableTransitionOnChange
+          >
+            <div className="flex min-h-screen w-full items-start bg-darkest-gray">
+              <SideNavbar />
+              <div className="w-full bg-darkest-gray lg:flex-1">
+                <Navbar />
+                <main className="bg-darkest-gray">{children}</main>
+                <Footer />
+              </div>
+              <SocialLists />
             </div>
-            <SocialLists />
-          </div>
-        
-         
-        </ThemeProvider>
-        {/* <Analytics /> */}
+          </ThemeProvider>
+          {/* <Analytics /> */}
+        </ClerkProvider>
       </body>
     </html>
   );

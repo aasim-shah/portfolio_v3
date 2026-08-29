@@ -29,7 +29,7 @@ export default async function AccountPage() {
         <p className="mt-4 text-base font-medium leading-7 text-light-gray-2">
           {user
             ? "Open Paddle’s secure customer portal to update your payment method, cancel a plan, or download invoices."
-            : "Connect this project’s authentication provider to access customer billing securely."}
+            : "Sign in to manage your subscription and billing details."}
         </p>
 
         {user ? (
@@ -44,10 +44,10 @@ export default async function AccountPage() {
           </form>
         ) : (
           <Link
-            href="/pricing"
+            href="/sign-in"
             className="mt-8 inline-flex rounded-xl border border-dark-gray-4 bg-almost-black px-5 py-3 font-IBM_Plex_Mono text-sm font-semibold uppercase text-white"
           >
-            View pricing
+            Sign in
           </Link>
         )}
       </section>
