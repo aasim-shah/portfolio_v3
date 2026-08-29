@@ -6,7 +6,7 @@ export interface AuthenticatedUser {
   email: string;
 }
 
-
+// prductoin..
 /**
  * Authentication adapter for serzzzver components and actions, backed by Clerk.
  * Reads the verified session set by clerkMiddleware — never trust a
