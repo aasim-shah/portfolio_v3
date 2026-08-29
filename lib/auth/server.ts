@@ -10,7 +10,7 @@ export interface AuthenticatedUser {
 
 // fucking haaa /// awky 
 /**
- * Authentication adapter for server components and actions, backed by Clerk.
+ * Authentication adapter for serzzzver components and actions, backed by Clerk.
  * Reads the verified session set by clerkMiddleware — never trust a
  * client-supplied email/customer ID or an unsigned request header instead.
  */
