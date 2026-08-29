@@ -1,4 +1,4 @@
-import { BookOpen, FolderKanban, Info, Mail, User, Zap } from "lucide-react";
+import { BookOpen, CircleDollarSign, FolderKanban, Info, Mail, User, Zap } from "lucide-react";
 import {
   discord,
   itecExpertsIcon,
@@ -78,6 +78,12 @@ export const pagesLists: pagesListsType[] = [
     title: "Blogs",
     href: "/blogs",
     icon: <BookOpen />,
+  },
+  {
+    id: 7,
+    title: "Pricing",
+    href: "/pricing",
+    icon: <CircleDollarSign />,
   },
 ];
 
