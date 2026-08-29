@@ -37,32 +37,48 @@ const servicesSchema = {
   "@type": "ItemList",
   itemListElement: [
     {
-      "@type": "Service",
+      "@type": "ListItem",
       position: 1,
-      name: "Full-Stack Product Engineering",
-      description:
-        "Production applications using Node.js, React, Next.js, TypeScript, and relational and document databases.",
+      url: "https://aasimshah.com/services/mern-stack-development",
+      item: {
+        "@type": "Service",
+        name: "MERN Stack Development",
+        description:
+          "Production applications using Node.js, React, Next.js, TypeScript, and relational and document databases.",
+      },
     },
     {
-      "@type": "Service",
+      "@type": "ListItem",
       position: 2,
-      name: "API Development",
-      description:
-        "REST APIs, database architecture, real-time systems, payment gateways, and AI integrations.",
+      url: "https://aasimshah.com/services/api-development-integration",
+      item: {
+        "@type": "Service",
+        name: "API Development & Integration",
+        description:
+          "REST APIs, database architecture, real-time systems, payment gateways, and AI integrations.",
+      },
     },
     {
-      "@type": "Service",
+      "@type": "ListItem",
       position: 3,
-      name: "Cloud & DevOps",
-      description:
-        "Linux and WireGuard automation, CI/CD, observability, and multi-cloud deployments.",
+      url: "https://aasimshah.com/services/cloud-infrastructure-devops",
+      item: {
+        "@type": "Service",
+        name: "Cloud Infrastructure & DevOps",
+        description:
+          "Linux and WireGuard automation, CI/CD, observability, and multi-cloud deployments.",
+      },
     },
     {
-      "@type": "Service",
+      "@type": "ListItem",
       position: 4,
-      name: "SaaS Product Development",
-      description:
-        "Multi-tenant SaaS delivery from system design through launch and managed operations.",
+      url: "https://aasimshah.com/services/saas-product-development",
+      item: {
+        "@type": "Service",
+        name: "SaaS Product Development",
+        description:
+          "Multi-tenant SaaS delivery from system design through launch and managed operations.",
+      },
     },
   ],
 };

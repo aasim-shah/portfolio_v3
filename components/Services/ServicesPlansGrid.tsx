@@ -40,9 +40,12 @@ export default function ServicesPlansGrid() {
                   </div>
 
                   <div className="flex flex-col flex-1 justify-start">
-                    <p className="font-bold text-xl text-very-light-gray">
+                    <Link
+                      href={`/services/${plan.slug}`}
+                      className="font-bold text-xl text-very-light-gray hover:underline"
+                    >
                       {plan.service}
-                    </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -69,10 +72,16 @@ export default function ServicesPlansGrid() {
               <InfoRow label="Experience" value={plan.experience} />
               <InfoRow label="Engagement" value={plan.totalHoursWorked} />
             </div>
-            <div className="h-auto w-full">
+            <div className="flex h-auto w-full gap-2">
+              <Link
+                href={`/services/${plan.slug}`}
+                className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-full border border-dark-gray-3 px-5 text-[13px] font-semibold text-light-gray-4 transition-colors duration-300 hover:border-light-gray-2"
+              >
+                Learn more
+              </Link>
               <Link
                 href={plan.link}
-                className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-white px-5 text-[13px] font-semibold text-black transition-transform duration-300 hover:-translate-y-0.5"
+                className="inline-flex min-h-11 flex-1 items-center justify-center gap-2 rounded-full bg-white px-5 text-[13px] font-semibold text-black transition-transform duration-300 hover:-translate-y-0.5"
               >
                 Make Offer
               </Link>

@@ -36,12 +36,25 @@ const serviceSchema = {
       "@type": "Offer",
       itemOffered: {
         "@type": "Service",
+        "@id": `https://aasimshah.com/services/${plan.slug}#service`,
         name: plan.service,
         description: plan.description,
+        url: `https://aasimshah.com/services/${plan.slug}`,
       },
       url: "https://aasimshah.com/contact",
     })),
   },
+};
+
+const serviceListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: myServicesPlans.map((plan, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    url: `https://aasimshah.com/services/${plan.slug}`,
+    name: plan.service,
+  })),
 };
 
 const breadcrumbSchema = {
@@ -59,6 +72,10 @@ export default function SearvicesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceListSchema) }}
       />
       <script
         type="application/ld+json"

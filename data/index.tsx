@@ -411,7 +411,8 @@ export const myServices: myServicesTypes[] = [
     description:
       "Designing and building production web applications with Node.js, React, Next.js, TypeScript, MongoDB, MySQL, and PostgreSQL.",
     icon: webDesignIcon,
-    link: "/services",
+    link: "/services/mern-stack-development",
+    slug: "mern-stack-development",
   },
   {
     id: 2,
@@ -419,7 +420,8 @@ export const myServices: myServicesTypes[] = [
     description:
       "Architecting secure REST APIs, database models, real-time systems, and integrations for Stripe, MAIB, OpenAI, and other platforms.",
     icon: webDevIcon,
-    link: "/services",
+    link: "/services/api-development-integration",
+    slug: "api-development-integration",
   },
   {
     id: 3,
@@ -427,7 +429,8 @@ export const myServices: myServicesTypes[] = [
     description:
       "Automating Linux and WireGuard infrastructure, CI/CD, monitoring, and deployments across AWS, DigitalOcean, Contabo, and Gthost.",
     icon: seoOptIcon,
-    link: "/services",
+    link: "/services/cloud-infrastructure-devops",
+    slug: "cloud-infrastructure-devops",
   },
   {
     id: 4,
@@ -435,7 +438,8 @@ export const myServices: myServicesTypes[] = [
     description:
       "Taking multi-tenant products from architecture through launch, including admin dashboards, payments, AI/RAG, and mobile app backends.",
     icon: webDesignIcon,
-    link: "/services",
+    link: "/services/saas-product-development",
+    slug: "saas-product-development",
   },
 ];
 
@@ -617,6 +621,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     totalHoursWorked: "Remote / global",
     icon: webDesignIcon,
     link: "/contact",
+    slug: "mern-stack-development",
   },
   {
     id: 2,
@@ -629,6 +634,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     totalHoursWorked: "Project / retainer",
     icon: webDevIcon,
     link: "/contact",
+    slug: "api-development-integration",
   },
   {
     id: 3,
@@ -641,6 +647,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     totalHoursWorked: "Build / managed ops",
     icon: seoOptIcon,
     link: "/contact",
+    slug: "cloud-infrastructure-devops",
   },
   {
     id: 4,
@@ -653,6 +660,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     totalHoursWorked: "Project / retainer",
     icon: webDesignIcon,
     link: "/contact",
+    slug: "saas-product-development",
   },
 ];
 

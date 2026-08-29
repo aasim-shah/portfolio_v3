@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { blogPosts, myShowCases } from '@/data'
+import { blogPosts, myShowCases, myServices } from '@/data'
 
 const baseUrl = 'https://aasimshah.com'
 
@@ -53,5 +53,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly' as const,
         priority: 0.7,
       })),
+    ...myServices.map((service) => ({
+      url: `${baseUrl}/services/${service.slug}`,
+      lastModified: pageLastModified['/services'],
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
   ]
 }

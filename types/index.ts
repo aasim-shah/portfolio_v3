@@ -55,6 +55,8 @@ export interface myServicesTypes {
   description: string;
   icon: string;
   link: string;
+  /** Slug for the dedicated case-study-style page at /services/[slug]. */
+  slug: string;
 }
 
 export interface myShowCasesTypes {
@@ -96,6 +98,8 @@ export interface myServicesPlansTypes {
   totalHoursWorked: string;
   icon: string;
   link: string;
+  /** Slug for the dedicated case-study-style page at /services/[slug]. */
+  slug: string;
 }
 
 export interface blogPostType {
