@@ -95,12 +95,13 @@ export function PricingClient({
           Development, on subscription
         </div>
         <h1 className="text-balance text-4xl font-bold leading-[1.08] text-white sm:text-5xl lg:text-6xl">
-          A senior developer for your product, on retainer.
+          Senior engineering capacity, reserved for your product.
         </h1>
         <p className="mx-auto mt-6 max-w-[620px] text-lg font-medium leading-8 text-light-gray-2">
-          Submit unlimited development requests, worked one at a time in a
-          queue. Pause or cancel anytime. Start with a seven-day free trial —
-          Paddle shows the correct local price and handles secure billing.
+          Choose a clear monthly capacity for product development,
+          integrations, architecture, and infrastructure. Start with a
+          seven-day free trial — Paddle shows the correct local price and
+          handles secure billing.
         </p>
       </section>
 

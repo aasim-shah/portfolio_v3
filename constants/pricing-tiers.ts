@@ -12,14 +12,15 @@ export const PRICING_TIERS: Tier[] = [
   {
     name: "Starter",
     description:
-      "One development request in progress at a time. For solo founders and small products that need steady, ongoing help.",
+      "Reserved engineering time for established products that need dependable maintenance and steady improvements.",
     features: [
-      "1 active request at a time",
-      "Unlimited requests, queued one by one",
-      "~3–5 business day average turnaround",
-      "MERN stack, APIs, and integrations",
-      "Async updates via email or Slack",
-      "Pause or cancel anytime",
+      "Up to 20 engineering hours per month",
+      "1 active workstream",
+      "MERN and Next.js features and bug fixes",
+      "API, database, and integration updates",
+      "Basic deployment and CI/CD assistance",
+      "3–5 business day delivery for typical small tasks",
+      "Async updates and a monthly delivery summary",
       "7-day free trial",
     ],
     priceId: {
@@ -30,14 +31,15 @@ export const PRICING_TIERS: Tier[] = [
   {
     name: "Pro",
     description:
-      "Two requests moving in parallel with priority turnaround. For growing products that need consistent development throughput.",
+      "Consistent full-stack delivery for startups and growing products with an active feature roadmap.",
     features: [
-      "Everything in Starter",
-      "2 active requests in parallel",
-      "~2–3 business day average turnaround",
-      "Priority queue placement",
-      "Weekly progress call",
-      "Cloud infrastructure & DevOps support",
+      "Up to 50 engineering hours per month",
+      "1 primary workstream plus expedited bug fixes",
+      "Full-stack features, APIs, and database architecture",
+      "Payments, AI, and real-time integrations",
+      "CI/CD, staging, and production deployments",
+      "2–3 business day delivery for typical small tasks",
+      "Weekly progress call and release notes",
       "7-day free trial",
     ],
     featured: true,
@@ -49,14 +51,15 @@ export const PRICING_TIERS: Tier[] = [
   {
     name: "Advanced",
     description:
-      "Dedicated capacity and direct access. For teams that need a senior engineer embedded in their roadmap.",
+      "Embedded senior engineering capacity for teams tackling architecture, scale, and complex product delivery.",
     features: [
-      "Everything in Pro",
-      "3+ active requests / dedicated hours",
-      "Next-business-day turnaround on priority items",
-      "Direct Slack channel with faster response SLA",
-      "Architecture & technical leadership input",
-      "SaaS product development support",
+      "Up to 100 engineering hours per month",
+      "Up to 2 coordinated workstreams",
+      "Multi-tenant SaaS and billing architecture",
+      "Cloud, Linux, Docker, and infrastructure automation",
+      "Monitoring, reliability, and scaling work",
+      "Next-business-day response on priority items",
+      "Direct Slack access and architecture reviews",
       "7-day free trial",
     ],
     priceId: {

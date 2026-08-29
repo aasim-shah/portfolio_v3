@@ -30,50 +30,53 @@ const trialPeriod = {
 const plans = [
   {
     name: "Starter",
-    description: "Starter subscription plan",
+    description:
+      "Up to 20 hours of senior engineering per month for maintenance, fixes, and steady product improvements.",
     monthly: {
-      usd: "1000",
-      gbp: "700",
-      eur: "800",
-      aud: "1400",
+      usd: "150000",
+      gbp: "120000",
+      eur: "140000",
+      aud: "230000",
     },
     annual: {
-      usd: "10000",
-      gbp: "7000",
-      eur: "8000",
-      aud: "14000",
+      usd: "1620000",
+      gbp: "1296000",
+      eur: "1512000",
+      aud: "2484000",
     },
   },
   {
     name: "Pro",
-    description: "Pro subscription plan",
+    description:
+      "Up to 50 hours of senior full-stack engineering per month for active product delivery.",
     monthly: {
-      usd: "4000",
-      gbp: "2800",
-      eur: "3200",
-      aud: "5600",
+      usd: "350000",
+      gbp: "280000",
+      eur: "320000",
+      aud: "530000",
     },
     annual: {
-      usd: "40000",
-      gbp: "28000",
-      eur: "32000",
-      aud: "56000",
+      usd: "3780000",
+      gbp: "3024000",
+      eur: "3456000",
+      aud: "5724000",
     },
   },
   {
     name: "Advanced",
-    description: "Advanced subscription plan",
+    description:
+      "Up to 100 hours of embedded senior engineering per month for architecture, scale, and complex delivery.",
     monthly: {
-      usd: "12000",
-      gbp: "8400",
-      eur: "9600",
-      aud: "16800",
+      usd: "650000",
+      gbp: "520000",
+      eur: "600000",
+      aud: "980000",
     },
     annual: {
-      usd: "120000",
-      gbp: "84000",
-      eur: "96000",
-      aud: "168000",
+      usd: "7020000",
+      gbp: "5616000",
+      eur: "6480000",
+      aud: "10584000",
     },
   },
 ];
@@ -124,6 +127,13 @@ for (const plan of plans) {
       taxCategory: "saas",
       customData: { catalogKey: "aasimshah-services-v1" },
     });
+  } else {
+    product = await paddle.products.update(product.id, {
+      name: plan.name,
+      description: plan.description,
+      customData: { catalogKey: "aasimshah-services-v1" },
+      status: "active",
+    });
   }
 
   const createdPrices = {};
@@ -151,6 +161,19 @@ for (const plan of plans) {
         },
         trialPeriod,
         customData: { catalogKey: "aasimshah-services-v1" },
+      });
+    } else {
+      price = await paddle.prices.update(price.id, {
+        description,
+        unitPrice: { amount: amounts.usd, currencyCode: "USD" },
+        unitPriceOverrides: overrides(amounts),
+        billingCycle: {
+          interval: frequency === "monthly" ? "month" : "year",
+          frequency: 1,
+        },
+        trialPeriod,
+        customData: { catalogKey: "aasimshah-services-v1" },
+        status: "active",
       });
     }
 
