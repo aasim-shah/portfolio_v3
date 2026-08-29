@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, IBM_Plex_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Header/Navbar";
 import SocialLists from "@/components/Socials/SocialLists";
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | Syed Aasim Shah"
   },
   description:
-    "Aasim Shah, also known as Syed Aasim Shah, is a senior full-stack developer in Islamabad, Pakistan specializing in Node.js, React, Next.js, SaaS, APIs, and cloud infrastructure.",
+    "Aasim Shah — also spelled Asim Shah, full name Syed Aasim Shah — is a senior full-stack developer in Islamabad, Pakistan specializing in Node.js, React, Next.js, SaaS, APIs, and cloud infrastructure.",
   authors: [{ name: "Syed Aasim Shah" }],
   creator: "Syed Aasim Shah",
   publisher: "Syed Aasim Shah",
@@ -241,6 +242,18 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.variable} ${ibmPlexMono.variable} antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-NS5JRS57S0"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NS5JRS57S0');
+          `}
+        </Script>
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="dark"
